@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.vermouthx.idea</id>
   <name>Dracula</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth/jetbrains-dracula">
     VermouthX
   </vendor>
@@ -11,7 +11,12 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      This theme is not completely conform the specification of dracula-theme.
+      Some refinement.
+      <ul>
+        <li>optimize button color</li>
+        <li>override some default color with dracula palette</li>
+        <li>some other visual optimization</li>
+      </ul>
     ]]>
   </change-notes>
 
