@@ -20,13 +20,15 @@
       "color": "#414450"
     },
     "Button": {
+      "startBorderColor": "#414450",
+      "endBorderColor": "#414450",
       "startBackground": "#6272a4",
       "endBackground": "#6272a4",
       "focusedBorderColor": "#6272a4",
       "default.startBackground": "#6272a4",
       "default.endBackground": "#6272a4",
-      "default.startBorderColor": "#6272a4",
-      "default.endBorderColor": "#6272a4",
+      "default.startBorderColor": "#414450",
+      "default.endBorderColor": "#414450",
       "default.focusColor": "#6272a4",
       "default.focusedBorderColor": "#6272a4",
       "disabledBorderColor": "#6272a4"
@@ -102,7 +104,7 @@
     "ColorPalette": {
       "Actions.Blue": "#8be9fd",
       "Actions.Green": "#50fa7b",
-      "Actions.Grey": "#6272a4",
+      "Actions.Grey": "#bd93f9",
       "Actions.GreyInline.Dark": "#6272a4",
       "Actions.GreyInline": "#6272a4",
       "Actions.Red": "#ff5554",
