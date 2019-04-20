@@ -2,7 +2,7 @@
   <id>com.your.company.unique.plugin.id</id>
   <name>Dracula</name>
   <version>1.0</version>
-  <vendor email="vermouth7dante@gmail.com" url="http://vermouthx.com">VermouthX</vendor>
+  <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth/jetbrains-dracula">VermouthX</vendor>
 
   <description><![CDATA[
       This is a non-official JetBrains port of <a href="https://github.com/dracula/dracula-theme">dracula-theme</a>.
