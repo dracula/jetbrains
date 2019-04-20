@@ -1,0 +1,123 @@
+{
+  "name": "Dracula",
+  "dark": true,
+  "author": "VermouthX",
+  "editorScheme": "/Dracula.xml",
+  "ui": {
+    "*": {
+      "arc": "5",
+      "background": "#414450",
+      "foreground": "#f8f8f2",
+      "selectionBackground": "#bd93f9",
+      "selectionForeground": "#f8f8f2",
+      "inactiveBackground": "#414450",
+      "inactiveForeground": "#f8f8f2",
+      "borderColor": "#414450",
+      "selectionInactiveBackground": "#6272a4",
+      "selectionInactiveForeground": "#f8f8f2"
+    },
+    "Borders": {
+      "color": "#414450"
+    },
+    "Button": {
+      "startBackground": "#6272a4",
+      "endBackground": "#6272a4",
+      "focusedBorderColor": "#6272a4",
+      "default.startBackground": "#6272a4",
+      "default.endBackground": "#6272a4",
+      "default.startBorderColor": "#6272a4",
+      "default.endBorderColor": "#6272a4",
+      "default.focusColor": "#6272a4",
+      "default.focusedBorderColor": "#6272a4",
+      "disabledBorderColor": "#6272a4"
+    },
+    "Component": {
+      "focusColor": "#6272a4",
+      "borderColor": "#6272a4",
+      "focusedBorderColor": "#6272a4",
+      "disabledBorderColor": "#6272a4",
+      "errorFocusColor": "#ff5554",
+      "inactiveErrorFocusColor": "#ff5554",
+      "warningFocusColor": "#ffb86c",
+      "inactiveWarningFocusColor": "#ffb86c"
+    },
+    "DragAndDrop": {
+      "areaBackground": "#414450"
+    },
+    "EditorTabs": {
+      "inactiveMaskColor": "#414450",
+      "selectedBackground": "#6272a4",
+      "selectedForeground": "#f8f8f2",
+      "underlineColor": "#ff79c6"
+    },
+    "FileColor": {
+      "Blue": "#8be9fd",
+      "Green": "#6272a4",
+      "Orange": "#ffb86c",
+      "Yellow": "#282a35",
+      "Rose": "#ff79c6",
+      "Violet": "#bd93f9"
+    },
+    "Link": {
+      "activeForeground": "#ff79c6",
+      "hoverForeground": "#bd93f9",
+      "visitedForeground": "#bd93f9",
+      "pressedForeground": "#ffb86c"
+    },
+    "TabbedPane": {
+      "underlineColor": "#bd93f9"
+    },
+    "ToggleButton": {
+      "onBackground": "#50fa7b",
+      "onForeground": "#f8f8f2"
+    },
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "#bd93f9"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#6272a4",
+        "selectedInactiveBackground": "#414450"
+      }
+    },
+    "Tree": {
+      "modifiedItemForeground": "#ff79c6"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "#ff5554",
+      "errorBorderColor": "#ff5554",
+      "warningBorderColor": "#ffb86c",
+      "warningBackground": "#ffb86c"
+    },
+    "VersionControl": {
+      "GitLog": {
+        "headIconColor": "#f1fa8c",
+        "localBranchIconColor": "#50fa7b",
+        "remoteBranchIconColor": "#bd93f9"
+      },
+      "Log.Commit.currentBranchBackground": "#282a35"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#8be9fd",
+      "Actions.Green": "#50fa7b",
+      "Actions.Grey": "#6272a4",
+      "Actions.GreyInline.Dark": "#6272a4",
+      "Actions.GreyInline": "#6272a4",
+      "Actions.Red": "#ff5554",
+      "Actions.Yellow": "#f1fa8c",
+      "Objects.Blue": "#8be9fd",
+      "Objects.Green": "#50fa7b",
+      "Objects.GreenAndroid": "#50fa7b",
+      "Objects.Grey": "#6272a4",
+      "Objects.Pink": "#ff79c6",
+      "Objects.Purple": "#bd93f9",
+      "Objects.Red": "#ff5554",
+      "Objects.RedStatus": "#ff5554",
+      "Objects.Yellow": "#f1fa8c",
+      "Objects.YellowDark": "#f1fa8c",
+      "Objects.BlackText": "#bd93f9"
+    }
+  }
+}

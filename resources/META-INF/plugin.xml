@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Dracula</name>
+  <version>1.0</version>
+  <vendor email="vermouth7dante@gmail.com" url="http://vermouthx.com">VermouthX</vendor>
+
+  <description><![CDATA[
+      This is a non-official JetBrains port of <a href="https://github.com/dracula/dracula-theme">dracula-theme</a>.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      This theme is not completely conform the specification of dracula-theme.
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="371dce76-a3c5-4429-91af-41cf86094744" path="/Dracula.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
