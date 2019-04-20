@@ -5,33 +5,41 @@
   "editorScheme": "/themes/Dracula.xml",
   "ui": {
     "*": {
-      "arc": "5",
+      "arc": "2",
       "background": "#414450",
       "foreground": "#f8f8f2",
-      "selectionBackground": "#bd93f9",
+      "selectionBackground": "#ff79c6",
       "selectionForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
       "borderColor": "#414450",
-      "selectionInactiveBackground": "#6272a4",
+      "selectionInactiveBackground": "#bd93f9",
       "selectionInactiveForeground": "#f8f8f2"
     },
     "Borders": {
       "color": "#414450"
     },
     "Button": {
-      "startBorderColor": "#414450",
-      "endBorderColor": "#414450",
+      "startBorderColor": "#6272a4",
+      "endBorderColor": "#6272a4",
       "startBackground": "#6272a4",
       "endBackground": "#6272a4",
       "focusedBorderColor": "#6272a4",
-      "default.startBackground": "#6272a4",
-      "default.endBackground": "#6272a4",
-      "default.startBorderColor": "#414450",
-      "default.endBorderColor": "#414450",
-      "default.focusColor": "#6272a4",
-      "default.focusedBorderColor": "#6272a4",
-      "disabledBorderColor": "#6272a4"
+      "disabledBorderColor": "#6272a4",
+      "default": {
+        "startBackground": "#6272a4",
+        "endBackground": "#6272a4",
+        "startBorderColor": "#6272a4",
+        "endBorderColor": "#6272a4",
+        "focusColor": "#bd93f9",
+        "focusedBorderColor": "#bd93f9"
+      }
+    },
+    "CheckBoxMenuItem": {
+      "acceleratorSelectionForeground": "#ff79c6"
+    },
+    "ComboBox": {
+      "modifiedItemForeground": "#ff79c6"
     },
     "Component": {
       "focusColor": "#6272a4",
@@ -44,29 +52,40 @@
       "inactiveWarningFocusColor": "#ffb86c"
     },
     "DragAndDrop": {
-      "areaBackground": "#414450"
+      "areaBorderColor": "#ff79c6"
     },
     "EditorTabs": {
       "inactiveMaskColor": "#414450",
-      "selectedBackground": "#6272a4",
+      "selectedBackground": "#282a35",
       "selectedForeground": "#f8f8f2",
       "underlineColor": "#ff79c6"
     },
     "FileColor": {
       "Blue": "#8be9fd",
-      "Green": "#6272a4",
+      "Green": "#50fa7b",
       "Orange": "#ffb86c",
-      "Yellow": "#282a35",
+      "Yellow": "#44475a",
       "Rose": "#ff79c6",
       "Violet": "#bd93f9"
     },
     "Link": {
       "activeForeground": "#ff79c6",
-      "hoverForeground": "#bd93f9",
+      "hoverForeground": "#ff79c6",
       "visitedForeground": "#bd93f9",
       "pressedForeground": "#ffb86c"
     },
+    "Plugins": {
+      "Button": {
+        "installBorderColor": "#50fa7b",
+        "installForeground": "#50fa7b",
+        "updateBackground": "#50fa7b",
+        "updateBorderColor": "#50fa7b",
+        "installFillBackground": "#50fa7b",
+        "installFillForeground": "#44475a"
+      }
+    },
     "TabbedPane": {
+      "focusColor": "#ff79c6",
       "underlineColor": "#bd93f9"
     },
     "ToggleButton": {
@@ -75,7 +94,7 @@
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "#bd93f9"
+        "hoverBackground": "#ff79c6"
       },
       "HeaderTab": {
         "selectedBackground": "#6272a4",
@@ -97,7 +116,7 @@
         "localBranchIconColor": "#50fa7b",
         "remoteBranchIconColor": "#bd93f9"
       },
-      "Log.Commit.currentBranchBackground": "#282a35"
+      "Log.Commit.currentBranchBackground": "#414450"
     }
   },
   "icons": {
@@ -105,8 +124,8 @@
       "Actions.Blue": "#8be9fd",
       "Actions.Green": "#50fa7b",
       "Actions.Grey": "#bd93f9",
-      "Actions.GreyInline.Dark": "#6272a4",
-      "Actions.GreyInline": "#6272a4",
+      "Actions.GreyInline.Dark": "#50fa7b",
+      "Actions.GreyInline": "#50fa7b",
       "Actions.Red": "#ff5554",
       "Actions.Yellow": "#f1fa8c",
       "Objects.Blue": "#8be9fd",
@@ -119,7 +138,11 @@
       "Objects.RedStatus": "#ff5554",
       "Objects.Yellow": "#f1fa8c",
       "Objects.YellowDark": "#f1fa8c",
-      "Objects.BlackText": "#bd93f9"
+      "Objects.BlackText": "#bd93f9",
+      "Checkbox.Border.Default.Dark": "#6272a4",
+      "Checkbox.Background.Default.Dark": "#6272a4",
+      "Checkbox.Foreground.Selected.Dark": "#f8f8f2",
+      "Checkbox.Focus.Wide.Dark": "#6272a4"
     }
   }
 }
