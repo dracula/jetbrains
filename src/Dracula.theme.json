@@ -29,16 +29,16 @@
     "Button": {
       "startBorderColor": "#6272a4",
       "endBorderColor": "#6272a4",
-      "startBackground": "#44475a",
-      "endBackground": "#44475a",
-      "focusedBorderColor": "#414450",
+      "startBackground": "#6272a4",
+      "endBackground": "#6272a4",
+      "focusedBorderColor": "#bd93f9",
       "disabledBorderColor": "#6272a4",
       "default": {
         "startBackground": "#6272a4",
         "endBackground": "#6272a4",
         "startBorderColor": "#6272a4",
         "endBorderColor": "#6272a4",
-        "focusColor": "#bd93f9",
+        "focusColor": "#414450",
         "focusedBorderColor": "#bd93f9"
       }
     },
@@ -48,8 +48,17 @@
     "ComboBox": {
       "modifiedItemForeground": "#ff79c6"
     },
+    "CompletionPopup": {
+      "selectionBackground": "#6272a4",
+      "selectionInactiveBackground": "#6272a4",
+      "selectionForeground": "#f8f8f2",
+      "selectionInactiveInfoForeground": "#f8f8f2",
+      "nonFocusedState": "#f8f8f2",
+      "matchSelectionForeground": "#ff79c6",
+      "matchForeground": "#ff79c6"
+    },
     "Component": {
-      "focusColor": "#6272a4",
+      "focusColor": "#414450",
       "borderColor": "#6272a4",
       "focusedBorderColor": "#6272a4",
       "disabledBorderColor": "#6272a4",
@@ -82,9 +91,10 @@
       "activeForeground": "#ff79c6",
       "hoverForeground": "#ff79c6",
       "visitedForeground": "#bd93f9",
-      "pressedForeground": "#ffb86c"
+      "pressedForeground": "#bd93f9"
     },
     "Plugins": {
+      "lightSelectionBackground": "#282a35",
       "Button": {
         "installBorderColor": "#50fa7b",
         "installForeground": "#50fa7b",
@@ -98,6 +108,16 @@
         "selectedForeground": "#f8f8f2",
         "hoverBackground": "#282a35"
       }
+    },
+    "ProgressBar": {
+      "failedColor": "#ff5554",
+      "failedEndColor": "#ff5554",
+      "trackColor": "#ff79c6",
+      "progressColor": "#ff79c6",
+      "indeterminateStartColor": "#bd93f9",
+      "indeterminateEndColor": "#bd93f9",
+      "passedColor": "#50fa7b",
+      "passedEndColor": "#50fa7b"
     },
     "Popup": {
       "Header": {

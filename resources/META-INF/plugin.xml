@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.vermouthx.idea</id>
   <name>Dracula</name>
-  <version>1.2.0</version>
+  <version>1.2.1</version>
   <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth/jetbrains-dracula">
     VermouthX
   </vendor>
@@ -12,13 +12,11 @@
 
   <change-notes><![CDATA[
       <ul>
+        <li>fix WelcomeScreen button hover color</li>
         <li>optimize Button color</li>
-        <li>optimize ToggleButton color</li>
-        <li>fix ActionButton</li>
-        <li>fix Popup</li>
-        <li>fix Editor shortcutForeground</li>
-        <li>fix SearchMatch</li>
-        <li>fix SearchEverywhere</li>
+        <li>optimize CompletionPopup color</li>
+        <li>optimize ProgressBar color</li>
+        <li>some other minor refinement</li>
       </ul>
     ]]>
   </change-notes>
