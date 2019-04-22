@@ -8,12 +8,12 @@
       "arc": "7",
       "background": "#414450",
       "foreground": "#f8f8f2",
-      "selectionBackground": "#ff79c6",
+      "selectionBackground": "#282a35",
       "selectionForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
       "borderColor": "#414450",
-      "selectionInactiveBackground": "#bd93f9",
+      "selectionInactiveBackground": "#282a35",
       "selectionInactiveForeground": "#f8f8f2"
     },
     "Borders": {
@@ -82,6 +82,11 @@
         "updateBorderColor": "#50fa7b",
         "installFillBackground": "#50fa7b",
         "installFillForeground": "#44475a"
+      },
+      "Tab": {
+        "selectedBackground": "#282a35",
+        "selectedForeground": "#f8f8f2",
+        "hoverBackground": "#282a35"
       }
     },
     "TabbedPane": {
@@ -97,8 +102,8 @@
         "hoverBackground": "#ff79c6"
       },
       "HeaderTab": {
-        "selectedBackground": "#6272a4",
-        "selectedInactiveBackground": "#414450"
+        "selectedBackground": "#282a35",
+        "selectedInactiveBackground": "#282a35"
       }
     },
     "Tree": {
