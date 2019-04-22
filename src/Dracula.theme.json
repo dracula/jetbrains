@@ -105,6 +105,12 @@
         "inactiveBackground": "#414450"
       }
     },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "#282a35",
+        "selectedForeground": "#f8f8f2"
+      }
+    },
     "SearchMatch": {
       "startBackground": "#ff79c6",
       "endBackground": "#ff79c6"
