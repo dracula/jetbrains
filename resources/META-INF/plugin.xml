@@ -11,11 +11,9 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      Some refinement.
       <ul>
-        <li>optimize plugin dialog</li>
-        <li>optimize selection color</li>
-        <li>some other refinement</li>
+        <li>optimize Button color</li>
+        <li>optimize ToggleButton color</li>
       </ul>
     ]]>
   </change-notes>
