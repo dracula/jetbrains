@@ -17,6 +17,7 @@
         <li>fix ActionButton</li>
         <li>fix Popup</li>
         <li>fix Editor shortcutForeground</li>
+        <li>fix SearchMatch</li>
       </ul>
     ]]>
   </change-notes>
