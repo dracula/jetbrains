@@ -14,8 +14,9 @@
       <ul>
         <li>optimize Button color</li>
         <li>optimize ToggleButton color</li>
-        <li>add ActionButton</li>
-        <li>add Popup</li>
+        <li>fix ActionButton</li>
+        <li>fix Popup</li>
+        <li>fix Editor shortcutForeground</li>
       </ul>
     ]]>
   </change-notes>
