@@ -14,6 +14,8 @@
       <ul>
         <li>optimize Button color</li>
         <li>optimize ToggleButton color</li>
+        <li>add ActionButton</li>
+        <li>add Popup</li>
       </ul>
     ]]>
   </change-notes>
