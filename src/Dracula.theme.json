@@ -17,7 +17,8 @@
       "selectionInactiveForeground": "#f8f8f2"
     },
     "Borders": {
-      "color": "#414450"
+      "color": "#414450",
+      "ContrastBorderColor": "#414450"
     },
     "Button": {
       "startBorderColor": "#6272a4",
