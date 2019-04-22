@@ -61,6 +61,9 @@
     "DragAndDrop": {
       "areaBorderColor": "#ff79c6"
     },
+    "Editor": {
+      "shortcutForeground": "#ff79c6"
+    },
     "EditorTabs": {
       "inactiveMaskColor": "#414450",
       "selectedBackground": "#282a35",
@@ -144,7 +147,7 @@
     "ColorPalette": {
       "Actions.Blue": "#8be9fd",
       "Actions.Green": "#50fa7b",
-      "Actions.Grey": "#bd93f9",
+      "Actions.Grey": "#6272a4",
       "Actions.GreyInline.Dark": "#50fa7b",
       "Actions.GreyInline": "#50fa7b",
       "Actions.Red": "#ff5554",
