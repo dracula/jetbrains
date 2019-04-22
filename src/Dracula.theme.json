@@ -96,7 +96,10 @@
     },
     "ToggleButton": {
       "onBackground": "#50fa7b",
-      "onForeground": "#f8f8f2"
+      "onForeground": "#282a35",
+      "offBackground": "#6272a4",
+      "offForeground": "#282a35",
+      "buttonColor": "#f8f8f2"
     },
     "ToolWindow": {
       "Button": {
