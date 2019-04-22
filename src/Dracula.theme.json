@@ -20,6 +20,12 @@
       "color": "#414450",
       "ContrastBorderColor": "#414450"
     },
+    "ActionButton": {
+      "hoverBackground": "#282a35",
+      "hoverBorderColor": "#282a35",
+      "pressedBackground": "#282a35",
+      "pressedBorderColor": "#282a35"
+    },
     "Button": {
       "startBorderColor": "#6272a4",
       "endBorderColor": "#6272a4",
@@ -88,6 +94,12 @@
         "selectedBackground": "#282a35",
         "selectedForeground": "#f8f8f2",
         "hoverBackground": "#282a35"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "#414450",
+        "inactiveBackground": "#414450"
       }
     },
     "TabbedPane": {
