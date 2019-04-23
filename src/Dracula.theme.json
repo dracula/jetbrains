@@ -99,6 +99,7 @@
         "installBorderColor": "#50fa7b",
         "installForeground": "#50fa7b",
         "updateBackground": "#50fa7b",
+        "updateForeground": "#44475a",
         "updateBorderColor": "#50fa7b",
         "installFillBackground": "#50fa7b",
         "installFillForeground": "#44475a"
@@ -112,7 +113,7 @@
     "ProgressBar": {
       "failedColor": "#ff5554",
       "failedEndColor": "#ff5554",
-      "trackColor": "#ff79c6",
+      "trackColor": "#282a35",
       "progressColor": "#ff79c6",
       "indeterminateStartColor": "#bd93f9",
       "indeterminateEndColor": "#bd93f9",
@@ -124,6 +125,9 @@
         "activeBackground": "#414450",
         "inactiveBackground": "#414450"
       }
+    },
+    "List": {
+      "selectionBackground": "#6272a4"
     },
     "SearchEverywhere": {
       "Tab": {
@@ -148,7 +152,7 @@
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "#ff79c6"
+        "hoverBackground": "#282a35"
       },
       "HeaderTab": {
         "selectedBackground": "#282a35",
