@@ -1,26 +1,24 @@
 <idea-plugin>
   <id>com.vermouthx.idea</id>
   <name>Dracula</name>
-  <version>1.2.3</version>
+  <version>1.2.4</version>
   <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth/jetbrains-dracula">
     VermouthX
   </vendor>
 
   <description><![CDATA[
-      A non-official JetBrains port of <a href="https://github.com/dracula/dracula-theme">dracula-theme</a>.
-      <br/>
-      <img src="https://i.imgur.com/qTN3pGI.png" width="700"/>
-      <br/>
-      <img src="https://i.imgur.com/nigoz5G.png" width="700"/>
+      <div>
+        A non-official JetBrains port of <a href="https://github.com/dracula/dracula-theme">dracula-theme</a>
+      <div>
+      <div>
+        <img src="https://i.imgur.com/nigoz5G.png" width="700"/>
+      </div>
     ]]>
   </description>
 
   <change-notes><![CDATA[
       <ul>
-        <li>fix the ProgressBar trackColor</li>
-        <li>fix Plugin update Button</li>
-        <li>optimize Notification</li>
-        <li>optimize selectionBackground</li>
+        <li>make editor section more clear when all files are closed</li>
       </ul>
     ]]>
   </change-notes>

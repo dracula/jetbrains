@@ -71,6 +71,7 @@
       "areaBorderColor": "#ff79c6"
     },
     "Editor": {
+      "background": "#282a35",
       "shortcutForeground": "#ff79c6"
     },
     "EditorTabs": {
