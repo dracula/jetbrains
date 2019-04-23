@@ -19,6 +19,8 @@
       <ul>
         <li>fix the ProgressBar trackColor</li>
         <li>fix Plugin update Button</li>
+        <li>optimize Notification</li>
+        <li>optimize selectionBackground</li>
       </ul>
     ]]>
   </change-notes>
