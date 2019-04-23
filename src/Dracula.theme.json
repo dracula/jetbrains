@@ -177,7 +177,7 @@
     "ColorPalette": {
       "Actions.Blue": "#8be9fd",
       "Actions.Green": "#50fa7b",
-      "Actions.Grey": "#6272a4",
+      "Actions.Grey": "#f8f8f2",
       "Actions.GreyInline.Dark": "#50fa7b",
       "Actions.GreyInline": "#50fa7b",
       "Actions.Red": "#ff5554",
