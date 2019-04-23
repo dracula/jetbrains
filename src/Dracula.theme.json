@@ -8,7 +8,7 @@
       "arc": "7",
       "background": "#414450",
       "foreground": "#f8f8f2",
-      "selectionBackground": "#282a35",
+      "selectionBackground": "#6272a4",
       "selectionForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
@@ -93,6 +93,11 @@
       "visitedForeground": "#bd93f9",
       "pressedForeground": "#bd93f9"
     },
+    "Notification": {
+      "borderColor": "#50fa7b",
+      "errorBorderColor": "#ff5554",
+      "errorForeground": "#f8f8f2"
+    },
     "Plugins": {
       "lightSelectionBackground": "#282a35",
       "Button": {
@@ -157,7 +162,8 @@
       }
     },
     "Tree": {
-      "modifiedItemForeground": "#ff79c6"
+      "modifiedItemForeground": "#ff79c6",
+      "selectionBackground": "#282a35"
     },
     "ValidationTooltip": {
       "errorBackground": "#ff5554",
