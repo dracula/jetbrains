@@ -126,9 +126,6 @@
         "inactiveBackground": "#414450"
       }
     },
-    "List": {
-      "selectionBackground": "#6272a4"
-    },
     "SearchEverywhere": {
       "Tab": {
         "selectedBackground": "#282a35",
