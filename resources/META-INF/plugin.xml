@@ -1,22 +1,23 @@
 <idea-plugin>
   <id>com.vermouthx.idea</id>
   <name>Dracula</name>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
   <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth/jetbrains-dracula">
     VermouthX
   </vendor>
 
   <description><![CDATA[
       A non-official JetBrains port of <a href="https://github.com/dracula/dracula-theme">dracula-theme</a>.
-    ]]></description>
+      <br/>
+      <img src="https://i.imgur.com/qTN3pGI.png" width="700"/>
+      <br/>
+      <img src="https://i.imgur.com/nigoz5G.png" width="700"/>
+    ]]>
+  </description>
 
   <change-notes><![CDATA[
       <ul>
-        <li>fix WelcomeScreen button hover color</li>
-        <li>optimize Button color</li>
-        <li>optimize CompletionPopup color</li>
-        <li>optimize ProgressBar color</li>
-        <li>some other minor refinement</li>
+        <li>replace original ActionGrey color with white color to avoid color shadowing in some dialogs</li>
       </ul>
     ]]>
   </change-notes>

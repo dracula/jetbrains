@@ -2,7 +2,8 @@
 
 > A dark theme for [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-![Screenshot](screenshots/dracula-main-window.png)
+![screenshot](https://i.imgur.com/qTN3pGI.png)
+![screenshot](https://i.imgur.com/nigoz5G.png)
 
 ## Install
 
