@@ -46,7 +46,15 @@
       "acceleratorSelectionForeground": "#ff79c6"
     },
     "ComboBox": {
-      "modifiedItemForeground": "#ff79c6"
+      "modifiedItemForeground": "#ff79c6",
+      "ArrowButton": {
+        "background": "#44475a",
+        "nonEditableBackground": "#44475a",
+        "iconColor": "#bd93f9",
+        "disabledIconColor": "#bd93f9"
+      },
+      "selectionBackground": "#bd93f9",
+      "nonEditableBackground": "#44475a"
     },
     "CompletionPopup": {
       "selectionBackground": "#6272a4",
@@ -97,7 +105,19 @@
     "Notification": {
       "borderColor": "#50fa7b",
       "errorBorderColor": "#ff5554",
-      "errorForeground": "#f8f8f2"
+      "errorBackground": "#414450",
+      "errorForeground": "#f8f8f2",
+      "ToolWindow": {
+        "warningForeground": "#f8f8f2",
+        "warningBackground": "#414450",
+        "warningBorderColor": "#ffb86c",
+        "errorForeground": "#f8f8f2",
+        "errorBorderColor": "#ff5554",
+        "errorBackground": "#414450",
+        "informativeForeground": "#f8f8f2",
+        "informativeBackground": "#414450",
+        "informativeBorderColor": "#50fa7b"
+      }
     },
     "Plugins": {
       "lightSelectionBackground": "#282a35",
@@ -142,6 +162,7 @@
       "startBackground": "#ff79c6",
       "endBackground": "#ff79c6"
     },
+    "Separator.separatorColor": "#bd93f9",
     "TabbedPane": {
       "focusColor": "#ff79c6",
       "underlineColor": "#bd93f9"
@@ -179,6 +200,11 @@
         "remoteBranchIconColor": "#bd93f9"
       },
       "Log.Commit.currentBranchBackground": "#414450"
+    },
+    "WelcomeScreen": {
+      "Projects": {
+        "selectionBackground": "#282a35"
+      }
     }
   },
   "icons": {
