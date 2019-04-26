@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Dracula.xml",
   "ui": {
     "*": {
-      "arc": "7",
+      "arc": "5",
       "background": "#414450",
       "foreground": "#f8f8f2",
       "selectionBackground": "#6272a4",
@@ -74,9 +74,6 @@
       "inactiveErrorFocusColor": "#ff5554",
       "warningFocusColor": "#ffb86c",
       "inactiveWarningFocusColor": "#ffb86c"
-    },
-    "DragAndDrop": {
-      "areaBorderColor": "#ff79c6"
     },
     "Editor": {
       "background": "#282a35",

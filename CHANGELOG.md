@@ -5,6 +5,7 @@
 - refine ComboBox color
 - refine Notification color
 - refine WelcomeScreen color
+- redesign Object icon color and Tree selection color
 - some other minor refinement
 
 ### 1.2.4
