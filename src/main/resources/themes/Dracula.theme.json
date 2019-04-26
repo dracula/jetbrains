@@ -13,7 +13,7 @@
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
       "borderColor": "#414450",
-      "selectionInactiveBackground": "#282a35",
+      "selectionInactiveBackground": "#6272a4",
       "selectionInactiveForeground": "#f8f8f2"
     },
     "Borders": {
@@ -162,7 +162,7 @@
       "startBackground": "#ff79c6",
       "endBackground": "#ff79c6"
     },
-    "Separator.separatorColor": "#bd93f9",
+    "Separator.separatorColor": "#282a35",
     "TabbedPane": {
       "focusColor": "#ff79c6",
       "underlineColor": "#bd93f9"
@@ -185,7 +185,7 @@
     },
     "Tree": {
       "modifiedItemForeground": "#ff79c6",
-      "selectionBackground": "#282a35"
+      "selectionBackground": "#6272a4"
     },
     "ValidationTooltip": {
       "errorBackground": "#ff5554",
@@ -219,7 +219,7 @@
       "Objects.Blue": "#8be9fd",
       "Objects.Green": "#50fa7b",
       "Objects.GreenAndroid": "#50fa7b",
-      "Objects.Grey": "#6272a4",
+      "Objects.Grey": "#bd93f9",
       "Objects.Pink": "#ff79c6",
       "Objects.Purple": "#bd93f9",
       "Objects.Red": "#ff5554",
