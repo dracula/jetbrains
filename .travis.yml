@@ -6,11 +6,12 @@ install:
   - sudo apt-get update
   - sudo apt-get install -y python3-pip
   - sudo pip3 install --no-cache-dir pipenv
-script:
   - cd scripts # switch to scripts directory
   - pipenv sync
-  - pipenv run changelog.py
-  - cd .. && ./gradlew build
+script:
+  - pipenv run python changelog.py
+  - cd .. # switch back to parent directory
+  - ./gradlew build
 deploy:
   provider: releases
   api_key: $GITHUB_AUTH_TOKEN
