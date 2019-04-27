@@ -1,13 +1,14 @@
 <idea-plugin>
   <id>com.vermouthx.dracula</id>
-  <name>Dracula</name>
-  <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth/jetbrains-dracula">
+  <name>Dracula Theme</name>
+  <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth">
     VermouthX
   </vendor>
 
   <description><![CDATA[
       <div>
         <p><a href="https://github.com/dracula/dracula-theme">Dracula</a> color UI theme for JetBrains IDEs.</p>
+        <p><img src="https://imgur.com/HQyZf7Y.png" width="700"/></p>
       <div>
     ]]>
   </description>

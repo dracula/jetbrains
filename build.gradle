@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '1.2.5-beta'
+version '1.3.0-beta'
 
 repositories {
     mavenCentral()
@@ -22,3 +22,12 @@ patchPluginXml {
         changeNotes file(changelogPath).text
     }
 }
+
+//def retrieveSecret = { String prop, String env ->
+//    project.hasProperty(prop) ? project.findProperty(prop) : System.getenv(env)
+//}
+//
+//publishPlugin {
+//    username retrieveSecret('publishUsername', 'JETBRAINS_PUBLISH_USERNAME')
+//    token retrieveSecret('publishToken', 'JETBRAINS_PUBLISH_TOKEN')
+//}
