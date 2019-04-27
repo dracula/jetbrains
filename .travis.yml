@@ -1,6 +1,6 @@
 dist: xenial
 language: java
-jdk: oraclejdk8
+jdk: openjdk11
 python: 3.7
 install:
   - sudo apt-get update
