@@ -1,12 +1,13 @@
 # Changelog
 
-### 1.2.5
+### 1.3.0
 
 - refine ComboBox color
 - refine Notification color
 - refine WelcomeScreen color
 - redesign Object icon color and Tree selection color
-- some other minor refinement
+- fix VCS related color in Color Scheme
+- some other refinement
 
 ### 1.2.4
 

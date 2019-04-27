@@ -1,8 +1,8 @@
-# Dracula for [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+# Dracula for [JetBrains IDEs](https://www.jetbrains.com/)
 
-> A dark theme for [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+> A dark theme for [JetBrains IDEs](https://www.jetbrains.com/)
 
-![screenshot](https://i.imgur.com/nigoz5G.png)
+![main-window](docs/screenshots/dracula-main-window.png)
 
 ## Install
 
