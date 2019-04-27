@@ -10,7 +10,7 @@ install:
   - pipenv sync
   - cd ..
 script:
-  - python3 scripts/changelog.py
+  - pipenv run scripts/changelog.py
   - ./gradlew build
 deploy:
   provider: releases
