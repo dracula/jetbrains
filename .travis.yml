@@ -13,10 +13,15 @@ script:
   - cd .. # switch back to parent directory
   - ./gradlew build
 deploy:
-  provider: releases
-  api_key: $GITHUB_AUTH_TOKEN
-  file_glob: true
-  file: build/libs/*.jar
-  skip_cleanup: true
-  on:
-    tags: true
+  - provider: releases
+    api_key: $GITHUB_AUTH_TOKEN
+    file_glob: true
+    file: build/libs/*.jar
+    skip_cleanup: true
+    on:
+      tags: true
+  - provider: script
+    script: ./gradlew publishPlugin
+    skip_cleanup: true
+    on:
+      tags: true
