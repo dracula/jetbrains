@@ -7,6 +7,7 @@
 - refine WelcomeScreen color
 - redesign Object icon color and Tree selection color
 - fix VCS related color in Color Scheme
+- fix CheckBox border color
 - some other refinement
 
 ### 1.2.4
