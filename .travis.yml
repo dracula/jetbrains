@@ -6,11 +6,11 @@ install:
   - sudo apt-get update
   - sudo apt-get install -y python3-pip
   - sudo pip3 install --no-cache-dir pipenv
-  - cd scripts
+  - cd scripts # switch to scripts directory
   - pipenv sync
-  - cd ..
 script:
-  - pipenv run scripts/changelog.py
+  - pipenv run changelog.py
+  - cd .. # switch back to parent directory
   - ./gradlew build
 deploy:
   provider: releases
