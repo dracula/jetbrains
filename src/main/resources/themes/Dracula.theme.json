@@ -60,7 +60,8 @@
       "selectionBackground": "#6272a4",
       "selectionInactiveBackground": "#6272a4",
       "selectionForeground": "#f8f8f2",
-      "selectionInactiveInfoForeground": "#f8f8f2",
+      "selectionInfoForeground": "#ffb86c",
+      "selectionInactiveInfoForeground": "#ffb86c",
       "nonFocusedState": "#f8f8f2",
       "matchSelectionForeground": "#ff79c6",
       "matchForeground": "#ff79c6"
@@ -72,8 +73,11 @@
       "disabledBorderColor": "#6272a4",
       "errorFocusColor": "#ff5554",
       "inactiveErrorFocusColor": "#ff5554",
-      "warningFocusColor": "#ffb86c",
-      "inactiveWarningFocusColor": "#ffb86c"
+      "warningFocusColor": "#f1fa8c",
+      "inactiveWarningFocusColor": "#f1fa8c"
+    },
+    "DragAndDrop": {
+      "areaBorderColor": "#6272a4"
     },
     "Editor": {
       "background": "#282a35",
@@ -93,6 +97,13 @@
       "Rose": "#ff79c6",
       "Violet": "#bd93f9"
     },
+    "HelpTooltip": {
+      "shortcutForeground": "#ff79c6"
+    },
+    "Label": {
+      "foreground": "#8be9fd",
+      "errorForeground": "#ff5554"
+    },
     "Link": {
       "activeForeground": "#ff79c6",
       "hoverForeground": "#ff79c6",
@@ -100,7 +111,7 @@
       "pressedForeground": "#bd93f9"
     },
     "Notification": {
-      "borderColor": "#50fa7b",
+      "borderColor": "#6272a4",
       "errorBorderColor": "#ff5554",
       "errorBackground": "#414450",
       "errorForeground": "#f8f8f2",
@@ -227,12 +238,20 @@
       "Objects.BlackText": "#282a35",
       "Checkbox.Border.Default": "#bd93f9",
       "Checkbox.Border.Default.Dark": "#bd93f9",
+      "Checkbox.Border.Selected": "#bd93f9",
+      "Checkbox.Border.Selected.Dark": "#bd93f9",
+      "Checkbox.Border.Disabled": "#bd93f9",
+      "Checkbox.Border.Disabled.Dark": "#bd93f9",
       "Checkbox.Background.Default": "#6272a4",
       "Checkbox.Background.Default.Dark": "#6272a4",
       "Checkbox.Foreground.Selected": "#f8f8f2",
       "Checkbox.Foreground.Selected.Dark": "#f8f8f2",
-      "Checkbox.Focus.Wide": "#6272a4",
-      "Checkbox.Focus.Wide.Dark": "#6272a4"
+      "Checkbox.Focus.Wide": "#bd93f9",
+      "Checkbox.Focus.Wide.Dark": "#bd93f9",
+      "Checkbox.Focus.Thin.Selected": "#bd93f9",
+      "Checkbox.Focus.Thin.Selected.Dark": "#bd93f9",
+      "Checkbox.Focus.Thin.Default": "#bd93f9",
+      "Checkbox.Focus.Thin.Default.Dark": "#bd93f9"
     }
   }
 }

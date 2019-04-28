@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.1
+
+- refine ComboBox
+- refine Component
+- refine Notification
+- fix infoForeground
+- fix Label
+
 ### 1.3.0
 
 - refine ComboBox color
