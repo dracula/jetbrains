@@ -6,6 +6,7 @@
 - refine Component
 - refine Notification
 - fix infoForeground
+- fix ProgressBar
 - fix Label
 
 ### 1.3.0

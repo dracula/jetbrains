@@ -101,7 +101,8 @@
       "shortcutForeground": "#ff79c6"
     },
     "Label": {
-      "foreground": "#8be9fd",
+      "foreground": "#f8f8f2",
+      "infoForeground": "#6272a4",
       "errorForeground": "#ff5554"
     },
     "Link": {
@@ -147,7 +148,7 @@
     "ProgressBar": {
       "failedColor": "#ff5554",
       "failedEndColor": "#ff5554",
-      "trackColor": "#282a35",
+      "trackColor": "#f1fa8c",
       "progressColor": "#ff79c6",
       "indeterminateStartColor": "#bd93f9",
       "indeterminateEndColor": "#bd93f9",
