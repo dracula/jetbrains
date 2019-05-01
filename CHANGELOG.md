@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.3.2
+
+- refine ProgressBar trackColor
+- refine Label infoForeground
+
 ### 1.3.1
 
 - refine ComboBox

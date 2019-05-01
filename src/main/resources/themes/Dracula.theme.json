@@ -102,7 +102,6 @@
     },
     "Label": {
       "foreground": "#f8f8f2",
-      "infoForeground": "#6272a4",
       "errorForeground": "#ff5554"
     },
     "Link": {
@@ -148,7 +147,7 @@
     "ProgressBar": {
       "failedColor": "#ff5554",
       "failedEndColor": "#ff5554",
-      "trackColor": "#f1fa8c",
+      "trackColor": "#6272a4",
       "progressColor": "#ff79c6",
       "indeterminateStartColor": "#bd93f9",
       "indeterminateEndColor": "#bd93f9",
