@@ -3,6 +3,7 @@
 ###
 
 - add border color
+- refine Plugin dialog
 
 ### 1.3.2
 

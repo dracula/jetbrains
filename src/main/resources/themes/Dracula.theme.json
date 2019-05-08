@@ -128,15 +128,22 @@
       }
     },
     "Plugins": {
+      "SearchField": {
+        "background": "#44475a"
+      },
+      "SectionHeader": {
+        "foreground": "#bd93f9"
+      },
       "lightSelectionBackground": "#282a35",
       "Button": {
         "installBorderColor": "#50fa7b",
-        "installForeground": "#50fa7b",
-        "updateBackground": "#50fa7b",
+        "installForeground": "#f8f8f2",
+        "installBackground": "#44475a",
+        "updateBorderColor": "#8be9fd",
         "updateForeground": "#44475a",
-        "updateBorderColor": "#50fa7b",
-        "installFillBackground": "#50fa7b",
-        "installFillForeground": "#44475a"
+        "updateBackground": "#8be9fd",
+        "installFillForeground": "#44475a",
+        "installFillBackground": "#50fa7b"
       },
       "Tab": {
         "selectedBackground": "#282a35",
