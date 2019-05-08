@@ -1,6 +1,6 @@
 # Changelog
 
-###
+### 1.3.3
 
 - add border color
 - refine Plugin dialog
