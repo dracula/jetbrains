@@ -2,7 +2,7 @@
 
 ### 1.3.4
 
-- refine SearchEvery
+- refine SearchEverywhere
 
 ### 1.3.3
 
