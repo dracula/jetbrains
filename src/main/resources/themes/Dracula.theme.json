@@ -12,13 +12,13 @@
       "selectionForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
-      "borderColor": "#414450",
+      "borderColor": "#282a35",
       "selectionInactiveBackground": "#6272a4",
       "selectionInactiveForeground": "#f8f8f2"
     },
     "Borders": {
-      "color": "#414450",
-      "ContrastBorderColor": "#414450"
+      "color": "#282a35",
+      "ContrastBorderColor": "#282a35"
     },
     "ActionButton": {
       "hoverBackground": "#282a35",
@@ -80,7 +80,7 @@
       "areaBorderColor": "#6272a4"
     },
     "Editor": {
-      "background": "#282a35",
+      "background": "#414450",
       "shortcutForeground": "#ff79c6"
     },
     "EditorTabs": {

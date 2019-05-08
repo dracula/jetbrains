@@ -1,5 +1,9 @@
 # Changelog
 
+###
+
+- add border color
+
 ### 1.3.2
 
 - refine ProgressBar trackColor
