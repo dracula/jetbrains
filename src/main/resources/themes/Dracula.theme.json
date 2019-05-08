@@ -168,6 +168,9 @@
       }
     },
     "SearchEverywhere": {
+      "SearchField": {
+        "background": "#44475a"
+      },
       "Tab": {
         "selectedBackground": "#282a35",
         "selectedForeground": "#f8f8f2"

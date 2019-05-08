@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.4
+
+- refine SearchEvery
+
 ### 1.3.3
 
 - add border color
