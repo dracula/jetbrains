@@ -31,15 +31,15 @@
       "endBorderColor": "#6272a4",
       "startBackground": "#6272a4",
       "endBackground": "#6272a4",
-      "focusedBorderColor": "#bd93f9",
+      "focusedBorderColor": "#6272a4",
       "disabledBorderColor": "#6272a4",
       "default": {
         "startBackground": "#6272a4",
         "endBackground": "#6272a4",
         "startBorderColor": "#6272a4",
         "endBorderColor": "#6272a4",
-        "focusColor": "#414450",
-        "focusedBorderColor": "#bd93f9"
+        "focusColor": "#bd93f9",
+        "focusedBorderColor": "#6272a4"
       }
     },
     "CheckBoxMenuItem": {
@@ -67,7 +67,7 @@
       "matchForeground": "#ff79c6"
     },
     "Component": {
-      "focusColor": "#414450",
+      "focusColor": "#bd93f9",
       "borderColor": "#6272a4",
       "focusedBorderColor": "#6272a4",
       "disabledBorderColor": "#6272a4",
@@ -137,7 +137,7 @@
       "lightSelectionBackground": "#282a35",
       "Button": {
         "installBorderColor": "#50fa7b",
-        "installForeground": "#f8f8f2",
+        "installForeground": "#50fa7b",
         "installBackground": "#44475a",
         "updateBorderColor": "#8be9fd",
         "updateForeground": "#44475a",

@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.6
+
+- fix Component focusColor
+
 ### 1.3.5
 
 - fix ToolWindow Header
