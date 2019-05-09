@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.5
+
+- fix ToolWindow Header
+
 ### 1.3.4
 
 - refine SearchEverywhere

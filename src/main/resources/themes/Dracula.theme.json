@@ -196,6 +196,10 @@
       "Button": {
         "hoverBackground": "#282a35"
       },
+      "Header": {
+        "background": "#44475a",
+        "inactiveBackground": "#44475a"
+      },
       "HeaderTab": {
         "selectedBackground": "#282a35",
         "selectedInactiveBackground": "#282a35"
