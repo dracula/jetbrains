@@ -29,10 +29,9 @@
     "Button": {
       "startBorderColor": "#6272a4",
       "endBorderColor": "#6272a4",
-      "startBackground": "#6272a4",
-      "endBackground": "#6272a4",
+      "startBackground": "#44475a",
+      "endBackground": "#44475a",
       "focusedBorderColor": "#6272a4",
-      "disabledBorderColor": "#6272a4",
       "default": {
         "startBackground": "#6272a4",
         "endBackground": "#6272a4",
@@ -163,8 +162,8 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "#414450",
-        "inactiveBackground": "#414450"
+        "activeBackground": "#44475a",
+        "inactiveBackground": "#44475a"
       }
     },
     "SearchEverywhere": {

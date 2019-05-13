@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.3.7
+
+- refine Popup Header
+- refine Button
+
 ### 1.3.6
 
 - fix Component focusColor
