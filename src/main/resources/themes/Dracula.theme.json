@@ -29,16 +29,16 @@
     "Button": {
       "startBorderColor": "#6272a4",
       "endBorderColor": "#6272a4",
-      "startBackground": "#44475a",
-      "endBackground": "#44475a",
-      "focusedBorderColor": "#6272a4",
+      "startBackground": "#6272a4",
+      "endBackground": "#6272a4",
+      "focusedBorderColor": "#bd93f9",
       "default": {
         "startBackground": "#6272a4",
         "endBackground": "#6272a4",
-        "startBorderColor": "#6272a4",
-        "endBorderColor": "#6272a4",
+        "startBorderColor": "#bd93f9",
+        "endBorderColor": "#bd93f9",
         "focusColor": "#bd93f9",
-        "focusedBorderColor": "#6272a4"
+        "focusedBorderColor": "#bd93f9"
       }
     },
     "CheckBoxMenuItem": {
