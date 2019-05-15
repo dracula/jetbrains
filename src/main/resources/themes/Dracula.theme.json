@@ -27,8 +27,8 @@
       "pressedBorderColor": "#282a35"
     },
     "Button": {
-      "startBorderColor": "#6272a4",
-      "endBorderColor": "#6272a4",
+      "startBorderColor": "#bd93f9",
+      "endBorderColor": "#bd93f9",
       "startBackground": "#6272a4",
       "endBackground": "#6272a4",
       "focusedBorderColor": "#bd93f9",
@@ -130,7 +130,7 @@
         "background": "#44475a"
       },
       "SectionHeader": {
-        "foreground": "#bd93f9"
+        "foreground": "#f8f8f2"
       },
       "lightSelectionBackground": "#282a35",
       "Button": {
@@ -220,7 +220,11 @@
         "localBranchIconColor": "#50fa7b",
         "remoteBranchIconColor": "#bd93f9"
       },
-      "Log.Commit.currentBranchBackground": "#414450"
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "#44475a"
+        }
+      }
     },
     "WelcomeScreen": {
       "Projects": {
