@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.8
+
+- optimize Plugins Button color
+
 ### 1.3.7
 
 - refine Popup Header color
