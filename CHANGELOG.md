@@ -2,7 +2,9 @@
 
 ### 1.3.8
 
-- optimize Plugins Button color
+- optimize Plugins color
+- optimize Button color
+- optimize VCS color
 
 ### 1.3.7
 
