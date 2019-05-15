@@ -69,7 +69,6 @@
       "focusColor": "#bd93f9",
       "borderColor": "#6272a4",
       "focusedBorderColor": "#6272a4",
-      "disabledBorderColor": "#6272a4",
       "errorFocusColor": "#ff5554",
       "inactiveErrorFocusColor": "#ff5554",
       "warningFocusColor": "#f1fa8c",
@@ -137,12 +136,13 @@
       "Button": {
         "installBorderColor": "#50fa7b",
         "installForeground": "#50fa7b",
-        "installBackground": "#44475a",
+        "installBackground": "#414450",
         "updateBorderColor": "#8be9fd",
-        "updateForeground": "#44475a",
-        "updateBackground": "#8be9fd",
-        "installFillForeground": "#44475a",
-        "installFillBackground": "#50fa7b"
+        "updateForeground": "#8be9fd",
+        "updateBackground": "#414450",
+        "installFillForeground": "#414450",
+        "installFillBackground": "#50fa7b",
+        "installFocusedBackground": "#414450"
       },
       "Tab": {
         "selectedBackground": "#282a35",

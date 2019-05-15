@@ -2,8 +2,9 @@
 
 ### 1.3.7
 
-- refine Popup Header
-- refine Button
+- refine Popup Header color
+- refine Button color
+- refine Plugins color
 
 ### 1.3.6
 
