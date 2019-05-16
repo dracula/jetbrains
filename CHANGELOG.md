@@ -2,8 +2,9 @@
 
 ### 1.3.8
 
-- optimize Plugin Install Border color
-- optimize VCS color
+- optimize Plugin Install Button Border color
+- optimize ComboBox and Checkbox color
+- optimize VCS window color
 
 ### 1.3.7
 
