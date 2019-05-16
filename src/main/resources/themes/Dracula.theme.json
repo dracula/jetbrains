@@ -215,10 +215,17 @@
       "warningBackground": "#ffb86c"
     },
     "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "#44475a"
+        }
+      },
       "GitLog": {
         "headIconColor": "#f1fa8c",
         "localBranchIconColor": "#50fa7b",
-        "remoteBranchIconColor": "#bd93f9"
+        "remoteBranchIconColor": "#bd93f9",
+        "tagIconColor": "#ff79c6",
+        "otherIconColor": "#8be9fd"
       },
       "Log": {
         "Commit": {
