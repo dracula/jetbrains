@@ -27,8 +27,8 @@
       "pressedBorderColor": "#282a35"
     },
     "Button": {
-      "startBorderColor": "#bd93f9",
-      "endBorderColor": "#bd93f9",
+      "startBorderColor": "#6272a4",
+      "endBorderColor": "#6272a4",
       "startBackground": "#6272a4",
       "endBackground": "#6272a4",
       "focusedBorderColor": "#bd93f9",
