@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.9
+
+- some minor improvement
+
 ### 1.3.8
 
 - optimize Plugin Install Button Border color
