@@ -10,15 +10,15 @@
       "foreground": "#f8f8f2",
       "selectionBackground": "#6272a4",
       "selectionForeground": "#f8f8f2",
+      "selectionInactiveBackground": "#6272a4",
+      "selectionInactiveForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
-      "borderColor": "#282a35",
-      "selectionInactiveBackground": "#6272a4",
-      "selectionInactiveForeground": "#f8f8f2"
+      "borderColor": "#333841"
     },
     "Borders": {
-      "color": "#282a35",
-      "ContrastBorderColor": "#282a35"
+      "color": "#333841",
+      "ContrastBorderColor": "#333841"
     },
     "ActionButton": {
       "hoverBackground": "#282a35",
@@ -243,7 +243,7 @@
     "ColorPalette": {
       "Actions.Blue": "#8be9fd",
       "Actions.Green": "#50fa7b",
-      "Actions.Grey": "#f8f8f2",
+      "Actions.Grey": "#858994",
       "Actions.GreyInline.Dark": "#50fa7b",
       "Actions.GreyInline": "#50fa7b",
       "Actions.Red": "#ff5554",
@@ -251,7 +251,7 @@
       "Objects.Blue": "#8be9fd",
       "Objects.Green": "#50fa7b",
       "Objects.GreenAndroid": "#50fa7b",
-      "Objects.Grey": "#bd93f9",
+      "Objects.Grey": "#858994",
       "Objects.Pink": "#ff79c6",
       "Objects.Purple": "#bd93f9",
       "Objects.Red": "#ff5554",
@@ -259,19 +259,12 @@
       "Objects.Yellow": "#f1fa8c",
       "Objects.YellowDark": "#f1fa8c",
       "Objects.BlackText": "#282a35",
-      "Checkbox.Border.Default": "#bd93f9",
       "Checkbox.Border.Default.Dark": "#bd93f9",
-      "Checkbox.Border.Selected": "#bd93f9",
       "Checkbox.Border.Selected.Dark": "#bd93f9",
-      "Checkbox.Background.Default": "#6272a4",
       "Checkbox.Background.Default.Dark": "#6272a4",
-      "Checkbox.Foreground.Selected": "#f8f8f2",
       "Checkbox.Foreground.Selected.Dark": "#f8f8f2",
-      "Checkbox.Focus.Wide": "#bd93f9",
       "Checkbox.Focus.Wide.Dark": "#bd93f9",
-      "Checkbox.Focus.Thin.Selected": "#bd93f9",
       "Checkbox.Focus.Thin.Selected.Dark": "#bd93f9",
-      "Checkbox.Focus.Thin.Default": "#bd93f9",
       "Checkbox.Focus.Thin.Default.Dark": "#bd93f9"
     }
   }
