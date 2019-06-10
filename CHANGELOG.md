@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.10
+
+- fix color of comment
+
 ### 1.3.9
 
 - some minor improvement
