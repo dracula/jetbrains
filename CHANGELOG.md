@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.11
+
+- optimize Python Scheme
+
 ### 1.3.10
 
 - fix color of comment
