@@ -82,9 +82,9 @@
     },
     "EditorTabs": {
       "inactiveMaskColor": "#414450",
-      "selectedBackground": "#282a35",
+      "selectedBackground": "#44475a",
       "selectedForeground": "#f8f8f2",
-      "underlineColor": "#ff79c6"
+      "underlineColor": "#bd93f9"
     },
     "FileColor": {
       "Blue": "#8be9fd",
@@ -199,14 +199,14 @@
         "inactiveBackground": "#44475a"
       },
       "HeaderTab": {
-        "selectedBackground": "#282a35",
-        "selectedInactiveBackground": "#282a35"
+        "selectedBackground": "#6272a4",
+        "selectedInactiveBackground": "#6272a4"
       }
     },
     "Tree": {
       "modifiedItemForeground": "#ff79c6",
       "selectionBackground": "#6272a4",
-      "selectionInactiveBackground": "#282a35"
+      "selectionInactiveBackground": "#6272a4"
     },
     "ValidationTooltip": {
       "errorBackground": "#ff5554",
@@ -234,6 +234,7 @@
       }
     },
     "WelcomeScreen": {
+      "background": "#282a35",
       "Projects": {
         "selectionBackground": "#6272a4",
         "selectionInactiveBackground": "#282a35"
