@@ -4,6 +4,7 @@
 
 - optimize Java Scheme
 - optimize YAML Scheme
+- optimize XML Scheme
 
 ### 1.3.11
 

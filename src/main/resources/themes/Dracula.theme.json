@@ -10,7 +10,7 @@
       "foreground": "#f8f8f2",
       "selectionBackground": "#6272a4",
       "selectionForeground": "#f8f8f2",
-      "selectionInactiveBackground": "#6272a4",
+      "selectionInactiveBackground": "#282a35",
       "selectionInactiveForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
@@ -205,7 +205,8 @@
     },
     "Tree": {
       "modifiedItemForeground": "#ff79c6",
-      "selectionBackground": "#6272a4"
+      "selectionBackground": "#6272a4",
+      "selectionInactiveBackground": "#282a35"
     },
     "ValidationTooltip": {
       "errorBackground": "#ff5554",
