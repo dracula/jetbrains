@@ -1,6 +1,6 @@
 # Changelog
 
-### 1.3.11
+### 1.3.12
 
 - optimize Java Scheme
 - optimize YAML Scheme
