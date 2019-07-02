@@ -234,6 +234,7 @@
       }
     },
     "WelcomeScreen": {
+      "separatorColor": "#282a35",
       "Projects": {
         "background": "#282a35",
         "selectionBackground": "#44475a",
