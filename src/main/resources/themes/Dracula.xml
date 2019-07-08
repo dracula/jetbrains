@@ -324,7 +324,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="b9bcd1" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -352,7 +352,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FOREGROUND" value="50fa7b" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
