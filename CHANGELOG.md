@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.13
+
+- new color for local variable and method parameters
+
 ### 1.3.12
 
 - optimize Java Scheme
