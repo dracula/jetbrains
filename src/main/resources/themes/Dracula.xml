@@ -823,6 +823,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="RUBY_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
     <option name="RUBY_CONSTANT">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
@@ -852,8 +853,8 @@
     </option>
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
-        <option name="BACKGROUND" value="282a36" />
         <option name="FOREGROUND" value="98afff" />
+        <option name="BACKGROUND" value="282a36" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1100,14 +1101,10 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="RUBY_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
   </attributes>
   <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="1.2" />
+  <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code Medium" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Fira Code Medium" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
 </scheme>
