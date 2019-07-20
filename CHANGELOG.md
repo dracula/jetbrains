@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.3.14
+
+- optimize Ruby Scheme
+- colorful braces
+
 ### 1.3.13
 
 - new color for local variable and method parameters
