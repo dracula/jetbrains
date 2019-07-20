@@ -222,6 +222,16 @@
         <option name="FOREGROUND" value="98afff" />
       </value>
     </option>
+    <option name="DEFAULT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="737fff" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="36ffac" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
@@ -325,6 +335,11 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="b9bcd1" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="ff78a6" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -1057,7 +1072,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="FOREGROUND" value="737fff" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
