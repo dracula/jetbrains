@@ -82,7 +82,7 @@
     },
     "EditorTabs": {
       "inactiveMaskColor": "#414450",
-      "selectedBackground": "#414450",
+      "selectedBackground": "#282a35",
       "selectedForeground": "#f8f8f2",
       "underlineColor": "#bd93f9"
     },
@@ -195,8 +195,8 @@
         "hoverBackground": "#282a35"
       },
       "Header": {
-        "background": "#414450",
-        "inactiveBackground": "#414450"
+        "background": "#44475a",
+        "inactiveBackground": "#44475a"
       },
       "HeaderTab": {
         "selectedBackground": "#6272a4",
