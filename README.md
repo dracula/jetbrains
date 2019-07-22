@@ -13,6 +13,8 @@ You may get this theme by downloading the `Dracula Theme` plugin.
 ## Screenshots
 
 ![main-window](docs/screenshots/dracula-main-window.png)
+![preferences-window](docs/screenshots/draclua-preferences-window.png)
+![plugins-window](docs/screenshots/dracula-plugins-window.png)
 
 ## Installation
 
