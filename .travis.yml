@@ -10,6 +10,7 @@ install:
   - pipenv sync
 script:
   - pipenv run python changelog.py
+  - pipenv run python readme.py
   - cd .. # switch back to parent directory
   - ./gradlew build
 deploy:
