@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.intellij' version '0.4.8'
+    id 'org.jetbrains.intellij' version '0.4.9'
 }
 
 group 'com.vermouthx'
@@ -15,11 +15,16 @@ intellij {
 
 patchPluginXml {
     sinceBuild '191'
+    untilBuild '192.*'
 
-    def changelogPath = "$projectDir/build/CHANGELOG.html"
+    def changelogPath = "${project.buildDir}/CHANGELOG.html"
+    def readmePath = "${project.buildDir}/README.html"
 
     if (file(changelogPath).exists()) {
         changeNotes file(changelogPath).text
+    }
+    if (file(readmePath).exists()) {
+        pluginDescription file(readmePath).text
     }
 }
 
