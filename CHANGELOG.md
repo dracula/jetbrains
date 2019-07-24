@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.15
+
+- fix 2019.2 compatibility issue
+
 ### 1.3.14
 
 - optimize Ruby Scheme
