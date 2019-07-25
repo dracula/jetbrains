@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.40
+
+- built for 2019.2
+- new Tab underline style
+
 ### 1.3.15
 
 - fix 2019.2 compatibility issue
