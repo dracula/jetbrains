@@ -1,6 +1,6 @@
 # Changelog
 
-### 1.40
+### 1.4.0
 
 - built for 2019.2
 - new Tab underline style
