@@ -57,11 +57,6 @@
     "CompletionPopup": {
       "selectionBackground": "#6272a4",
       "selectionInactiveBackground": "#6272a4",
-      "selectionForeground": "#f8f8f2",
-      "selectionInfoForeground": "#ffb86c",
-      "selectionInactiveInfoForeground": "#ffb86c",
-      "nonFocusedState": "#f8f8f2",
-      "matchSelectionForeground": "#ff79c6",
       "matchForeground": "#ff79c6"
     },
     "Component": {
@@ -81,10 +76,10 @@
       "shortcutForeground": "#ff79c6"
     },
     "EditorTabs": {
-      "inactiveMaskColor": "#414450",
-      "selectedBackground": "#282a35",
-      "selectedForeground": "#f8f8f2",
-      "underlineColor": "#bd93f9"
+      "background": "#44475a",
+      "underlinedTabBackground": "#282a35",
+      "underlineColor": "#bd93f9",
+      "underlineHeight": 2
     },
     "FileColor": {
       "Blue": "#8be9fd",
@@ -199,8 +194,10 @@
         "inactiveBackground": "#44475a"
       },
       "HeaderTab": {
-        "selectedBackground": "#6272a4",
-        "selectedInactiveBackground": "#6272a4"
+        "underlineColor": "#bd93f9",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "#282a35",
+        "underlinedTabInactiveBackground": "#282a35"
       }
     },
     "Tree": {
