@@ -2,8 +2,13 @@
 
 ### 1.4.1
 
-- optimize JavaScript Color Scheme
 - support Go Language
+- optimize JavaScript Color Scheme
+- optimize HTML Color Scheme
+- optimize HTTP Request Color Scheme
+- optimize Groovy Color Scheme
+- optimize Kotlin Color Scheme
+- optimize Dockerfile Color Scheme
 - fix TabbedPane color
 
 ### 1.4.0
