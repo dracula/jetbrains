@@ -175,8 +175,11 @@
     },
     "Separator.separatorColor": "#282a35",
     "TabbedPane": {
-      "focusColor": "#ff79c6",
-      "underlineColor": "#bd93f9"
+      "tabSelectionHeight": 2,
+      "focusColor": "#282a35",
+      "hoverColor": "#282a35",
+      "underlineColor": "#bd93f9",
+      "contentAreaColor": "#282a35"
     },
     "ToggleButton": {
       "onBackground": "#50fa7b",
