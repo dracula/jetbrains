@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.1
+
+- optimize JavaScript Color Scheme
+- support Go Language
+- fix TabbedPane color
+
 ### 1.4.0
 
 - built for 2019.2

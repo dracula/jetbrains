@@ -22,6 +22,10 @@ This project introduces the JetBrains IDEs' Dracula theme.
 3. Click `Install` then `Restart`
 4. Choose `Dracula` in **Appearance & Behaviour -> Appearance**
 
+## Caveat
+
+If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
+
 ## License
 
 [MIT License](https://raw.githubusercontent.com/WhiteVermouth/jetbrains-dracula/master/LICENSE)
