@@ -329,7 +329,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="ff79c6" />
+        <option name="FOREGROUND" value="f998cc" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -495,13 +495,11 @@
         <option name="FOREGROUND" value="ff79c6" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
       </value>
-    </option>
-    <option name="JS.INSTANCE_MEMBER_VARIABLE">
-      <value />
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
       <value>
@@ -513,12 +511,6 @@
     <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="ff79c6" />
-      </value>
-    </option>
-    <option name="JS.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="ffb86c" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
