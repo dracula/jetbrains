@@ -10,10 +10,19 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
-
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.7'
+  - script: python -m pipenv lock -r > requirements.txt
+    workingDirectory: 'scripts'
+    displayName: 'Create requirements.txt from Pipfile'
+  - script: pip install -r requirements.txt
+    workingDirectory: 'scripts'
+    displayName: 'Install requirements.txt'
+  - script: python build.py
+    workingDirectory: 'scripts'
+    displayName: 'Generate release note and plugin description'
+  - task: Gradle@2
+    inputs:
+      jdkVersionOption: '1.11'
+      tasks: 'build'
