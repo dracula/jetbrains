@@ -1,8 +1,9 @@
 # JetBrains Dracula Theme
 
-![release](https://img.shields.io/github/release/WhiteVermouth/jetbrains-dracula.svg)
-![plugin](https://img.shields.io/jetbrains/plugin/v/com.vermouthx.idea.svg)
-![downloads](https://img.shields.io/jetbrains/plugin/d/com.vermouthx.idea.svg)
+[![Build Status](https://dev.azure.com/vermouth7devil/dracula-theme/_apis/build/status/WhiteVermouth.jetbrains-dracula?branchName=master)](https://dev.azure.com/vermouth7devil/dracula-theme/_build/latest?definitionId=1&branchName=master)
+![Release](https://img.shields.io/github/release/WhiteVermouth/jetbrains-dracula.svg)
+![Plugin](https://img.shields.io/jetbrains/plugin/v/com.vermouthx.idea.svg)
+![Downloads](https://img.shields.io/jetbrains/plugin/d/com.vermouthx.idea.svg)
 
 [Dracula](https://github.com/dracula/dracula-theme/) is a dark theme for many editors, terminals, syntax highlight and eg.
 Since version 2019.1, IntelliJ IDEA and other IntelliJ based JetBrains IDEs add support for custom UI.
