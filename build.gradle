@@ -33,6 +33,6 @@ def retrieveSecret = { String prop, String env ->
 }
 
 publishPlugin {
-    username retrieveSecret('publishUsername', 'JETBRAINS_PUBLISH_USERNAME')
-    token retrieveSecret('publishToken', 'JETBRAINS_PUBLISH_TOKEN')
+    username retrieveSecret('publishUsername', 'jetbrains.username')
+    token retrieveSecret('publishToken', 'jetbrains.token')
 }
