@@ -14,6 +14,9 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+variables:
+  release?: startsWith(variables['Build.SourceBranch'], 'refs/tags/')
+
 steps:
   - task: UsePythonVersion@0
     inputs:
@@ -42,7 +45,7 @@ steps:
     displayName: 'Build plugin'
 
   - task: GitHubRelease@0
-    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/heads/tags/'))
+    condition: and(succeeded(), $(release?))
     inputs:
       gitHubConnection: 'GitHub Release'
       repositoryName: '$(Build.Repository.Name)'
@@ -54,7 +57,7 @@ steps:
     displayName: 'Publish to GitHub Release'
 
   - task: Gradle@2
-    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/heads/tags/'))
+    condition: and(succeeded(), $(release?))
     inputs:
       jdkVersionOption: '1.11'
       tasks: 'publishPlugin'
