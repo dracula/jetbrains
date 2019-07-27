@@ -28,11 +28,7 @@ patchPluginXml {
     }
 }
 
-def retrieveSecret = { String prop, String env ->
-    project.hasProperty(prop) ? project.findProperty(prop) : System.getenv(env)
-}
-
 publishPlugin {
-    username retrieveSecret('publishUsername', 'jetbrains.username')
-    token retrieveSecret('publishToken', 'jetbrains.token')
+    username System.getProperty('jetbrains.username')
+    token System.getProperty('jetbrains.token')
 }

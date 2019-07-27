@@ -38,6 +38,7 @@ steps:
   - task: Gradle@2
     inputs:
       jdkVersionOption: '1.11'
+      gradleOptions: '-Xmx1024m'
       tasks: 'build'
     displayName: 'Build plugin'
 
@@ -57,5 +58,7 @@ steps:
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
       jdkVersionOption: '1.11'
+      options: '-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)'
+      gradleOptions: '-Xmx1024m'
       tasks: 'publishPlugin'
     displayName: 'Publish to JetBrains Plugin Repository'
