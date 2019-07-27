@@ -13,7 +13,9 @@ steps:
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '3.7'
-  - script: python -m pipenv lock -r > requirements.txt
+  - script: pip install pipenv
+    displayName: 'Install pipenv'
+  - script: pipenv lock -r > requirements.txt
     workingDirectory: 'scripts'
     displayName: 'Create requirements.txt from Pipfile'
   - script: pip install -r requirements.txt
