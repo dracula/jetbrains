@@ -4,3 +4,4 @@
 *.ipr
 *.iws
 build
+__pycache__
