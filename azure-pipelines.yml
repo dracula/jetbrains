@@ -4,7 +4,12 @@
 # https://aka.ms/yaml
 
 trigger:
-  - master
+  branches:
+    include:
+      - master
+  tags:
+    include:
+      - v1.*
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -13,18 +18,37 @@ steps:
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '3.7'
+    displayName: 'Setup Python'
+
   - script: pip install pipenv
     displayName: 'Install pipenv'
+
   - script: pipenv lock -r > requirements.txt
     workingDirectory: 'scripts'
     displayName: 'Create requirements.txt from Pipfile'
+
   - script: pip install -r requirements.txt
     workingDirectory: 'scripts'
     displayName: 'Install requirements.txt'
+
   - script: python build.py
     workingDirectory: 'scripts'
     displayName: 'Generate release note and plugin description'
+
   - task: Gradle@2
     inputs:
       jdkVersionOption: '1.11'
       tasks: 'build'
+    displayName: 'Build plugin'
+
+  - task: GitHubRelease@0
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/tags'))
+    inputs:
+      gitHubConnection: 'GitHub Release'
+      repositoryName: '$(Build.Repository.Name)'
+      action: 'create'
+      assets: 'build/libs/*.jar'
+      assetUploadMode: 'delete'
+      tagSource: 'auto'
+      target: '$(Build.SourceVersion)'
+    displayName: 'Publish to GitHub Release'
