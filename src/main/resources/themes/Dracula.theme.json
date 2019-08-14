@@ -236,7 +236,7 @@
       }
     },
     "WelcomeScreen": {
-      "separatorColor": "#282a35",
+      "separatorColor": "#191b1f",
       "Projects": {
         "background": "#282a35",
         "selectionBackground": "#44475a",
@@ -246,16 +246,16 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#8be9fd",
-      "Actions.Green": "#50fa7b",
+      "Actions.Blue": "#5da3f4",
+      "Actions.Green": "#2fc864",
       "Actions.Grey": "#858994",
-      "Actions.GreyInline.Dark": "#50fa7b",
-      "Actions.GreyInline": "#50fa7b",
+      "Actions.GreyInline.Dark": "#2fc864",
+      "Actions.GreyInline": "#2fc864",
       "Actions.Red": "#ff5554",
       "Actions.Yellow": "#f1fa8c",
-      "Objects.Blue": "#8be9fd",
-      "Objects.Green": "#50fa7b",
-      "Objects.GreenAndroid": "#50fa7b",
+      "Objects.Blue": "#5da3f4",
+      "Objects.Green": "#2fc864",
+      "Objects.GreenAndroid": "#2fc864",
       "Objects.Grey": "#858994",
       "Objects.Pink": "#ff79c6",
       "Objects.Purple": "#bd93f9",
