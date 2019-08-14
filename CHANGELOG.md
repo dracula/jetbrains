@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.4.2
+
+- new darker Blue and Green Icon
+- new Editor background when all tabs closed
+- new Gutter background
+- add semantic highlighting (enable it manually in Color Scheme)
+- fix underline style
+
 ### 1.4.1
 
 - support Go Language
