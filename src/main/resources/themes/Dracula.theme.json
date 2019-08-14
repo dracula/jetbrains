@@ -14,7 +14,9 @@
       "selectionInactiveForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
-      "borderColor": "#333841"
+      "borderColor": "#333841",
+      "underlineColor": "#bd93f9",
+      "underlineHeight": 2
     },
     "Borders": {
       "color": "#333841",
