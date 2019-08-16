@@ -10,7 +10,7 @@
       "foreground": "#f8f8f2",
       "selectionBackground": "#6272a4",
       "selectionForeground": "#f8f8f2",
-      "selectionInactiveBackground": "#282a35",
+      "selectionInactiveBackground": "#4E5A82",
       "selectionInactiveForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
       "inactiveForeground": "#f8f8f2",
@@ -58,7 +58,7 @@
     },
     "CompletionPopup": {
       "selectionBackground": "#6272a4",
-      "selectionInactiveBackground": "#6272a4",
+      "selectionInactiveBackground": "#4E5A82",
       "matchForeground": "#ff79c6"
     },
     "Component": {
@@ -208,7 +208,7 @@
     "Tree": {
       "modifiedItemForeground": "#ff79c6",
       "selectionBackground": "#6272a4",
-      "selectionInactiveBackground": "#6272a4"
+      "selectionInactiveBackground": "#4E5A82"
     },
     "ValidationTooltip": {
       "errorBackground": "#ff5554",
