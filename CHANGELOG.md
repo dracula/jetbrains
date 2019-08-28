@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.4.3
+
+- optimize inactive selection background
+
 ### 1.4.2
 
 - new darker Blue and Green Icon
