@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.4
+
+- improve text selection in Editor
+- improve text foreground
+- improve Editor Breadcrumbs and Separator Lines
+
 ### 1.4.3
 
 - optimize inactive selection background
