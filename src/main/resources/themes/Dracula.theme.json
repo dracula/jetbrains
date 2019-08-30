@@ -7,13 +7,9 @@
     "*": {
       "arc": "5",
       "background": "#414450",
-      "foreground": "#f8f8f2",
       "selectionBackground": "#6272a4",
-      "selectionForeground": "#f8f8f2",
       "selectionInactiveBackground": "#4E5A82",
-      "selectionInactiveForeground": "#f8f8f2",
       "inactiveBackground": "#414450",
-      "inactiveForeground": "#f8f8f2",
       "borderColor": "#333841",
       "underlineColor": "#bd93f9",
       "underlineHeight": 2
@@ -29,12 +25,14 @@
       "pressedBorderColor": "#282a35"
     },
     "Button": {
+      "foreground": "#f8f8f2",
       "startBorderColor": "#6272a4",
       "endBorderColor": "#6272a4",
       "startBackground": "#6272a4",
       "endBackground": "#6272a4",
       "focusedBorderColor": "#bd93f9",
       "default": {
+        "foreground": "#f8f8f2",
         "startBackground": "#6272a4",
         "endBackground": "#6272a4",
         "startBorderColor": "#bd93f9",
