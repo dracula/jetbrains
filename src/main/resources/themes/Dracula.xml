@@ -10,12 +10,15 @@
     <option name="LINE_NUMBERS_COLOR" value="666879" />
     <option name="MODIFIED_LINES_COLOR" value="8be9fd" />
     <option name="SELECTION_BACKGROUND" value="666b87" />
+    <option name="SEPARATOR_ABOVE_COLOR" value="8288af" />
+    <option name="TEARLINE_COLOR" value="8288af" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="bd93f9" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="ff79c6" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="ffb86c" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="50fa7b" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ffb86c" />
+    <option name="SEPARATOR_BELOW_COLOR" value="8288af" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -55,6 +58,27 @@
       <value>
         <option name="FOREGROUND" value="8be9fd" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_HOVERED">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="BACKGROUND" value="282a36" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_INACTIVE">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
       </value>
     </option>
     <option name="COFFEESCRIPT.CLASS_NAME">
