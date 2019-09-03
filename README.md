@@ -18,7 +18,7 @@ This project introduces the JetBrains IDEs' Dracula theme.
 ## Installation
 
 1. Open the **Plugins** dialog
-2. Search fot `Dracula Theme`
+2. Search `Dracula Theme`
 3. Click `Install` then `Restart`
 4. Choose `Dracula` in **Appearance & Behaviour -> Appearance**
 
