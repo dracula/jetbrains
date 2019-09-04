@@ -10,13 +10,13 @@
       "selectionBackground": "#6272a4",
       "selectionInactiveBackground": "#4E5A82",
       "inactiveBackground": "#414450",
-      "borderColor": "#333841",
+      "borderColor": "#282a36",
       "underlineColor": "#bd93f9",
       "underlineHeight": 2
     },
     "Borders": {
-      "color": "#333841",
-      "ContrastBorderColor": "#333841"
+      "color": "#282a36",
+      "ContrastBorderColor": "#282a36"
     },
     "ActionButton": {
       "hoverBackground": "#282a35",
@@ -77,7 +77,7 @@
     },
     "EditorTabs": {
       "background": "#44475a",
-      "underlinedTabBackground": "#282a35",
+      "underlinedTabBackground": "#313341",
       "underlineColor": "#bd93f9",
       "underlineHeight": 2
     },
@@ -165,7 +165,7 @@
         "background": "#44475a"
       },
       "Tab": {
-        "selectedBackground": "#282a35",
+        "selectedBackground": "#313341",
         "selectedForeground": "#f8f8f2"
       }
     },
@@ -199,8 +199,8 @@
       "HeaderTab": {
         "underlineColor": "#bd93f9",
         "underlineHeight": 2,
-        "underlinedTabBackground": "#282a35",
-        "underlinedTabInactiveBackground": "#282a35"
+        "underlinedTabBackground": "#313341",
+        "underlinedTabInactiveBackground": "#313341"
       }
     },
     "Tree": {
