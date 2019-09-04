@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.4.5
+
+- improve PHP support
+- refine Border and Tab color
+- darker Separator Lines in Editor
+- optimize Guide Lines
+
 ### 1.4.4
 
 - improve text selection in Editor
