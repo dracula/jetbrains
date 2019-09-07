@@ -11,6 +11,7 @@
     <option name="LINE_NUMBERS_COLOR" value="666879" />
     <option name="MODIFIED_LINES_COLOR" value="8be9fd" />
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
+    <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
     <option name="SELECTED_TEARLINE_COLOR" value="a8b0e2" />
     <option name="SELECTION_BACKGROUND" value="666b87" />
     <option name="SEPARATOR_ABOVE_COLOR" value="6b7090" />
@@ -23,7 +24,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ffb86c" />
-    <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -1247,9 +1247,4 @@
       </value>
     </option>
   </attributes>
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
-  <option name="EDITOR_LIGATURES" value="true" />
 </scheme>
