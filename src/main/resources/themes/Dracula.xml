@@ -998,8 +998,8 @@
     </option>
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="98afff" />
         <option name="BACKGROUND" value="282a36" />
+        <option name="FOREGROUND" value="f1fa8c" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
