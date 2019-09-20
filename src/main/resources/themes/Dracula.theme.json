@@ -78,7 +78,7 @@
       "background": "#44475a",
       "underlinedTabBackground": "#313341",
       "underlineColor": "#bd93f9",
-      "underlineHeight": 1
+      "underlineHeight": 0
     },
     "FileColor": {
       "Blue": "#8be9fd",
