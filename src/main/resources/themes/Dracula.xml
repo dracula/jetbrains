@@ -6,6 +6,7 @@
     <option name="CARET_ROW_COLOR" value="44475a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282a36" />
     <option name="DELETED_LINES_COLOR" value="ff5554" />
+    <option name="GUTTER_BACKGROUND" value="3f4152" />
     <option name="INDENT_GUIDE" value="6b7090" />
     <option name="LINE_NUMBERS_COLOR" value="666879" />
     <option name="MODIFIED_LINES_COLOR" value="8be9fd" />
@@ -23,7 +24,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ffb86c" />
-    <option name="GUTTER_BACKGROUND" value="3f4152" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -1242,5 +1242,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
   </attributes>
 </scheme>
