@@ -3,15 +3,14 @@ plugins {
 }
 
 group 'com.vermouthx'
-version '1.4.5'
+version '1.4.6'
 
 repositories {
     mavenCentral()
 }
 
 intellij {
-    version '2019.2'
-    type 'IU'
+    version 'LATEST-EAP-SNAPSHOT'
 }
 
 patchPluginXml {

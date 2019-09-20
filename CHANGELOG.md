@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.6
+
+- improve Breadcrumbs
+- fix Ruby String Block
+- remove EditorTab underline
+
 ### 1.4.5
 
 - improve PHP support
