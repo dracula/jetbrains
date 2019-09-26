@@ -161,7 +161,10 @@
     },
     "ScrollBar": {
       "Mac": {
+        "thumbColor": "#bd93f9",
+        "hoverThumbColor": "#bd93f9",
         "Transparent": {
+          "thumbColor": "#bd93f9",
           "hoverThumbColor": "#bd93f9"
         }
       }
