@@ -1,13 +1,10 @@
-# JetBrains Dracula Theme
+# Dracula for [JetBrains](https://www.jetbrains.com/)
+> A dark theme for [JetBrains](https://www.jetbrains.com/)
 
 [![Build Status](https://dev.azure.com/vermouth7devil/dracula-theme/_apis/build/status/WhiteVermouth.jetbrains-dracula?branchName=master)](https://dev.azure.com/vermouth7devil/dracula-theme/_build/latest?definitionId=1&branchName=master)
 ![Release](https://img.shields.io/github/release/WhiteVermouth/jetbrains-dracula.svg)
 ![Plugin](https://img.shields.io/jetbrains/plugin/v/com.vermouthx.idea.svg)
 ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.vermouthx.idea.svg)
-
-[Dracula](https://github.com/dracula/dracula-theme/) is a dark theme for many editors, terminals, syntax highlight and eg.
-Since version 2019.1, IntelliJ IDEA and other IntelliJ based JetBrains IDEs add support for custom UI.
-This project introduces the JetBrains IDEs' Dracula theme. 
 
 ## Screenshots
 
@@ -17,15 +14,16 @@ This project introduces the JetBrains IDEs' Dracula theme.
 
 ## Installation
 
-1. Open the **Plugins** dialog
-2. Search `Dracula Theme`
-3. Click `Install` then `Restart`
-4. Choose `Dracula` in **Appearance & Behaviour -> Appearance**
+All instructions can be found at [draculatheme.com/jetbrains](https://draculatheme.com/jetbrains).
 
 ## Caveat
 
 If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
 
+## Team
+
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/jetbrains/graphs/contributors).
+
 ## License
 
-[MIT License](https://raw.githubusercontent.com/WhiteVermouth/jetbrains-dracula/master/LICENSE)
+[MIT License](./LICENSE)
