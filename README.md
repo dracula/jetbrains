@@ -9,8 +9,6 @@
 ## Screenshots
 
 ![main-window](https://raw.githubusercontent.com/WhiteVermouth/jetbrains-dracula/master/docs/screenshots/dracula-main-window.png)
-![preferences-window](https://raw.githubusercontent.com/WhiteVermouth/jetbrains-dracula/master/docs/screenshots/draclua-preferences-window.png)
-![plugins-window](https://raw.githubusercontent.com/WhiteVermouth/jetbrains-dracula/master/docs/screenshots/dracula-plugins-window.png)
 
 ## Installation
 
@@ -24,6 +22,10 @@
 - To install this UI plugin, your JetBrains IDE version must be **2019.1 or later** and the latest version is recommended.
 - If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
 
+## Legacy Support
+
+If your IDE version is **2018 or earlier**, try the [legacy theme](https://github.com/dracula/jetbrains-legacy).
+
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/jetbrains/graphs/contributors).
@@ -31,7 +33,6 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 |[![VermouthX](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth)
 |---
 |[VermouthX](https://github.com/WhiteVermouth)
-
 
 ## License
 
