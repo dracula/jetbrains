@@ -14,7 +14,10 @@
 
 ## Installation
 
-All instructions can be found at [draculatheme.com/jetbrains](https://draculatheme.com/jetbrains).
+1. Open `Plugins` Dialog in IDE
+2. Type and Search **Dracula Theme**
+3. Click install, then restart IDE
+4. Choose **Dracula** in `Settings -> Appearance & Behavior -> Appearance` 
 
 ## Caveat
 
@@ -23,6 +26,11 @@ If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Def
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/jetbrains/graphs/contributors).
+
+|[![VermouthX](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth)
+|---
+|[VermouthX](https://github.com/WhiteVermouth)
+
 
 ## License
 
