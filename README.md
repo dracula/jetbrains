@@ -21,7 +21,7 @@
 
 ## Caveat
 
-- To install this UI plugin, your JetBrains IDE version must be 2019.1 or later and the latest version is recommended.
+- To install this UI plugin, your JetBrains IDE version must be **2019.1 or later** and the latest version is recommended.
 - If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
 
 ## Team
