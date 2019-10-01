@@ -14,8 +14,8 @@
 
 ## Installation
 
-1. Open `Plugins` Dialog in IDE
-2. Type and Search **Dracula Theme**
+1. Open `Plugins` dialog in IDE
+2. Type and search **Dracula Theme**
 3. Click install, then restart IDE
 4. Choose **Dracula** in `Settings -> Appearance & Behavior -> Appearance` 
 
