@@ -1,5 +1,5 @@
-# Dracula for [JetBrains](https://www.jetbrains.com/)
-> A dark theme for [JetBrains](https://www.jetbrains.com/)
+# Dracula for [JetBrains IDE](https://www.jetbrains.com/)
+> A dark theme for [JetBrains IDE](https://www.jetbrains.com/)
 
 [![Build Status](https://dev.azure.com/vermouth7devil/dracula-theme/_apis/build/status/WhiteVermouth.jetbrains-dracula?branchName=master)](https://dev.azure.com/vermouth7devil/dracula-theme/_build/latest?definitionId=1&branchName=master)
 ![Release](https://img.shields.io/github/release/WhiteVermouth/jetbrains-dracula.svg)
@@ -21,7 +21,8 @@
 
 ## Caveat
 
-If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
+- To install this UI plugin, your JetBrains IDE version must be 2019.1 or later and the latest version is recommended.
+- If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
 
 ## Team
 

@@ -1,14 +1,9 @@
 <idea-plugin>
     <id>com.vermouthx.idea</id>
     <name>Dracula Theme</name>
-    <vendor email="vermouth7dante@gmail.com" url="https://github.com/WhiteVermouth">
-        VermouthX
-    </vendor>
-
+    <vendor email="vermouth7dante@gmail.com" url="https://draculatheme.com/">Dracula Official</vendor>
     <depends>com.intellij.modules.lang</depends>
-
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="371dce76-a3c5-4429-91af-41cf86094744" path="/themes/Dracula.theme.json"/>
     </extensions>
-
 </idea-plugin>
