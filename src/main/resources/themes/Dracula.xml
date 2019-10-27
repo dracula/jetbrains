@@ -1244,5 +1244,16 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="JUPYTER_CELL_MARKER">
+      <value>
+        <option name="FOREGROUND" value="ff79c6" />
+      </value>
+    </option>
+    <option name="JUPYTER_INLINE_VALUES">
+      <value>
+        <option name="FOREGROUND" value="ff5555" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
   </attributes>
 </scheme>
