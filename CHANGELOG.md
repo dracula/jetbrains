@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.7
+
+- optimize Language Default
+- optimize Jupyter
+- colorize scrollbar
+
 ### 1.4.6
 
 - improve Breadcrumbs
