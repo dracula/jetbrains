@@ -1,7 +1,7 @@
 # Dracula for [JetBrains IDE](https://www.jetbrains.com/)
 > A dark theme for [JetBrains IDE](https://www.jetbrains.com/)
 
-[![Build Status](https://dev.azure.com/vermouth7devil/dracula-theme/_apis/build/status/WhiteVermouth.jetbrains-dracula?branchName=master)](https://dev.azure.com/vermouth7devil/dracula-theme/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/vermouth7devil/dracula-theme/_apis/build/status/dracula.jetbrains?branchName=master)](https://dev.azure.com/vermouth7devil/dracula-theme/_build/latest?definitionId=2&branchName=master)
 ![Release](https://img.shields.io/github/release/WhiteVermouth/jetbrains-dracula.svg)
 ![Plugin](https://img.shields.io/jetbrains/plugin/v/com.vermouthx.idea.svg)
 ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.vermouthx.idea.svg)
