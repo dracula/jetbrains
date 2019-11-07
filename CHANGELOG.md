@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.4.8
+
+- refine Color Scheme
+- regress EditorTab underline
+
 ### 1.4.7
 
 - optimize Language Default
