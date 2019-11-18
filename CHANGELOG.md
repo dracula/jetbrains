@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.4.9
+
+- Add support for IDEs 2019.3
+
 ### 1.4.8
 
 - refine Color Scheme
