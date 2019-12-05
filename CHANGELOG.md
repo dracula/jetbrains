@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.0
+
+- Support 2019.3 IDEs 
+- Refine some Color Schemes
+- Fix color losing in some languages
+
 ### 1.4.9
 
 - Add support for IDEs 2019.3
