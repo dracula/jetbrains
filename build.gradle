@@ -14,7 +14,7 @@ intellij {
 }
 
 patchPluginXml {
-    sinceBuild '192'
+    sinceBuild '193'
     untilBuild '193.*'
 
     def changelogPath = "${project.buildDir}/CHANGELOG.html"
