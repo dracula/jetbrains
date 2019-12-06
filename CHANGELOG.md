@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.5.1
+
+- Fix Golang color scheme
+
 ### 1.5.0
 
 - Support 2019.3 IDEs 
