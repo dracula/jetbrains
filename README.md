@@ -19,12 +19,13 @@
 
 ## Caveat
 
-- To install this UI plugin, your JetBrains IDE version must be **2019.1 or later** and the latest version is recommended.
-- If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after updating.
+- To install this UI plugin, your JetBrains IDE(s) must be **2019.1 or later** and the latest release is recommended.
+- If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after upgrading.
 
-## Legacy Support
+## Tips
 
-If your IDE version is **2018 or earlier**, try the [legacy theme](https://github.com/dracula/jetbrains-legacy).
+- For fancy icons, install plugin [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons/).
+- If you are using **2018 or earlier** JetBrains IDE(s), try the [legacy theme](https://github.com/dracula/jetbrains-legacy).
 
 ## Team
 
