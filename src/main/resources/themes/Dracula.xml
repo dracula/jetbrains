@@ -1006,6 +1006,11 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+      </value>
+    </option>
     <option name="List/map to object conversion">
       <value />
     </option>
