@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.2
+
+- Optimize editor caret color
+- Refine Kotlin color scheme
+- Fix Ruby color scheme
+
 ### 1.5.1
 
 - Fix Golang color scheme
