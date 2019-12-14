@@ -23,13 +23,9 @@ steps:
   - script: pip install pipenv
     displayName: 'Install pipenv'
 
-  - script: pipenv lock -r > requirements.txt
+  - script: pipenv install --system --deploy --ignore-pipfile
     workingDirectory: 'scripts'
-    displayName: 'Create requirements.txt from Pipfile'
-
-  - script: pip install -r requirements.txt
-    workingDirectory: 'scripts'
-    displayName: 'Install requirements.txt'
+    displayName: 'Install requirements'
 
   - script: python build.py
     workingDirectory: 'scripts'
