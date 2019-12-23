@@ -1,4 +1,5 @@
 # Dracula for [JetBrains IDE](https://www.jetbrains.com/)
+
 > A dark theme for [JetBrains IDE](https://www.jetbrains.com/)
 
 [![Build Status](https://dev.azure.com/vermouth7devil/dracula-theme/_apis/build/status/dracula.jetbrains?branchName=master)](https://dev.azure.com/vermouth7devil/dracula-theme/_build/latest?definitionId=2&branchName=master)
@@ -8,19 +9,11 @@
 
 ## Screenshots
 
-![main-window](https://raw.githubusercontent.com/WhiteVermouth/jetbrains-dracula/master/docs/screenshots/dracula-main-window.png)
+![Screenshot](./screenshot.png)
 
-## Installation
+## Install
 
-1. Open `Plugins` dialog in IDE
-2. Type and search **Dracula Theme**
-3. Click install, then restart IDE
-4. Choose **Dracula** in `Settings -> Appearance & Behavior -> Appearance` 
-
-## Caveat
-
-- To install this UI plugin, your JetBrains IDE(s) must be **2019.1 or later** and the latest release is recommended.
-- If you have ever edited the **Dracula Color Scheme**, you'd better **Restore Default** after upgrading.
+All instructions can be found at [draculatheme.com/jetbrains](https://draculatheme.com/jetbrains).
 
 ## Tips
 
