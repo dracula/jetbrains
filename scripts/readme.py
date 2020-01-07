@@ -20,14 +20,15 @@ with open(SOURCE_FILE, 'r') as source:
     blockquote_h2.find_next_sibling('p').decompose()
     blockquote_h2.decompose()
     # Set image widths
-    for img in soup.find_all('img'):
-        img['width'] = '700'
+    img = soup.find('h2', text='Screenshots').find_next('p').find('img')
+    img['src'] = 'https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png'
+    img['width'] = '700'
     # Add margin above images
     for img in soup.find_all('img'):
         img.insert_before(soup.new_tag('br'))
     # Remove installation
-    installation_h2 = soup.find('h2', text='Installation')
-    installation_h2.find_next('ol').decompose()
+    installation_h2 = soup.find('h2', text='Install')
+    installation_h2.find_next('p').decompose()
     installation_h2.decompose()
     # Remove team
     team_h2 = soup.find('h2', text="Team")
