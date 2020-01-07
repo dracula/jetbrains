@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.5.3
+
+- Remove scrollbar colors
+- Improve color scheme
+
 ### 1.5.2
 
 - Optimize editor caret color
