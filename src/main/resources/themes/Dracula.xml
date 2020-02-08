@@ -1063,6 +1063,12 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="PHP_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="FOREGROUND" value="f1fa8c" />
@@ -1078,8 +1084,16 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PHP_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="b9bcd1" />
+      </value>
+    </option>
+    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="b9bcd1" />
+      </value>
+    </option>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
         <option name="EFFECT_COLOR" value="ff5555" />
@@ -1710,11 +1724,5 @@
     <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PHP_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
   </attributes>
 </scheme>
