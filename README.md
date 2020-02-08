@@ -20,6 +20,10 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 - For fancy icons, install plugin [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons/).
 - If you are using **2018 or earlier** JetBrains IDE(s), try the [legacy theme](https://github.com/dracula/jetbrains-legacy).
 
+## Contribution
+
+If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md)
+
 ## Team
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/jetbrains/graphs/contributors).
