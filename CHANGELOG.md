@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.6.0
+
+- Add support for 2020.1 EAP
+- Fix PHP variable and parameter color
+
 ### 1.5.3
 
 - Remove scrollbar colors
