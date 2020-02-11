@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.6.1
+
+- Improve Groovy color scheme
+- Improve Language Default
+
 ### 1.6.0
 
 - Add support for 2020.1 EAP
