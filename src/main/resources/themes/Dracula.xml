@@ -261,6 +261,11 @@
       </value>
     </option>
     <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="8be9fd" />
+      </value>
+    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="98afff" />
@@ -311,12 +316,12 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -326,7 +331,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="50fa7b" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -338,7 +343,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="8be9fd" />
+        <option name="FOREGROUND" value="ffb86c" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -353,6 +358,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="8be9fd" />
+      </value>
+    </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
@@ -363,6 +373,11 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="ff79c6" />
+      </value>
+    </option>
+    <option name="DEFAULT_LABEL">
+      <value>
+        <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -398,6 +413,11 @@
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="fff906" />
+      </value>
+    </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -999,14 +1019,14 @@
     </option>
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="9876aa" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
       <value>
-        <option name="FOREGROUND" value="9876aa" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_ENUM_ENTRY">
@@ -1111,6 +1131,11 @@
         <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
+    <option name="Method call">
+      <value>
+        <option name="FOREGROUND" value="50fa7b" />
+      </value>
+    </option>
     <option name="Number">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
@@ -1118,8 +1143,8 @@
     </option>
     <option name="PHP_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="bd93f9" />
         <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
     <option name="PHP_EXEC_COMMAND_ID">
@@ -1795,10 +1820,5 @@
     <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="Method call">
-      <value>
-        <option name="FOREGROUND" value="50fa7b" />
-      </value>
-    </option>
   </attributes>
 </scheme>
