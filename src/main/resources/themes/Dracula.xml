@@ -1013,16 +1013,19 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="KOTLIN_ARROW">
+      <value>
+        <option name="FOREGROUND" value="bd93f9" />
+      </value>
+    </option>
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_ENUM_ENTRY">
@@ -1036,6 +1039,11 @@
     <option name="KOTLIN_LABEL">
       <value>
         <option name="FOREGROUND" value="6272a4" />
+      </value>
+    </option>
+    <option name="KOTLIN_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="b9bcd1" />
       </value>
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
@@ -1052,12 +1060,11 @@
     <option name="KOTLIN_PACKAGE_PROPERTY">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="KOTLIN_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="b9bcd1" />
       </value>
     </option>
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
