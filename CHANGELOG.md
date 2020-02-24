@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.6.2
+
+- Fix Kotlin color scheme
+- Fix UDF File Type color scheme
+
 ### 1.6.1
 
 - Improve Groovy color scheme
