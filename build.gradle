@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.intellij' version '0.4.9'
+    id 'org.jetbrains.intellij' version '0.4.17'
 }
 
 group 'com.vermouthx'
@@ -10,7 +10,7 @@ repositories {
 }
 
 intellij {
-    version 'LATEST-EAP-SNAPSHOT'
+    version '2019.3.4'
 }
 
 patchPluginXml {
