@@ -17,9 +17,8 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 ## Tips
 
-- For fancy icons, install plugin [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons/).
-- Font recommendation: [Cascadia Code](https://github.com/microsoft/cascadia-code)
-- Legacy JetBrains IDEs(**2018 or earlier**) support: [legacy theme](https://github.com/dracula/jetbrains-legacy).
+- Font Recommendation: [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- For Legacy JetBrains IDEs(**2018 or earlier**): [Legacy Theme](https://github.com/dracula/jetbrains-legacy).
 
 ## Contribution
 

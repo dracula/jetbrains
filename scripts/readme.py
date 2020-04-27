@@ -13,7 +13,7 @@ with open(SOURCE_FILE, 'r') as source:
     soup = BeautifulSoup(html, 'html.parser')
     # Reconstruct title
     new_title = soup.new_tag('p')
-    new_title.string = "😱 A dark theme for JetBrains IDEs"
+    new_title.string = 'A Dark Theme for JetBrains IDEs'
     soup.find('h1').replace_with(new_title)
     # Remove badges
     blockquote_h2 = soup.find('blockquote')
@@ -35,6 +35,10 @@ with open(SOURCE_FILE, 'r') as source:
     for p in team_h2.find_all_next('p', limit=2):
         p.decompose()
     team_h2.decompose()
+    # Replace Contribution Guide URL
+    contribution_h2 = soup.find('h2', text="Contribution")
+    contribution_guide_link = contribution_h2.find_next('p').find('a')
+    contribution_guide_link['href'] = 'https://github.com/dracula/jetbrains/blob/master/CONTRIBUTING.md'
     # Remove license
     license_h2 = soup.find('h2', text='License')
     license_h2.find_next('p').decompose()

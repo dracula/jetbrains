@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.3
+
+- Improve Language Default color scheme
+- Add ScrollBar color (only for macOS)
+- Use thinner Tab Underline
+
 ### 1.6.2
 
 - Fix Kotlin color scheme
