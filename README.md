@@ -17,12 +17,12 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 ## Tips
 
-- Font Recommendation: [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- Font Recommendation: [Cascadia Code](https://github.com/microsoft/cascadia-code).
 - For Legacy JetBrains IDEs(**2018 or earlier**): [Legacy Theme](https://github.com/dracula/jetbrains-legacy).
 
 ## Contribution
 
-If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md)
+If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md).
 
 ## Team
 

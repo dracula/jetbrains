@@ -26,10 +26,6 @@ with open(SOURCE_FILE, 'r') as source:
     # Add margin above images
     for img in soup.find_all('img'):
         img.insert_before(soup.new_tag('br'))
-    # Remove installation
-    installation_h2 = soup.find('h2', text='Install')
-    installation_h2.find_next('p').decompose()
-    installation_h2.decompose()
     # Remove team
     team_h2 = soup.find('h2', text="Team")
     for p in team_h2.find_all_next('p', limit=2):
