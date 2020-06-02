@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.7.0
+
+- Fix IDE 2020.2 compatibility issue
+
 ### 1.6.3
 
 - Improve Language Default color scheme
