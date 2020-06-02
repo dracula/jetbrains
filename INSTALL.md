@@ -4,7 +4,7 @@
 
 Go to `Plugin Marketplace`, and search `Dracula`, click `Install`.
 
-![Installing](docs/screenshots/dracula-installing.png)
+![Installing](docs/screenshots/dracula-plugin-install.png)
 
 ### Setup
 
