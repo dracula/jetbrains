@@ -4,17 +4,17 @@
 
 Go to `Plugin Marketplace`, and search `Dracula`, click `Install`.
 
-![Installing](docs/screenshots/dracula-plugin-install.png)
+![Installing](https://raw.githubusercontent.com/dracula/jetbrains/master/docs/screenshots/dracula-plugin-install.png)
 
-### Setup
+#### Setup
 
 Go to `Preferences | Appearance & Behavior | Appearance`, select `Dracula` from the dropdown menu.
 
-![Setup Appearance](docs/screenshots/dracula-setup-appearance.png)
+![Setup Appearance](https://raw.githubusercontent.com/dracula/jetbrains/master/docs/screenshots/dracula-setup-appearance.png)
 
 Go to `Preferences | Editor | Color Scheme`, select `Dracula` from the dropdown menu.
 
-![Setup Color Scheme](docs/screenshots/dracula-setup-scheme.png)
+![Setup Color Scheme](https://raw.githubusercontent.com/dracula/jetbrains/master/docs/screenshots/dracula-setup-scheme.png)
 
 #### Caveat
 
