@@ -1,15 +1,14 @@
 import os
+
 import markdown
 from bs4 import BeautifulSoup
 
-SOURCE_FILE = os.path.join(os.path.dirname(__file__), '..', 'README.md')
-DEST_PATH = os.path.join(os.path.dirname(__file__), '..', 'build')
 
-if not os.path.exists(DEST_PATH):
-    os.makedirs(DEST_PATH)
-
-with open(SOURCE_FILE, 'r') as source:
-    html = markdown.markdown(source.read())
+def build_readme(src: str, dest: str):
+    if not os.path.exists(dest):
+        os.makedirs(dest)
+    with open(src, 'r') as source:
+        html = markdown.markdown(source.read())
     soup = BeautifulSoup(html, 'html.parser')
     # Reconstruct title
     new_title = soup.new_tag('p')
@@ -39,6 +38,5 @@ with open(SOURCE_FILE, 'r') as source:
     license_h2 = soup.find('h2', text='License')
     license_h2.find_next('p').decompose()
     license_h2.decompose()
-
-with open(os.path.join(DEST_PATH, 'README.html'), 'w') as output_file:
-    output_file.write(str(soup).strip())
+    with open(os.path.join(dest, 'README.html'), 'w') as output_file:
+        output_file.write(str(soup).strip())
