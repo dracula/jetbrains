@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.7.1
+
+- Optimize Swift/OC color scheme
+
 ### 1.7.0
 
 - Fix IDE 2020.2 compatibility issue
