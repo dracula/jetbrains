@@ -20,6 +20,10 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 - Font Recommendation: [Cascadia Code](https://github.com/microsoft/cascadia-code).
 - For Legacy JetBrains IDEs(**2018 or earlier**): [Legacy Theme](https://github.com/dracula/jetbrains-legacy).
 
+## Dracula PRO
+
+Meet the premium version with tons of goodies. [Take me there](https://gumroad.com/a/477820019).
+
 ## Contribution
 
 If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md).
