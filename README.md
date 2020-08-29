@@ -17,7 +17,7 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 ## Dracula PRO
 
-Meet the premium version with tons of goodies. [Take me there](https://gumroad.com/a/477820019).
+Meet the premium version with tons of goodies and be more productive. [Get it now](https://gumroad.com/a/477820019).
 
 ## Contribution
 
