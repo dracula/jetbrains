@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.8.0
+
+- Try to make the color scheme conform to the [Dracula Syntax Highlighting Specification](https://spec.draculatheme.com/)
+
 ### 1.7.2
 
 - Fix some error color schemes
