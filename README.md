@@ -31,6 +31,16 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 |---
 |[VermouthX](https://github.com/WhiteVermouth)
 
+## Sponsors
+
+The JetBrains Dracula Theme is sponsored by [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner).
+
+[![Try CodeStream](https://alt-images.codestream.com/codestream_logo_jbdracula.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
+
+Create and merge PRSs and perform code reviews from inside your IDE.  Discuss any code, even a work-in-progress that hasn't been committed yet, and use jump-to-definition, your favorite keybindings, and other IDE tools.
+
+[Try it free](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
+
 ## License
 
 [MIT License](./LICENSE)
