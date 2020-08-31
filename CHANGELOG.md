@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.7.2
+
+- Fix some error color schemes
+
 ### 1.7.1
 
 - Optimize Swift/OC color scheme
