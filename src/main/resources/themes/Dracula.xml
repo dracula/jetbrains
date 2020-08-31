@@ -319,14 +319,10 @@
       </value>
     </option>
     <option name="DEFAULT_BRACES">
-      <value>
-        <option name="FOREGROUND" value="737fff" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="36ffac" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
@@ -465,9 +461,7 @@
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="fff906" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
@@ -1191,7 +1185,7 @@
     </option>
     <option name="OC.PROPERTY">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="f8f8f2" />
       </value>
     </option>
     <option name="OC.PROTOCOL_REFERENCE">
@@ -1201,7 +1195,7 @@
     </option>
     <option name="OC.STRUCT_FIELD">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="f8f8f2" />
       </value>
     </option>
     <option name="OC.STRUCT_LIKE">
