@@ -19,6 +19,16 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 Meet the premium version with tons of goodies and be more productive. [Get it now](https://gumroad.com/a/477820019).
 
+## Sponsors
+
+The JetBrains Dracula Theme is sponsored by [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner).
+
+[![Try CodeStream](https://alt-images.codestream.com/codestream_logo_jbdracula.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
+
+Create and merge PRSs and perform code reviews from inside your IDE.  Discuss any code, even a work-in-progress that hasn't been committed yet, and use jump-to-definition, your favorite keybindings, and other IDE tools.
+
+[Try it free](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
+
 ## Contribution
 
 If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md).
@@ -30,16 +40,6 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 |[![VermouthX](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth)
 |---
 |[VermouthX](https://github.com/WhiteVermouth)
-
-## Sponsors
-
-The JetBrains Dracula Theme is sponsored by [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner).
-
-[![Try CodeStream](https://alt-images.codestream.com/codestream_logo_jbdracula.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
-
-Create and merge PRSs and perform code reviews from inside your IDE.  Discuss any code, even a work-in-progress that hasn't been committed yet, and use jump-to-definition, your favorite keybindings, and other IDE tools.
-
-[Try it free](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
 
 ## License
 
