@@ -375,9 +375,7 @@
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="ffb86c" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
@@ -386,7 +384,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="ffb86c" />
+        <option name="FOREGROUND" value="50fa7b" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -467,7 +465,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FOREGROUND" value="50fa7b" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1584,9 +1582,6 @@
       <value>
         <option name="FOREGROUND" value="bd93f9" />
       </value>
-    </option>
-    <option name="RUBY_OPERATION_SIGN">
-      <value />
     </option>
     <option name="RUBY_PARAMDEF_CALL">
       <value>
