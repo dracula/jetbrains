@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.8.1
+
+- Add a new appearance and color scheme: Dracula Colorful
+
 ### 1.8.0
 
 - Try to make the color scheme conform to the [Dracula Syntax Highlighting Specification](https://spec.draculatheme.com/)
