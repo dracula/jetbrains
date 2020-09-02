@@ -2,7 +2,7 @@
   "name": "Dracula",
   "dark": true,
   "author": "VermouthX",
-  "editorScheme": "/themes/Dracula.xml",
+  "editorScheme": "/themes/dracula.xml",
   "ui": {
     "*": {
       "arc": "5",
