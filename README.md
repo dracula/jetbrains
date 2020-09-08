@@ -25,7 +25,7 @@ The JetBrains Dracula Theme is sponsored by [CodeStream](https://sponsorlink.cod
 
 [![Try CodeStream](https://alt-images.codestream.com/codestream_logo_jbdracula.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
 
-Create and merge PRSs and perform code reviews from inside your IDE.  Discuss any code, even a work-in-progress that hasn't been committed yet, and use jump-to-definition, your favorite keybindings, and other IDE tools.
+Create and merge PRs and perform code reviews from inside your IDE.  Discuss any code, even a work-in-progress that hasn't been committed yet, and use jump-to-definition, your favorite keybindings, and other IDE tools.
 
 [Try it free](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
 
