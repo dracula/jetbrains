@@ -30,6 +30,10 @@ def build_readme(src: str, dest: str):
     for p in team_h2.find_all_next('p', limit=2):
         p.decompose()
     team_h2.decompose()
+    # Replace Dracula Pro screenshot URL
+    dracula_pro_h2 = soup.find('h2', text="Dracula PRO")
+    dracula_pro_img_link = dracula_pro_h2.find_next('p').find('a').find('img')
+    dracula_pro_img_link['src'] = 'https://github.com/dracula/jetbrains/blob/master/docs/screenshots/dracula-pro.png'
     # Replace Contribution Guide URL
     contribution_h2 = soup.find('h2', text="Contribution")
     contribution_guide_link = contribution_h2.find_next('p').find('a')

@@ -17,7 +17,15 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 ## Dracula PRO
 
-Meet the premium version with tons of goodies and be more productive. [Get it now](https://gumroad.com/a/477820019).
+[![Dracula Pro](./docs/screenshots/dracula-pro.png)](https://gumroad.com/a/477820019)
+
+Dracula PRO is a color scheme and UI theme tailored for programming.
+
+Made for terminal emulators, code editors, and syntax highlighters.
+
+Designed to be aesthetically pleasing while keeping you focused.
+
+[Become a Vampire](https://gumroad.com/a/477820019).
 
 ## Sponsors
 
