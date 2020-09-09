@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.8.2
+
+- Dracula Colorful
+    - Enhanced file status colors
+
 ### 1.8.1
 
 - Add a new appearance and color scheme: Dracula Colorful
