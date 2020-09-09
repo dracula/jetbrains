@@ -33,7 +33,8 @@ def build_readme(src: str, dest: str):
     # Replace Dracula Pro screenshot URL
     dracula_pro_h2 = soup.find('h2', text="Dracula PRO")
     dracula_pro_img_link = dracula_pro_h2.find_next('p').find('a').find('img')
-    dracula_pro_img_link['src'] = 'https://github.com/dracula/jetbrains/blob/master/docs/screenshots/dracula-pro.png'
+    dracula_pro_img_link['src'] = \
+        'https://raw.githubusercontent.com/dracula/jetbrains/master/docs/screenshots/dracula-pro.png'
     # Replace Contribution Guide URL
     contribution_h2 = soup.find('h2', text="Contribution")
     contribution_guide_link = contribution_h2.find_next('p').find('a')
