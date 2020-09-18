@@ -334,7 +334,7 @@
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -379,7 +379,7 @@
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
@@ -479,13 +479,13 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -1846,6 +1846,5 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="PY.LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
   </attributes>
 </scheme>
