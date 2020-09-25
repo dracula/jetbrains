@@ -17,7 +17,7 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 ## Dracula PRO
 
-[![Dracula Pro](./docs/screenshots/dracula-pro.png)](https://gumroad.com/a/477820019)
+[![Dracula Pro](dracula-pro.png)](https://gumroad.com/a/477820019)
 
 Dracula PRO is a color scheme and UI theme tailored for programming.
 
@@ -45,9 +45,9 @@ If you'd like to contribute to this theme, please read the [Contributing Guide](
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/jetbrains/graphs/contributors).
 
-|[![VermouthX](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth)
+|[![Zihan Ma](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth)
 |---
-|[VermouthX](https://github.com/WhiteVermouth)
+|[Zihan Ma](https://github.com/WhiteVermouth)
 
 ## License
 
