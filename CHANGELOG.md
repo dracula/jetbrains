@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.3
+
+- Fix 2020.3 compatibility issue
+- Dracula
+    - Use raw comment color
+
 ### 1.8.2
 
 - Dracula Colorful

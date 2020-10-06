@@ -7,7 +7,7 @@ repositories {
 }
 
 group = "com.vermouthx"
-version = "1.8.2"
+version = "1.8.3"
 
 intellij {
     version = "2020.1"
@@ -15,8 +15,8 @@ intellij {
 
 tasks {
     patchPluginXml {
-        sinceBuild("193")
-        untilBuild("202.*")
+        sinceBuild("201")
+        untilBuild("203.*")
 
         val changelogFile = file("${project.buildDir}/CHANGELOG.html")
         val readmeFile = file("${project.buildDir}/README.html")
