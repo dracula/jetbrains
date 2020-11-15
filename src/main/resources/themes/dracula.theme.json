@@ -1,7 +1,7 @@
 {
   "name": "Dracula",
   "dark": true,
-  "author": "VermouthX",
+  "author": "Zihan Ma",
   "editorScheme": "/themes/dracula.xml",
   "ui": {
     "*": {
