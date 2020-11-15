@@ -5,7 +5,7 @@
   "editorScheme": "/themes/dracula.xml",
   "ui": {
     "*": {
-      "arc": "5",
+      "arc": "7",
       "background": "#414450",
       "selectionBackground": "#6272a4",
       "selectionInactiveBackground": "#4e5a82",
