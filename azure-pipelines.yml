@@ -34,7 +34,7 @@ steps:
   - task: Gradle@2
     inputs:
       jdkVersionOption: '1.8'
-      tasks: 'build'
+      tasks: 'buildPlugin'
     displayName: 'Build plugin'
 
   - task: GitHubRelease@0
