@@ -33,7 +33,7 @@ steps:
 
   - task: Gradle@2
     inputs:
-      jdkVersionOption: '1.11'
+      jdkVersionOption: '1.8'
       tasks: 'build'
     displayName: 'Build plugin'
 
@@ -43,7 +43,7 @@ steps:
       gitHubConnection: 'GitHub Release'
       repositoryName: '$(Build.Repository.Name)'
       action: 'create'
-      assets: 'build/libs/*.jar'
+      assets: 'build/distributions/*.zip'
       assetUploadMode: 'delete'
       tagSource: 'auto'
       target: '$(Build.SourceVersion)'

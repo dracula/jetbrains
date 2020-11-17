@@ -1,21 +1,42 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
+    java
+    kotlin("jvm") version "1.4.10"
     id("org.jetbrains.intellij") version "0.4.22"
+    id("org.kordamp.gradle.markdown") version "2.2.0"
+}
+
+group = "com.draculatheme"
+version = "1.9.0"
+
+tasks.withType<JavaCompile> {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+}
+
+listOf("compileKotlin", "compileTestKotlin").forEach {
+    tasks.getByName<KotlinCompile>(it) {
+        kotlinOptions.jvmTarget = "1.8"
+    }
 }
 
 repositories {
     mavenCentral()
 }
 
-group = "com.vermouthx"
-version = "1.8.3"
+dependencies {
+    implementation(kotlin("stdlib-jdk8"))
+}
 
 intellij {
-    version = "2020.1"
+    version = "2020.2"
+    type = "IC"
 }
 
 tasks {
     patchPluginXml {
-        sinceBuild("201")
+        sinceBuild("202")
         untilBuild("203.*")
 
         val changelogFile = file("${project.buildDir}/CHANGELOG.html")
@@ -28,7 +49,6 @@ tasks {
         }
     }
     publishPlugin {
-        username(System.getProperty("jetbrains.username"))
         token(System.getProperty("jetbrains.token"))
     }
 }

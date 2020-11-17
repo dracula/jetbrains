@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.9.0
+
+- Enhanced color schemes
+- Enhanced file status colors
+
 ### 1.8.3
 
 - Fix 2020.3 compatibility issue
