@@ -9,7 +9,7 @@ import com.intellij.openapi.components.service
 class DraculaSettings : PersistentStateComponent<DraculaState> {
     companion object {
         val instance: DraculaSettings
-            get() = service()
+            get() = service<DraculaSettings>()
     }
 
     private var myState = DraculaState()
