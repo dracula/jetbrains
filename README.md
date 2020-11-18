@@ -35,6 +35,10 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 [Learn more](https://sponsorlink.codestream.com/?utm_source=jbmarket&amp;utm_campaign=jbdracula&amp;utm_medium=banner)
 
+## Credit
+
+The Dracula Theme plugin icon is designed by [Icojam](https://www.iconfinder.com/Icojam).
+
 ## Contribution
 
 If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md).
