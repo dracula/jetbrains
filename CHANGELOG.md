@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.9.1
+
+- Adopt a new plugin icon
+
 ### 1.9.0
 
 - Enhanced color schemes
