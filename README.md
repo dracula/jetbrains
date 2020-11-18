@@ -37,7 +37,7 @@ Eliminate context switching and costly distractions. Create and merge PRs and pe
 
 ## Credit
 
-The Dracula Theme plugin icon is designed by [Icojam](https://www.iconfinder.com/Icojam).
+The Dracula Theme plugin icon is designed by [Icojam](https://www.icojam.com/).
 
 ## Contribution
 
