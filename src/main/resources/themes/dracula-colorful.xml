@@ -1270,21 +1270,9 @@
         <option name="FOREGROUND" value="ffb86c" />
       </value>
     </option>
-    <option name="PY.FSTRING_FRAGMENT_TYPE_CONVERSION">
-      <value>
-        <option name="FOREGROUND" value="ffb86c" />
-      </value>
-    </option>
     <option name="PY.FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
-      </value>
-    </option>
-    <option name="PY.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="50fa7b" />
-        <option name="EFFECT_COLOR" value="ff5555" />
-        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.KEYWORD">
@@ -1292,7 +1280,11 @@
         <option name="FOREGROUND" value="ff79c6" />
       </value>
     </option>
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+      </value>
+    </option>
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="98afff" />
@@ -1328,7 +1320,11 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="bd93f9" />
+      </value>
+    </option>
     <option name="PY.STRING.B">
       <value>
         <option name="FOREGROUND" value="f1fa8c" />
@@ -1337,11 +1333,6 @@
     <option name="PY.STRING.U">
       <value>
         <option name="FOREGROUND" value="f1fa8c" />
-      </value>
-    </option>
-    <option name="PY.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="ffb86c" />
       </value>
     </option>
     <option name="QL_ATTRIBUTE">
@@ -1829,6 +1820,8 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="PY.FSTRING_FRAGMENT_TYPE_CONVERSION" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="PY.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+    <option name="PY.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
   </attributes>
 </scheme>
