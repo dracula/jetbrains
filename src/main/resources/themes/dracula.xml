@@ -31,6 +31,7 @@
     <option name="GUTTER_BACKGROUND" value="3f4152" />
     <option name="INDENT_GUIDE" value="6b7090" />
     <option name="LINE_NUMBERS_COLOR" value="666879" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff79c6" />
     <option name="MODIFIED_LINES_COLOR" value="8be9fd" />
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
     <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
@@ -547,6 +548,13 @@
         <option name="BACKGROUND" value="242632" />
       </value>
     </option>
+    <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff79c6" />
+        <option name="EFFECT_COLOR" value="ff79c6" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="GO_BAD_TOKEN">
       <value>
         <option name="EFFECT_COLOR" value="ff0000" />
@@ -826,6 +834,13 @@
     <option name="HTTP_REQUEST_MESSAGE_BODY">
       <value>
         <option name="FOREGROUND" value="ffb86c" />
+      </value>
+    </option>
+    <option name="HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff79c6" />
+        <option name="EFFECT_COLOR" value="ff79c6" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -1632,7 +1647,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="79cbdc" />
+        <option name="FOREGROUND" value="6272a4" />
         <option name="ERROR_STRIPE_COLOR" value="977ab" />
       </value>
     </option>
@@ -1784,8 +1799,12 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="PY.FSTRING_FRAGMENT_TYPE_CONVERSION" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="PY.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
-    <option name="PY.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="CTRL_CLICKABLE">
+      <value>
+        <option name="FOREGROUND" value="8be9fd" />
+        <option name="EFFECT_COLOR" value="8be9fd" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
   </attributes>
 </scheme>
