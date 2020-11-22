@@ -148,7 +148,7 @@
       "failedEndColor": "#ff5554",
       "trackColor": "#6272a4",
       "progressColor": "#ff79c6",
-      "indeterminateStartColor": "#bd93f9",
+      "indeterminateStartColor": "#93b8f9",
       "indeterminateEndColor": "#bd93f9",
       "passedColor": "#50fa7b",
       "passedEndColor": "#50fa7b"
@@ -157,6 +157,14 @@
       "Header": {
         "activeBackground": "#44475a",
         "inactiveBackground": "#44475a"
+      }
+    },
+    "ScrollBar": {
+      "Mac": {
+        "hoverThumbColor": "#bd93f9",
+        "Transparent": {
+          "hoverThumbColor": "#bd93f9"
+        }
       }
     },
     "SearchEverywhere": {
