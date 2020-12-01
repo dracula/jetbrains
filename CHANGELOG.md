@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.2
+
+- Enhanced Python color scheme
+- Enhanced General color scheme
+- Enhanced Progress Bar
+
 ### 1.9.1
 
 - Adopt a new plugin icon

@@ -21,7 +21,7 @@ def build_readme(src: str, dest: str):
     # Set image widths
     img = soup.find('h2', text='Screenshots').find_next('p').find('img')
     img['src'] = 'https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png'
-    img['width'] = '700'
+    img['width'] = '600'
     # Add margin above images
     for img in soup.find_all('img'):
         img.insert_before(soup.new_tag('br'))

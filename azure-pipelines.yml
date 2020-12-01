@@ -33,6 +33,7 @@ steps:
 
   - task: Gradle@2
     inputs:
+      gradleWrapperFile: 'gradlew'
       jdkVersionOption: '1.8'
       tasks: 'buildPlugin'
     displayName: 'Build plugin'
@@ -52,6 +53,7 @@ steps:
   - task: Gradle@2
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
+      gradleWrapperFile: 'gradlew'
       jdkVersionOption: '1.8'
       options: '-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)'
       tasks: 'publishPlugin'
