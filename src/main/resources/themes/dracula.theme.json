@@ -81,7 +81,7 @@
       "background": "#44475a",
       "underlinedTabBackground": "#313341",
       "underlineColor": "#bd93f9",
-      "underlineHeight": 1
+      "underlineHeight": 2
     },
     "FileColor": {
       "Blue": "#8be9fd",
@@ -125,6 +125,7 @@
       "SectionHeader": {
         "foreground": "#f8f8f2"
       },
+      "hoverBackground": "#282a35",
       "lightSelectionBackground": "#282a35",
       "Button": {
         "installBorderColor": "#bd93f9",
@@ -180,13 +181,22 @@
       "startBackground": "#ff79c6",
       "endBackground": "#ff79c6"
     },
-    "Separator.separatorColor": "#282a35",
+    "Separator": {
+      "separatorColor": "#282a35"
+    },
+    "StatusBar": {
+      "hoverBackground": "#282a35"
+    },
     "TabbedPane": {
       "tabSelectionHeight": 1,
       "focusColor": "#282a35",
       "hoverColor": "#282a35",
       "underlineColor": "#bd93f9",
       "contentAreaColor": "#282a35"
+    },
+    "Table": {
+      "gridColor": "#5d617a",
+      "hoverBackground": "#6272a4"
     },
     "ToggleButton": {
       "onBackground": "#50fa7b",
@@ -236,6 +246,7 @@
       },
       "Log": {
         "Commit": {
+          "hoveredBackground": "#6272a4",
           "currentBranchBackground": "#44475a"
         }
       }
