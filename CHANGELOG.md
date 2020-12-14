@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.9.4
+
+- Make TODO comment distinguishable
+
 ### 1.9.3
 
 - Refine Table UI color
