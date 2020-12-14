@@ -1690,8 +1690,8 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="98afff" />
-        <option name="ERROR_STRIPE_COLOR" value="977ab" />
+        <option name="FOREGROUND" value="e998ff" />
+        <option name="ERROR_STRIPE_COLOR" value="ff5555" />
       </value>
     </option>
     <option name="TS.GLOBAL_VARIABLE">
