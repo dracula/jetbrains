@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.3
+
+- Refine Table UI color
+- Fix Plugins UI hover selection color
+- Fix Commit UI hover selection color
+
 ### 1.9.2
 
 - Enhanced Python color scheme

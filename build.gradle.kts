@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.draculatheme"
-version = "1.9.2"
+version = "1.9.3"
 
 tasks.withType<JavaCompile> {
     sourceCompatibility = "1.8"
@@ -27,6 +27,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.javassist:javassist:3.27.0-GA")
 }
 
 intellij {
