@@ -4,11 +4,10 @@ plugins {
     java
     kotlin("jvm") version "1.4.10"
     id("org.jetbrains.intellij") version "0.4.22"
-    id("org.kordamp.gradle.markdown") version "2.2.0"
 }
 
 group = "com.draculatheme"
-version = "1.9.4"
+version = "1.9.5"
 
 tasks.withType<JavaCompile> {
     sourceCompatibility = "1.8"

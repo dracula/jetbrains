@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.9.5
+
+- Enhanced scrollbar symbol colors. [See Issue #33](https://github.com/dracula/jetbrains/issues/33)
+- Enhanced other colors inside General scheme.
+
 ### 1.9.4
 
 - Make TODO comment distinguishable

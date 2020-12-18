@@ -7,7 +7,7 @@ import com.intellij.openapi.project.DumbAware
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.StartupActivity
 
-class DraculaUpdateActivity : StartupActivity, DumbAware {
+class DraculaStartupActivity : StartupActivity, DumbAware {
     override fun runActivity(project: Project) {
         val settings = DraculaSettings.instance
         val updated = DraculaMeta.currentVersion != settings.version
