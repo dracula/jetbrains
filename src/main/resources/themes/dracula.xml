@@ -875,8 +875,8 @@
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff5555" />
-        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="FOREGROUND" value="bd93f9" />
+        <option name="EFFECT_COLOR" value="bd93f9" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
