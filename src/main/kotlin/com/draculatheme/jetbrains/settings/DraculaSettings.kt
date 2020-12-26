@@ -9,7 +9,7 @@ import com.intellij.openapi.components.service
 class DraculaSettings : PersistentStateComponent<DraculaState> {
     companion object {
         val instance: DraculaSettings
-            get() = service<DraculaSettings>()
+            get() = service()
     }
 
     private var myState = DraculaState()
@@ -20,7 +20,7 @@ class DraculaSettings : PersistentStateComponent<DraculaState> {
             myState.version = value
         }
 
-    override fun getState(): DraculaState? {
+    override fun getState(): DraculaState {
         return myState
     }
 
