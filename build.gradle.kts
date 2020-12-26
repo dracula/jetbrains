@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.draculatheme"
-version = "1.9.5"
+version = "1.9.6"
 
 tasks.withType<JavaCompile> {
     sourceCompatibility = "1.8"

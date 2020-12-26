@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.9.6
+
+- Regressed in code inactive hyperlink color
+
 ### 1.9.5
 
 - Enhanced scrollbar symbol colors. [See Issue #33](https://github.com/dracula/jetbrains/issues/33)
