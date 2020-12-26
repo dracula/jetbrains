@@ -2,23 +2,12 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     java
-    kotlin("jvm") version "1.4.10"
-    id("org.jetbrains.intellij") version "0.4.22"
+    kotlin("jvm") version "1.4.21"
+    id("org.jetbrains.intellij") version "0.6.5"
 }
 
 group = "com.draculatheme"
 version = "1.9.6"
-
-tasks.withType<JavaCompile> {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
-}
-
-listOf("compileKotlin", "compileTestKotlin").forEach {
-    tasks.getByName<KotlinCompile>(it) {
-        kotlinOptions.jvmTarget = "1.8"
-    }
-}
 
 repositories {
     mavenCentral()
@@ -26,18 +15,28 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("org.javassist:javassist:3.27.0-GA")
 }
 
 intellij {
-    version = "2020.2"
+    version = "LATEST-EAP-SNAPSHOT"
     type = "IC"
 }
 
+tasks.withType<JavaCompile> {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+}
+
+tasks.withType<KotlinCompile> {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
 tasks {
+    buildSearchableOptions {
+        enabled = false
+    }
     patchPluginXml {
-        sinceBuild("202")
-        untilBuild("203.*")
+        sinceBuild("203.3645.34")
 
         val changelogFile = file("${project.buildDir}/CHANGELOG.html")
         val readmeFile = file("${project.buildDir}/README.html")

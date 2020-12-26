@@ -1,8 +1,7 @@
 package com.draculatheme.jetbrains.notifications
 
 import com.draculatheme.jetbrains.DraculaMeta
-import com.intellij.notification.NotificationDisplayType
-import com.intellij.notification.NotificationGroup
+import com.intellij.notification.NotificationGroupManager
 import com.intellij.notification.NotificationListener
 import com.intellij.notification.NotificationType
 import com.intellij.openapi.project.Project
@@ -22,19 +21,14 @@ object DraculaNotifications {
     @JvmField
     val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
-    private val notificationGroup = NotificationGroup(
-        displayId = "Dracula Theme",
-        displayType = NotificationDisplayType.STICKY_BALLOON,
-        isLogByDefault = true
-    )
-
     fun notifyReleaseNote(project: Project) {
-        notificationGroup.createNotification(
-            title = "Dracula Theme updated to ${DraculaMeta.currentVersion}",
-            content = releaseNote,
-            type = NotificationType.INFORMATION,
-            listener = NotificationListener.URL_OPENING_LISTENER
-        )
+        NotificationGroupManager.getInstance().getNotificationGroup("dracula-theme")
+            .createNotification(
+                title = "Dracula Theme updated to v${DraculaMeta.currentVersion}",
+                content = releaseNote,
+                type = NotificationType.INFORMATION,
+                listener = NotificationListener.URL_OPENING_LISTENER
+            )
             .setIcon(notificationIcon)
             .notify(project)
     }
