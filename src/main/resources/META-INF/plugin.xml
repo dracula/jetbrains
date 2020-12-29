@@ -8,7 +8,7 @@
         <applicationService serviceImplementation="com.draculatheme.jetbrains.settings.DraculaSettings"/>
         <postStartupActivity implementation="com.draculatheme.jetbrains.activities.DraculaStartupActivity"/>
         <notificationGroup displayType="STICKY_BALLOON" id="dracula-theme" isLogByDefault="true"/>
-        <themeProvider id="371dce76-a3c5-4429-91af-41cf86094744" path="/themes/dracula.theme.json"/>
-        <themeProvider id="ee2824b3-c1d9-44fa-8b64-de6fe5dd8e37" path="/themes/dracula-colorful.theme.json"/>
+        <themeProvider id="371dce76-a3c5-4429-91af-41cf86094744" path="/themes/Dracula.theme.json"/>
+        <themeProvider id="ee2824b3-c1d9-44fa-8b64-de6fe5dd8e37" path="/themes/DraculaColorful.theme.json"/>
     </extensions>
 </idea-plugin>

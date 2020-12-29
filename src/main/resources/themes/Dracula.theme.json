@@ -1,8 +1,8 @@
 {
-  "name": "Dracula Colorful",
+  "name": "Dracula",
   "dark": true,
   "author": "Zihan Ma",
-  "editorScheme": "/themes/dracula-colorful.xml",
+  "editorScheme": "/themes/Dracula.xml",
   "ui": {
     "*": {
       "arc": "7",
@@ -256,7 +256,10 @@
       "Projects": {
         "background": "#282a35",
         "selectionBackground": "#44475a",
-        "selectionInactiveBackground": "#44475a"
+        "selectionInactiveBackground": "#44475a",
+        "actions": {
+          "background": "#282a35"
+        }
       }
     }
   },
