@@ -1,8 +1,10 @@
 # Changelog
 
-### 1.9.7 (unreleased)
+### 1.10.0
 
-- Enhanced welcome window projects action buttons
+- Enhanced UI details of:
+    - SidePanel
+    - Welcome window
 
 ### 1.9.6
 

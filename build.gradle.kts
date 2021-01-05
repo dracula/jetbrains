@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.draculatheme"
-version = "1.9.7"
+version = "1.10.0"
 
 repositories {
     mavenCentral()
