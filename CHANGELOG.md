@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.9.7 (unreleased)
+
+- Enhanced welcome window projects action buttons
+
 ### 1.9.6
 
 - Regressed in code inactive hyperlink color
@@ -51,7 +55,8 @@
 
 ### 1.8.0
 
-- Try to make the color scheme conform to the [Dracula Syntax Highlighting Specification](https://spec.draculatheme.com/)
+- Try to make the color scheme conform to
+  the [Dracula Syntax Highlighting Specification](https://spec.draculatheme.com/)
 
 ### 1.7.2
 
@@ -103,7 +108,7 @@
 
 ### 1.5.0
 
-- Support 2019.3 IDEs 
+- Support 2019.3 IDEs
 - Refine some Color Schemes
 - Fix color losing in some languages
 

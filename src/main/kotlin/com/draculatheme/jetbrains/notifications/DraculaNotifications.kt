@@ -11,10 +11,10 @@ object DraculaNotifications {
     private val releaseNote = """
         What's New?<br>
         <ul>
-            <li>Regressed in code inactive hyperlink color</li>
+            <li>Enhanced welcome window projects action buttons</li>
         </ul>
         Please visit the <a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> for more details.<br>
-        For premium package, please explore <a href="https://gumroad.com/a/477820019">Dracula PRO</a>.<br>
+        For premium package, check out <a href="https://gumroad.com/a/477820019">Dracula PRO</a>.<br>
         Thank you for choosing Dracula.
     """.trimIndent()
 
