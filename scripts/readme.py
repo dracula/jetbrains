@@ -14,6 +14,7 @@ def build_readme(src: str, dest: str):
     new_title = soup.new_tag('p')
     new_title.string = 'A Dark Theme for JetBrains IDEs'
     soup.find('h1').replace_with(new_title)
+    new_title.append(soup.new_tag('br'))
     # Remove badges
     blockquote_h2 = soup.find('blockquote')
     blockquote_h2.find_next_sibling('p').decompose()
