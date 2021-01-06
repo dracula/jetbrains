@@ -7,10 +7,11 @@
     "primaryForeground": "#f8f8f2",
     "primaryBackground": "#414450",
     "secondaryBackground": "#44475a",
-    "hoverBackground": "#282a35",
+    "hoverBackground": "#282a36",
     "selectionBackground": "#6272a4",
     "selectionInactiveBackground": "#4e5a82",
-    "border": "#282a36"
+    "borderColor": "#282a36",
+    "separatorColor": "#282a36"
   },
   "ui": {
     "*": {
@@ -19,11 +20,12 @@
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "primaryBackground",
-      "borderColor": "border"
+      "borderColor": "borderColor",
+      "separatorColor": "separatorColor"
     },
     "Borders": {
-      "color": "border",
-      "ContrastBorderColor": "border"
+      "color": "borderColor",
+      "ContrastBorderColor": "borderColor"
     },
     "ActionButton": {
       "hoverBackground": "hoverBackground",
@@ -191,7 +193,7 @@
       "endBackground": "#ff79c6"
     },
     "Separator": {
-      "separatorColor": "hoverBackground"
+      "separatorColor": "separatorColor"
     },
     "SidePanel": {
       "background": "secondaryBackground"
@@ -209,6 +211,9 @@
     "Table": {
       "gridColor": "#5d617a",
       "hoverBackground": "selectionBackground"
+    },
+    "TableHeader": {
+      "bottomSeparatorColor": "separatorColor"
     },
     "ToggleButton": {
       "onBackground": "#50fa7b",
@@ -267,7 +272,7 @@
       "SidePanel": {
         "background": "secondaryBackground"
       },
-      "separatorColor": "#191b1f",
+      "separatorColor": "separatorColor",
       "Projects": {
         "background": "hoverBackground",
         "selectionBackground": "secondaryBackground",
