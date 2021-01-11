@@ -1,5 +1,16 @@
 # Changelog
 
+### 1.10.1
+
+- Enhanced a bunch of UI components:
+    - Button
+    - ToolWindow Bar
+    - Editor Bar
+    - SidePanel
+    - Checkbox
+    - ComboBox
+    - Separator
+
 ### 1.10.0
 
 - Enhanced UI details of:

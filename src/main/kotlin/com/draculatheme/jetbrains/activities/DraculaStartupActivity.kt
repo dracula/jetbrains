@@ -10,8 +10,12 @@ import com.intellij.openapi.startup.StartupActivity
 class DraculaStartupActivity : StartupActivity, DumbAware {
     override fun runActivity(project: Project) {
         val settings = DraculaSettings.instance
-        val updated = DraculaMeta.currentVersion != settings.version
-        if (updated) {
+        if (settings.version.isEmpty()) {
+            settings.version = DraculaMeta.currentVersion
+            DraculaNotifications.notifyFirstlyDownloaded(project)
+            return
+        }
+        if (DraculaMeta.currentVersion != settings.version) {
             settings.version = DraculaMeta.currentVersion
             DraculaNotifications.notifyReleaseNote(project)
         }
