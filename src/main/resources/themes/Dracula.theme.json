@@ -312,6 +312,7 @@
       "Objects.Yellow": "#f1fa8c",
       "Objects.YellowDark": "#f1fa8c",
       "Objects.BlackText": "#282a35",
+      "Checkbox.Foreground.Selected.Dark": "#f8f8f2",
       "Checkbox.Border.Default.Dark": "#bd93f9",
       "Checkbox.Border.Selected.Dark": "#bd93f9",
       "Checkbox.Border.Disabled.Dark": "#6272a4",
