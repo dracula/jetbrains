@@ -2,7 +2,7 @@
 
 ### 1.10.2
 
-- Regressed combobox foreground
+- Regressed checkbox foreground
 - Pick a lighter color for separator
 
 ### 1.10.1

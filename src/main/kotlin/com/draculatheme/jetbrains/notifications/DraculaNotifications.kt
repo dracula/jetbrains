@@ -13,7 +13,7 @@ object DraculaNotifications {
     private val releaseNote = """
         What's New?<br>
         <ul>
-            <li>Regressed combobox foreground</li>
+            <li>Regressed checkbox foreground</li>
             <li>Pick a lighter color for separator</li>
         </ul>
         Please visit the <a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> for more details.<br>
