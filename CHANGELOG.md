@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.10.2
+
+- Regressed combobox foreground
+- Pick a lighter color for separator
+
 ### 1.10.1
 
 - Enhanced a bunch of UI components:
