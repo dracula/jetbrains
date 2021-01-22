@@ -4,6 +4,8 @@
   "author": "Zihan Ma",
   "editorScheme": "/themes/Dracula.xml",
   "colors": {
+    "accentColor": "#ff79c6",
+    "secondaryAccentColor": "#bd93f9",
     "primaryForeground": "#f8f8f2",
     "primaryBackground": "#414450",
     "secondaryBackground": "#3a3d4c",
@@ -40,16 +42,16 @@
       "endBorderColor": "selectionBackground",
       "startBackground": "#4f566d",
       "endBackground": "#4f566d",
-      "focusedBorderColor": "#bd93f9",
+      "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "#4f566d",
       "default": {
         "foreground": "primaryForeground",
         "startBackground": "selectionBackground",
         "endBackground": "selectionBackground",
-        "startBorderColor": "#bd93f9",
-        "endBorderColor": "#bd93f9",
-        "focusColor": "#bd93f9",
-        "focusedBorderColor": "#bd93f9"
+        "startBorderColor": "secondaryAccentColor",
+        "endBorderColor": "secondaryAccentColor",
+        "focusColor": "secondaryAccentColor",
+        "focusedBorderColor": "secondaryAccentColor"
       }
     },
     "Counter": {
@@ -57,26 +59,26 @@
       "background": "#2fc864"
     },
     "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "#ff79c6"
+      "acceleratorSelectionForeground": "accentColor"
     },
     "ComboBox": {
-      "modifiedItemForeground": "#ff79c6",
+      "modifiedItemForeground": "accentColor",
       "ArrowButton": {
         "background": "secondaryBackground",
         "nonEditableBackground": "secondaryBackground",
         "disabledIconColor": "#576285",
-        "iconColor": "#bd93f9"
+        "iconColor": "secondaryAccentColor"
       },
-      "selectionBackground": "#bd93f9",
+      "selectionBackground": "secondaryAccentColor",
       "nonEditableBackground": "secondaryBackground"
     },
     "CompletionPopup": {
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "matchForeground": "#ff79c6"
+      "matchForeground": "accentColor"
     },
     "Component": {
-      "focusColor": "#bd93f9",
+      "focusColor": "secondaryAccentColor",
       "borderColor": "selectionBackground",
       "focusedBorderColor": "selectionBackground",
       "disabledBorderColor": "selectionBackground",
@@ -90,12 +92,12 @@
     },
     "Editor": {
       "background": "secondaryBackground",
-      "shortcutForeground": "#ff79c6"
+      "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
       "background": "secondaryBackground",
       "underlinedTabBackground": "#292b38",
-      "underlineColor": "#bd93f9",
+      "underlineColor": "secondaryAccentColor",
       "underlineHeight": 2
     },
     "FileColor": {
@@ -110,10 +112,10 @@
       "errorForeground": "#ff5554"
     },
     "Link": {
-      "activeForeground": "#ff79c6",
-      "hoverForeground": "#ff79c6",
-      "visitedForeground": "#bd93f9",
-      "pressedForeground": "#bd93f9"
+      "activeForeground": "accentColor",
+      "hoverForeground": "accentColor",
+      "visitedForeground": "secondaryAccentColor",
+      "pressedForeground": "secondaryAccentColor"
     },
     "Notification": {
       "borderColor": "selectionBackground",
@@ -145,11 +147,11 @@
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "hoverBackground",
       "Button": {
-        "installBorderColor": "#bd93f9",
-        "installForeground": "#bd93f9",
+        "installBorderColor": "secondaryAccentColor",
+        "installForeground": "secondaryAccentColor",
         "installBackground": "primaryBackground",
         "installFillForeground": "primaryBackground",
-        "installFillBackground": "#bd93f9",
+        "installFillBackground": "secondaryAccentColor",
         "installFocusedBackground": "primaryBackground",
         "updateBorderColor": "#5da3f4",
         "updateForeground": "primaryForeground",
@@ -165,9 +167,9 @@
       "failedColor": "#ff5554",
       "failedEndColor": "#ff5554",
       "trackColor": "selectionBackground",
-      "progressColor": "#ff79c6",
+      "progressColor": "accentColor",
       "indeterminateStartColor": "#93b8f9",
-      "indeterminateEndColor": "#bd93f9",
+      "indeterminateEndColor": "secondaryAccentColor",
       "passedColor": "#50fa7b",
       "passedEndColor": "#50fa7b"
     },
@@ -179,9 +181,9 @@
     },
     "ScrollBar": {
       "Mac": {
-        "hoverThumbColor": "#bd93f9",
+        "hoverThumbColor": "secondaryAccentColor",
         "Transparent": {
-          "hoverThumbColor": "#bd93f9"
+          "hoverThumbColor": "secondaryAccentColor"
         }
       }
     },
@@ -195,8 +197,8 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "#ff79c6",
-      "endBackground": "#ff79c6"
+      "startBackground": "accentColor",
+      "endBackground": "accentColor"
     },
     "Separator": {
       "separatorColor": "separatorColor"
@@ -211,7 +213,7 @@
       "tabSelectionHeight": 1,
       "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
-      "underlineColor": "#bd93f9",
+      "underlineColor": "secondaryAccentColor",
       "contentAreaColor": "hoverBackground"
     },
     "Table": {
@@ -240,14 +242,14 @@
         "inactiveBackground": "secondaryBackground"
       },
       "HeaderTab": {
-        "underlineColor": "#bd93f9",
+        "underlineColor": "secondaryAccentColor",
         "underlineHeight": 2,
         "underlinedTabBackground": "#292b38",
         "underlinedTabInactiveBackground": "#313341"
       }
     },
     "Tree": {
-      "modifiedItemForeground": "#ff79c6",
+      "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground"
     },
@@ -266,8 +268,8 @@
       "GitLog": {
         "headIconColor": "#f1fa8c",
         "localBranchIconColor": "#50fa7b",
-        "remoteBranchIconColor": "#bd93f9",
-        "tagIconColor": "#ff79c6",
+        "remoteBranchIconColor": "secondaryAccentColor",
+        "tagIconColor": "accentColor",
         "otherIconColor": "#8be9fd"
       },
       "Log": {
