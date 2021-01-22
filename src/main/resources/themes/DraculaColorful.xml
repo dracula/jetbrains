@@ -47,6 +47,8 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ffb86c" />
+    <option name="DOCUMENTATION_COLOR" value="3a3d4c" />
+    <option name="INFORMATION_HINT" value="3a3d4c" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
