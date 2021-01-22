@@ -384,6 +384,7 @@
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="ffb86c" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -469,6 +470,7 @@
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -479,6 +481,7 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="b9bcd1" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -926,6 +929,12 @@
       <value>
         <option name="FOREGROUND" value="969696" />
         <option name="BACKGROUND" value="3b3b3b" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="BACKGROUND" value="4d4d4d" />
       </value>
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
@@ -1897,12 +1906,6 @@
     <option name="org.toml.KEY">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
-      <value>
-        <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="4d4d4d" />
       </value>
     </option>
   </attributes>
