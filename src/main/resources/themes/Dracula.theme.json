@@ -19,6 +19,8 @@
     "*": {
       "arc": "7",
       "background": "primaryBackground",
+      "selectionForeground": "primaryForeground",
+      "selectionInactiveForeground": "primaryForeground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "primaryBackground",
@@ -277,6 +279,9 @@
           "hoveredBackground": "selectionBackground",
           "currentBranchBackground": "secondaryBackground"
         }
+      },
+      "RefLabel": {
+        "foreground": "primaryForeground"
       }
     },
     "WelcomeScreen": {
