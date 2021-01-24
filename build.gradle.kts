@@ -36,8 +36,6 @@ tasks {
         enabled = false
     }
     patchPluginXml {
-        sinceBuild("203.3645.34")
-
         val changelogFile = file("${project.buildDir}/CHANGELOG.html")
         val readmeFile = file("${project.buildDir}/README.html")
         if (changelogFile.exists()) {
