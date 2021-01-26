@@ -14,10 +14,9 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Enhanced File background color</li>
-            <li>Revised editor popup background</li>
-            <li>Enhanced Dracula editor caret background and selection background</li>
-            <li>Regressed Italic function parameters and decorators</li>
+            <li>Fixed selection foreground</li>
+            <li>Fixed <em>Dracula</em> text selection background color</li>
+            <li>Enhanced Console ANSI and Log colors</li>
         </ul>
     """.trimIndent()
 

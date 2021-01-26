@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.4
+
+- Fixed ComboBox selection foreground
+- Fixed `Dracula` text selection background color
+- Enhanced Console ANSI and Log colors
+
 ### 1.10.3
 
 - Enhanced File background color. See issue [#36](https://github.com/dracula/jetbrains/issues/36) for more details
