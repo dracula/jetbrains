@@ -9,7 +9,7 @@ import com.intellij.openapi.util.IconLoader
 import org.intellij.lang.annotations.Language
 
 object DraculaNotifications {
-    private const val notificationGroupID: String = "dracula-theme"
+    private const val notificationGroupID: String = "Dracula Theme"
 
     @Language("HTML")
     private val whatsNew = """
