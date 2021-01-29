@@ -3,11 +3,10 @@
     <name>Dracula Theme</name>
     <vendor email="vermouth7dante@gmail.com" url="https://draculatheme.com/">Dracula Official</vendor>
     <depends>com.intellij.modules.lang</depends>
-    <idea-version since-build="203.3645.34"/>
+    <idea-version since-build="201"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.draculatheme.jetbrains.settings.DraculaSettings"/>
         <postStartupActivity implementation="com.draculatheme.jetbrains.activities.DraculaStartupActivity"/>
-        <notificationGroup displayType="STICKY_BALLOON" id="Dracula Theme" isLogByDefault="true"/>
         <themeProvider id="371dce76-a3c5-4429-91af-41cf86094744" path="/themes/Dracula.theme.json"/>
         <themeProvider id="ee2824b3-c1d9-44fa-8b64-de6fe5dd8e37" path="/themes/DraculaColorful.theme.json"/>
     </extensions>
