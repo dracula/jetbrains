@@ -14,9 +14,7 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fixed selection foreground</li>
-            <li>Fixed <em>Dracula</em> text selection background color</li>
-            <li>Enhanced Console ANSI and Log colors</li>
+            <li>Support JetBrains IDE 2021</li>
         </ul>
     """.trimIndent()
 

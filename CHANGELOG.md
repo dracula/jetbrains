@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.10.5
+
+- Support JetBrains IDE 2021
+
 ### 1.10.4
 
 - Fixed ComboBox selection foreground
