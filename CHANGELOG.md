@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.10.6
+
+- Support older JetBrains IDE(2020.1 at least)
+
 ### 1.10.5
 
 - Support JetBrains IDE 2021
