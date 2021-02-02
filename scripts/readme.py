@@ -14,9 +14,9 @@ def build_readme(src: str, dest: str):
     title = soup.find('h1')
     title.find_next_sibling('p').decompose()
     new_title = soup.new_tag('p')
-    new_title.string = 'A Dark Theme for JetBrains IDEs'
+    new_title.string = 'Dracula Theme for JetBrains'
     title.replace_with(new_title)
-    new_title.append(soup.new_tag('br'))
+    new_title.insert_after(soup.new_tag('br'))
     # Remove blockquote
     blockquote_h2 = soup.find('blockquote')
     blockquote_h2.decompose()
@@ -24,9 +24,6 @@ def build_readme(src: str, dest: str):
     img = soup.find('img', alt='Screenshot')
     img['src'] = 'https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png'
     img['width'] = '600'
-    # Add margin above images
-    for img in soup.find_all('img'):
-        img.insert_before(soup.new_tag('br'))
     # Remove team
     team_h2 = soup.find('h2', text="Team")
     for p in team_h2.find_all_next('p', limit=2):
