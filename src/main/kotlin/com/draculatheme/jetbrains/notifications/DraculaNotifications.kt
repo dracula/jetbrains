@@ -11,6 +11,8 @@ import org.intellij.lang.annotations.Language
 
 object DraculaNotifications {
 
+    private val NOTIFICATION_GROUP = NotificationGroup("Dracula Theme", NotificationDisplayType.STICKY_BALLOON, true)
+
     @Language("HTML")
     private val whatsNew = """
         <ul>
@@ -40,9 +42,7 @@ object DraculaNotifications {
     """.trimIndent()
 
     @JvmField
-    val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.png", javaClass)
-
-    private val NOTIFICATION_GROUP = NotificationGroup("Dracula Theme", NotificationDisplayType.STICKY_BALLOON, true)
+    val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
     fun notifyReleaseNote(project: Project) {
         NOTIFICATION_GROUP
