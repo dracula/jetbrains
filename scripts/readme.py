@@ -11,16 +11,17 @@ def build_readme(src: str, dest: str):
         html = markdown.markdown(source.read())
     soup = BeautifulSoup(html, 'html.parser')
     # Reconstruct title
+    title = soup.find('h1')
+    title.find_next_sibling('p').decompose()
     new_title = soup.new_tag('p')
     new_title.string = 'A Dark Theme for JetBrains IDEs'
-    soup.find('h1').replace_with(new_title)
+    title.replace_with(new_title)
     new_title.append(soup.new_tag('br'))
-    # Remove badges
+    # Remove blockquote
     blockquote_h2 = soup.find('blockquote')
-    blockquote_h2.find_next_sibling('p').decompose()
     blockquote_h2.decompose()
     # Set image widths
-    img = soup.find('h2', text='Screenshots').find_next('p').find('img')
+    img = soup.find('img', alt='Screenshot')
     img['src'] = 'https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png'
     img['width'] = '600'
     # Add margin above images
