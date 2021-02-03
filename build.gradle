@@ -1,0 +1,66 @@
+plugins {
+    id "java"
+    id "org.jetbrains.kotlin.jvm" version "1.4.21"
+    id "org.jetbrains.intellij" version "0.6.5"
+}
+
+group = "com.draculatheme"
+version = "1.10.6"
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+compileTestJava {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "11"
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "11"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+}
+
+intellij {
+    version = "LATEST-EAP-SNAPSHOT"
+    type = "IC"
+}
+
+buildSearchableOptions {
+    enabled = false
+}
+
+patchPluginXml {
+    sinceBuild = "201.6668.113"
+    untilBuild = "211.*"
+
+    def changelogFile = file("${project.buildDir}/CHANGELOG.html")
+    def readmeFile = file("${project.buildDir}/README.html")
+
+    if (changelogFile.exists()) {
+        changeNotes changelogFile.text
+    }
+    if (readmeFile.exists()) {
+        pluginDescription readmeFile.text
+    }
+}
+
+runPluginVerifier {
+    ideVersions(["201.8743.12", "202.8194.7", "203.7148.57"])
+}
+
+publishPlugin {
+    token System.getProperty("jetbrains.token")
+}
