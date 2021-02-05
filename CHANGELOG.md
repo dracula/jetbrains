@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.11.0
+
+- Add Logcat console coloration
+- Tine editor scrollbar (macOS only)
+- Pick a lighter color for editor line number
+- Enhance Diff & Merge background colors
+- Support JetBrains 2019 series (2019.2 at least)
+
 ### 1.10.6
 
 - Support older JetBrains IDE(2020.1 at least)

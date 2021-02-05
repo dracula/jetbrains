@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.draculatheme"
-version = "1.10.6"
+version = "1.11.0"
 
 compileJava {
     sourceCompatibility = JavaVersion.VERSION_11

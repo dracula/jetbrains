@@ -16,8 +16,9 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Support EAP JetBrains IDE 2011</li>
-            <li>Support older JetBrains IDE(2020.1 at least)</li>
+            <li>Enhanced console log colors</li>
+            <li>Enhanced editor colors</li>
+            <li>Support JetBrains 2019.2</li>
         </ul>
     """.trimIndent()
 
