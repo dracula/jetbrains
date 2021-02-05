@@ -32,6 +32,7 @@
     <option name="GUTTER_BACKGROUND" value="3f4152" />
     <option name="INDENT_GUIDE" value="6b7090" />
     <option name="INFORMATION_HINT" value="3a3d4c" />
+    <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff79c6" />
     <option name="MODIFIED_LINES_COLOR" value="8be9fd" />
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
@@ -50,7 +51,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ffb86c" />
-    <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -558,13 +558,13 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="a33737" />
+        <option name="BACKGROUND" value="4c273c" />
         <option name="ERROR_STRIPE_COLOR" value="933232" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="4a9da9" />
+        <option name="BACKGROUND" value="344f54" />
         <option name="ERROR_STRIPE_COLOR" value="305e6a" />
       </value>
     </option>
@@ -1961,6 +1961,12 @@
     <option name="org.toml.KEY">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="344535" />
+        <option name="ERROR_STRIPE_COLOR" value="447152" />
       </value>
     </option>
   </attributes>
