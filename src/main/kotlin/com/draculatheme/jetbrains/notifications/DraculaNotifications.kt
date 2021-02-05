@@ -45,27 +45,27 @@ object DraculaNotifications {
     val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
     fun notifyReleaseNote(project: Project) {
-        NOTIFICATION_GROUP
-            .createNotification(
-                title = "Dracula Theme updated to v${DraculaMeta.currentVersion}",
-                content = releaseNote,
-                type = NotificationType.INFORMATION,
-                listener = NotificationListener.URL_OPENING_LISTENER
-            )
-            .setIcon(notificationIcon)
-            .notify(project)
+        val title = "Dracula Theme updated to v${DraculaMeta.currentVersion}"
+        val notification = NOTIFICATION_GROUP.createNotification(
+            title,
+            releaseNote,
+            NotificationType.INFORMATION,
+            NotificationListener.URL_OPENING_LISTENER
+        )
+        notification.icon = notificationIcon
+        notification.notify(project)
     }
 
     fun notifyFirstlyDownloaded(project: Project) {
-        NOTIFICATION_GROUP
-            .createNotification(
-                title = "Dracula Theme v${DraculaMeta.currentVersion} is installed",
-                content = welcomeMessage,
-                type = NotificationType.INFORMATION,
-                listener = NotificationListener.URL_OPENING_LISTENER
-            )
-            .setIcon(notificationIcon)
-            .notify(project)
+        val title = "Dracula Theme v${DraculaMeta.currentVersion} installed"
+        val notification = NOTIFICATION_GROUP.createNotification(
+            title,
+            welcomeMessage,
+            NotificationType.INFORMATION,
+            NotificationListener.URL_OPENING_LISTENER
+        )
+        notification.icon = notificationIcon
+        notification.notify(project)
     }
 
 }

@@ -3,7 +3,7 @@
     <name>Dracula Theme</name>
     <vendor email="vermouth7dante@gmail.com" url="https://draculatheme.com/">Dracula Official</vendor>
     <depends>com.intellij.modules.lang</depends>
-    <idea-version since-build="201.6668.113"/>
+    <idea-version since-build="192.0"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.draculatheme.jetbrains.settings.DraculaSettings"/>
         <postStartupActivity implementation="com.draculatheme.jetbrains.activities.DraculaStartupActivity"/>
