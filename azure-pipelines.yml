@@ -14,7 +14,17 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+variables:
+  GRADLE_USER_HOME: $(Pipeline.Workspace)/.gradle
+
 steps:
+  - task: Cache@2
+    inputs:
+      key: 'gradle | "$(Agent.OS)"'
+      restoreKeys: gradle
+      path: $(GRADLE_USER_HOME)
+    displayName: Gradle build cache
+
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '3.8'
