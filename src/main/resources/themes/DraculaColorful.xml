@@ -562,6 +562,12 @@
         <option name="ERROR_STRIPE_COLOR" value="933232" />
       </value>
     </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="344535" />
+        <option name="ERROR_STRIPE_COLOR" value="447152" />
+      </value>
+    </option>
     <option name="DIFF_MODIFIED">
       <value>
         <option name="BACKGROUND" value="344f54" />
@@ -1200,7 +1206,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3b514d" />
+        <option name="FOREGROUND" value="f8f8f2" />
+        <option name="BACKGROUND" value="747a9d" />
       </value>
     </option>
     <option name="MATCHED_TAG_NAME">
@@ -1961,12 +1968,6 @@
     <option name="org.toml.KEY">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
-      </value>
-    </option>
-    <option name="DIFF_INSERTED">
-      <value>
-        <option name="BACKGROUND" value="344535" />
-        <option name="ERROR_STRIPE_COLOR" value="447152" />
       </value>
     </option>
   </attributes>

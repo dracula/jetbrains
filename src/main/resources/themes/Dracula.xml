@@ -1181,7 +1181,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3b514d" />
+        <option name="FOREGROUND" value="ffff00" />
+        <option name="BACKGROUND" value="747a9d" />
       </value>
     </option>
     <option name="MATCHED_TAG_NAME">
