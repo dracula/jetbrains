@@ -16,9 +16,7 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Enhanced console log colors</li>
-            <li>Enhanced editor colors</li>
-            <li>Support JetBrains 2019.2</li>
+            <li>Tweak matched brace style</li>
         </ul>
     """.trimIndent()
 

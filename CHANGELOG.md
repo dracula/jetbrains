@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.11.1
+
+- Tweak `Matched brace` style
+
 ### 1.11.0
 
 - Add Logcat console coloration
