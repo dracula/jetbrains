@@ -10,21 +10,21 @@ group = "com.draculatheme"
 version = "1.11.1"
 
 compileJava {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
+    sourceCompatibility = "11"
+    targetCompatibility = "11"
 }
 
 compileTestJava {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
+    sourceCompatibility = "11"
+    targetCompatibility = "11"
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 repositories {
@@ -36,7 +36,7 @@ dependencies {
 }
 
 intellij {
-    version = "2019.2"
+    version = "2020.1"
     type = "IC"
 }
 
@@ -45,7 +45,7 @@ buildSearchableOptions {
 }
 
 patchPluginXml {
-    sinceBuild = "192.0"
+    sinceBuild = "201.6668.113"
     untilBuild = "211.*"
 
     def changelogFile = file("${project.buildDir}/CHANGELOG.html")
@@ -60,7 +60,7 @@ patchPluginXml {
 }
 
 runPluginVerifier {
-    ideVersions = ["192.7142.36", "193.7288.26", "201.8743.12", "202.8194.7", "203.7148.57"]
+    ideVersions = ["201.8743.12", "202.8194.7", "203.7148.57"]
     failureLevel = EnumSet.of(RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN)
 }
 
