@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.11.2
+
+- Enhanced Go color scheme
+- Removed JetBrains 2019 series support
+
 ### 1.11.1
 
 - Tweak `Matched brace` style
