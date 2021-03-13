@@ -16,8 +16,14 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Tweak matched brace style</li>
+            <li>Enhanced Go color scheme</li>
+            <li>Removed JetBrains 2019 series support</li>
         </ul>
+    """.trimIndent()
+
+    @Language("HTML")
+    private val linkMessage = """
+        <p><a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> | <a href="https://gumroad.com/a/477820019">Dracula PRO</a> | <a href="https://github.com/dracula/jetbrains">Star Repository</a></p>
     """.trimIndent()
 
     @Language("HTML")
@@ -25,10 +31,8 @@ object DraculaNotifications {
         <div>
             <h3>What's New</h3>
             $whatsNew
-            <p>Please visit the <a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> for more details.</p>
-            <p>For premium package, check out <a href="https://gumroad.com/a/477820019">Dracula PRO</a>.</p>
-            <p>Enjoy this theme? Consider <a href="https://github.com/dracula/jetbrains">STAR</a> this project.</p>
             <p>Thank you for choosing Dracula.</p>
+            $linkMessage
         </div>
     """.trimIndent()
 
@@ -36,7 +40,7 @@ object DraculaNotifications {
     private val welcomeMessage = """
         <div>
             <p>Thank you for choosing Dracula.</p>
-            <p>Dracula Theme is fully open-source. If you enjoy this theme, consider <a href="https://github.com/dracula/jetbrains">STAR</a> this project.</p>
+            $linkMessage
         </div>
     """.trimIndent()
 
