@@ -594,11 +594,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="98afff" />
-      </value>
-    </option>
+    <option name="GO_BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
     <option name="GO_BUILTIN_CONSTANT">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
@@ -611,7 +607,7 @@
     </option>
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FOREGROUND" value="50fa7b" />
       </value>
     </option>
     <option name="GO_BUILTIN_TYPE_REFERENCE">
@@ -663,6 +659,11 @@
     <option name="GO_EXPORTED_STRUCT_REFERENCE">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
+      </value>
+    </option>
+    <option name="GO_FUNCTION_PARAMETER">
+      <value>
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_IDENTIFIER">
@@ -718,11 +719,6 @@
         <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
-    <option name="GO_PACKAGE_EXPORTED_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="bd93f9" />
-      </value>
-    </option>
     <option name="GO_PACKAGE_EXPORTED_INTERFACE">
       <value>
         <option name="FOREGROUND" value="8be9fd" />
@@ -734,9 +730,7 @@
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="bd93f9" />
-      </value>
+      <value />
     </option>
     <option name="GO_PACKAGE_EXPORTED_VARIABLE_CALL">
       <value>
@@ -779,9 +773,7 @@
       </value>
     </option>
     <option name="GO_STRUCT_EXPORTED_MEMBER">
-      <value>
-        <option name="FOREGROUND" value="bd93f9" />
-      </value>
+      <value />
     </option>
     <option name="GO_TYPE_REFERENCE">
       <value>
