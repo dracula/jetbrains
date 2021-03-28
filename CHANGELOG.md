@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.11.3
+
+- Fixed Android Studio compatibility
+- Enhanced VCS Editor Gutter colors
+
 ### 1.11.2
 
 - Enhanced Go color scheme

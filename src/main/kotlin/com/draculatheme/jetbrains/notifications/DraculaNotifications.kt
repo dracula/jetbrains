@@ -16,8 +16,8 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Enhanced Go color scheme</li>
-            <li>Removed JetBrains 2019 series support</li>
+            <li>Fixed Android Studio compatibility</li>
+            <li>Enhanced VCS Editor Gutter colors</li>
         </ul>
     """.trimIndent()
 
