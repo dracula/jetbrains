@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.11.4
+
+- Fixed ValidationTooltip background [#50](https://github.com/dracula/jetbrains/issues/50)
+
 ### 1.11.3
 
 - Fixed Android Studio compatibility
@@ -39,9 +43,11 @@
 ### 1.10.3
 
 - Enhanced File background color. See issue [#36](https://github.com/dracula/jetbrains/issues/36) for more details
-- Enhanced `Dracula` editor caret background and selection background. See issue [#37](https://github.com/dracula/jetbrains/issues/37) for more details
+- Enhanced `Dracula` editor caret background and selection background. See
+  issue [#37](https://github.com/dracula/jetbrains/issues/37) for more details
 - Revised editor popup background. See issue [#38](https://github.com/dracula/jetbrains/issues/38) for more details
-- Regressed Italic function parameters and decorators. See issue [#39](https://github.com/dracula/jetbrains/issues/39) for more details
+- Regressed Italic function parameters and decorators. See issue [#39](https://github.com/dracula/jetbrains/issues/39)
+  for more details
 
 ### 1.10.2
 

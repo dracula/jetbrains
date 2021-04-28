@@ -14,7 +14,7 @@ def build_readme(src: str, dest: str):
     title = soup.find('h1')
     title.find_next_sibling('p').decompose()
     new_title = soup.new_tag('p')
-    new_title.string = 'Dracula Theme for JetBrains'
+    new_title.string = 'Dracula Theme for JetBrains IDEs.'
     title.replace_with(new_title)
     new_title.insert_after(soup.new_tag('br'))
     # Remove blockquote

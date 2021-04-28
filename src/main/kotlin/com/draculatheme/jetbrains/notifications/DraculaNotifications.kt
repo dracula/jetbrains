@@ -16,8 +16,7 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fixed Android Studio compatibility</li>
-            <li>Enhanced VCS Editor Gutter colors</li>
+            <li>Fixed ValidationTooltip background</li>
         </ul>
     """.trimIndent()
 
