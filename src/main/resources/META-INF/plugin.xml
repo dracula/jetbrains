@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.vermouthx.idea</id>
     <name>Dracula Theme</name>
-    <vendor email="zihan.ma@protonmail.com" url="https://draculatheme.com/jetbrains">Dracula Official</vendor>
+    <vendor email="developer@nszihan.com" url="https://draculatheme.com/jetbrains">Dracula Official</vendor>
     <depends>com.intellij.modules.lang</depends>
     <idea-version since-build="201.6668.113"/>
     <extensions defaultExtensionNs="com.intellij">
