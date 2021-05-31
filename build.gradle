@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.draculatheme"
-version = "1.11.4"
+version = "1.11.5"
 
 compileJava {
     sourceCompatibility = 1.8
@@ -46,7 +46,7 @@ buildSearchableOptions {
 
 patchPluginXml {
     sinceBuild = "201.6668.113"
-    untilBuild = "211.*"
+    untilBuild = "212.*"
 
     def changelogFile = file("${project.buildDir}/CHANGELOG.html")
     def readmeFile = file("${project.buildDir}/README.html")
@@ -60,7 +60,7 @@ patchPluginXml {
 }
 
 runPluginVerifier {
-    ideVersions = ["201.8743.12", "202.8194.7", "203.7148.57"]
+    ideVersions = ["201.8743.12", "202.8194.7", "203.7148.57", "211.6693.111"]
     failureLevel = EnumSet.of(RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS, RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN)
 }
 

@@ -16,7 +16,7 @@ object DraculaNotifications {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fixed ValidationTooltip background</li>
+            <li>Support IntelliJ 2021.2 EAP</li>
         </ul>
     """.trimIndent()
 

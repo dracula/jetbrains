@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.11.5
+
+- Support IntelliJ 2021.2 EAP
+
 ### 1.11.4
 
 - Fixed ValidationTooltip background [#50](https://github.com/dracula/jetbrains/issues/50)
