@@ -25,22 +25,6 @@ steps:
       path: $(GRADLE_USER_HOME)
     displayName: Gradle build cache
 
-  - task: UsePythonVersion@0
-    inputs:
-      versionSpec: '3.8'
-    displayName: 'Setup Python'
-
-  - script: pip install pipenv
-    displayName: 'Install pipenv'
-
-  - script: pipenv install --system --deploy --ignore-pipfile
-    workingDirectory: 'scripts'
-    displayName: 'Install requirements'
-
-  - script: python build.py
-    workingDirectory: 'scripts'
-    displayName: 'Generate release note and plugin description'
-
   - task: Gradle@2
     inputs:
       gradleWrapperFile: 'gradlew'
