@@ -54,16 +54,34 @@ tasks {
 
         val description = """
             <div>
-                <p>Dracula Theme for JetBrains IDEs</p>
-                <br>
-                <p><img alt="Screenshot" src="https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png" width="600"/></p>
-                <h2>Install</h2>
-                <p>All instructions can be found at <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.</p>
-                <h2>Dracula PRO</h2>
-                <p><a href="https://gumroad.com/a/477820019"><img alt="Dracula Pro" src="https://raw.githubusercontent.com/dracula/jetbrains/master/docs/screenshots/dracula-pro.png"/></a></p>
-                <p>Dracula PRO is a color scheme and UI theme tailored for programming. Made for terminal emulators, code editors, and
-                syntax highlighters. Designed to be aesthetically pleasing while keeping you focused.</p>
-                <p><a href="https://gumroad.com/a/477820019">Get it now</a></p>
+              <p>Dracula Theme for JetBrains IDEs</p>
+              <br />
+              <p>
+                <img
+                  alt="Screenshot"
+                  src="https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png"
+                  width="600"
+                />
+              </p>
+              <h2>Install</h2>
+              <p>
+                All instructions can be found at
+                <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.
+              </p>
+              <h2>Dracula PRO</h2>
+              <p>
+                <a href="https://gumroad.com/a/477820019"
+                  ><img
+                    alt="Dracula Pro"
+                    src="https://raw.githubusercontent.com/dracula/jetbrains/master/docs/screenshots/dracula-pro.png"
+                /></a>
+              </p>
+              <p>
+                Dracula PRO is a color scheme and UI theme tailored for programming. Made
+                for terminal emulators, code editors, and syntax highlighters. Designed to
+                be aesthetically pleasing while keeping you focused.
+              </p>
+              <p><a href="https://gumroad.com/a/477820019">Get it now</a></p>
             </div>
         """.trimIndent()
 
