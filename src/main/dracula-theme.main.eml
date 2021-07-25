@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_11" inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<lib name="Gradle: com.jetbrains:ideaIC:2020.3" scope="PROVIDED">
+		<srcroot url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3/c364e3b91c4315fc7284aa2bf666677872859fba/ideaIC-2020.3-sources.jar!/"/>
+	</lib>
+	<lib name="Gradle: org.jetbrains:annotations:21.0.0" scope="PROVIDED"/>
+	<levels>
+		<level name="Gradle: org.jetbrains:annotations:21.0.0" value="project"/>
+	</levels>
+</component>

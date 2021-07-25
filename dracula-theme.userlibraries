@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: org.jetbrains:annotations:21.0.0">
+    <archive path="/Users/qngson/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/21.0.0/d5170074fe1d4a26ae19da3b1b2c0d102b0b8a41/annotations-21.0.0.jar" />
+  </library>
+</eclipse-userlibraries>
+

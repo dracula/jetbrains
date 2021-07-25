@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="src" path="kotlin"/>
+	<classpathentry kind="var" path="USER_HOME/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3/22cef0fc611e4b9642a48bc955b2b7aacb13bd4d/ideaIC-2020.3/lib/FastInfoset-1.2.15.jar" sourcepath="/USER_HOME/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.3/c364e3b91c4315fc7284aa2bf666677872859fba/ideaIC-2020.3-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gradle: org.jetbrains:annotations:21.0.0"/>
+	<classpathentry kind="output" path="/Users/qngson/Developer/jetbrains/build/classes/java/main"/>
+</classpath>
