@@ -1,7 +1,7 @@
 {
-  "name": "Dracula",
+  "name": "Dracula - qngson",
   "dark": true,
-  "author": "Zihan Ma",
+  "author": "Pendleton Pham",
   "editorScheme": "/themes/Dracula.xml",
   "colors": {
     "accentColor": "#71eee3",
@@ -13,7 +13,7 @@
     "selectionBackground": "#44475a",
     "selectionInactiveBackground": "#313341",
     "borderColor": "#13131a",
-    "separatorColor": "#5d5e66"
+    "separatorColor": "#2a2a39"
   },
   "ui": {
     "*": {
@@ -240,8 +240,8 @@
         "hoverBackground": "hoverBackground"
       },
       "Header": {
-        "background": "#42455a",
-        "inactiveBackground": "#353748"
+        "background": "#4a4d64",
+        "inactiveBackground": "#3d3f53"
       },
       "HeaderTab": {
         "underlineColor": "accentColor",
