@@ -4,15 +4,15 @@
   "author": "Zihan Ma",
   "editorScheme": "/themes/Dracula.xml",
   "colors": {
-    "accentColor": "#ff79c6",
-    "secondaryAccentColor": "#bd93f9",
+    "accentColor": "#71eee3",
+    "secondaryAccentColor": "#71eee3",
     "primaryForeground": "#f8f8f2",
-    "primaryBackground": "#21222c",
+    "primaryBackground": "#323544",
     "secondaryBackground": "#282a36",
     "hoverBackground": "#282a36",
     "selectionBackground": "#44475a",
     "selectionInactiveBackground": "#313341",
-    "borderColor": "#16171d",
+    "borderColor": "#13131a",
     "separatorColor": "#5d5e66"
   },
   "ui": {
@@ -183,9 +183,9 @@
     },
     "ScrollBar": {
       "Mac": {
-        "hoverThumbColor": "secondaryAccentColor",
+        "hoverThumbColor": "51ada5ff",
         "Transparent": {
-          "hoverThumbColor": "secondaryAccentColor"
+          "hoverThumbColor": "51ada5ff"
         }
       }
     },
@@ -203,7 +203,7 @@
       "endBackground": "accentColor"
     },
     "Separator": {
-      "separatorColor": "primaryBackgroundr"
+      "separatorColor": "borderColor"
     },
     "SidePanel": {
       "background": "secondaryBackground"
@@ -240,14 +240,14 @@
         "hoverBackground": "hoverBackground"
       },
       "Header": {
-        "background": "#303341",
-        "inactiveBackground": "secondaryBackground"
+        "background": "#42455a",
+        "inactiveBackground": "#353748"
       },
       "HeaderTab": {
-        "underlineColor": "secondaryAccentColor",
-        "underlineHeight": 2,
-        "underlinedTabBackground": "#292b38",
-        "underlinedTabInactiveBackground": "#313341"
+        "underlineColor": "accentColor",
+        "underlineHeight": 1,
+        "underlinedTabBackground": "#343547",
+        "underlinedTabInactiveBackground": "#2c2f3c"
       }
     },
     "Tree": {
@@ -302,8 +302,8 @@
       "Actions.Blue": "#5da3f4",
       "Actions.Green": "#2fc864",
       "Actions.Grey": "#858994",
-      "Actions.GreyInline.Dark": "#2fc864",
-      "Actions.GreyInline": "#2fc864",
+      "Actions.GreyInline.Dark": "#71eee3",
+      "Actions.GreyInline": "#71eee3",
       "Actions.Red": "#ff5554",
       "Actions.Yellow": "#f1fa8c",
       "Objects.Blue": "#5da3f4",
@@ -311,21 +311,21 @@
       "Objects.GreenAndroid": "#2fc864",
       "Objects.Grey": "#858994",
       "Objects.Pink": "#ff79c6",
-      "Objects.Purple": "#bd93f9",
+      "Objects.Purple": "#71eee3",
       "Objects.Red": "#ff5554",
       "Objects.RedStatus": "#ff5554",
       "Objects.Yellow": "#f1fa8c",
       "Objects.YellowDark": "#f1fa8c",
       "Objects.BlackText": "#282a35",
       "Checkbox.Foreground.Selected.Dark": "#f8f8f2",
-      "Checkbox.Border.Default.Dark": "#bd93f9",
-      "Checkbox.Border.Selected.Dark": "#bd93f9",
-      "Checkbox.Border.Disabled.Dark": "#6272a4",
-      "Checkbox.Background.Default.Dark": "#6272a4",
+      "Checkbox.Border.Default.Dark": "#71eee3",
+      "Checkbox.Border.Selected.Dark": "#4fa9a1",
+      "Checkbox.Border.Disabled.Dark": "#949494",
+      "Checkbox.Background.Default.Dark": "#282a36",
       "Checkbox.Background.Disabled.Dark": "#414450",
-      "Checkbox.Focus.Wide.Dark": "#bd93f9",
-      "Checkbox.Focus.Thin.Selected.Dark": "#bd93f9",
-      "Checkbox.Focus.Thin.Default.Dark": "#bd93f9"
+      "Checkbox.Focus.Wide.Dark": "#71eee3",
+      "Checkbox.Focus.Thin.Selected.Dark": "#71eee3",
+      "Checkbox.Focus.Thin.Default.Dark": "#71eee3"
     }
   }
 }

@@ -2,7 +2,7 @@
   <colors>
     <option name="ANNOTATIONS_COLOR" value="282a35" />
     <option name="CARET_COLOR" value="cccccc" />
-    <option name="CARET_ROW_COLOR" value="44475a" />
+    <option name="CARET_ROW_COLOR" value="343744ff" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282a36" />
     <option name="DOCUMENTATION_COLOR" value="3a3d4c" />
     <option name="DOC_COMMENT_LINK" value="ff79c6" />
@@ -31,15 +31,15 @@
     <option name="INDENT_GUIDE" value="6b7090" />
     <option name="INFORMATION_HINT" value="3a3d4c" />
     <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff79c6" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ffffff" />
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
     <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
     <option name="SELECTED_TEARLINE_COLOR" value="a8b0e2" />
-    <option name="SELECTION_BACKGROUND" value="362183" />
-    <option name="SEPARATOR_ABOVE_COLOR" value="6b7090" />
-    <option name="SEPARATOR_BELOW_COLOR" value="6b7090" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="bd93f9" />
-    <option name="ScrollBar.Mac.thumbColor" value="bd93f983" />
+    <option name="SELECTION_BACKGROUND" value="168294" />
+    <option name="SEPARATOR_ABOVE_COLOR" value="13131a" />
+    <option name="SEPARATOR_BELOW_COLOR" value="13131a" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="51ada5" />
+    <option name="ScrollBar.Mac.thumbColor" value="51ada583" />
     <option name="TEARLINE_COLOR" value="6b7090" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="bd93f9" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="ff79c6" />
