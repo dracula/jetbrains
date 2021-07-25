@@ -7,12 +7,12 @@
     "accentColor": "#ff79c6",
     "secondaryAccentColor": "#bd93f9",
     "primaryForeground": "#f8f8f2",
-    "primaryBackground": "#414450",
-    "secondaryBackground": "#3a3d4c",
+    "primaryBackground": "#21222c",
+    "secondaryBackground": "#282a36",
     "hoverBackground": "#282a36",
-    "selectionBackground": "#6272a4",
-    "selectionInactiveBackground": "#4e5a82",
-    "borderColor": "#282a36",
+    "selectionBackground": "#44475a",
+    "selectionInactiveBackground": "#313341",
+    "borderColor": "#16171d",
     "separatorColor": "#5d5e66"
   },
   "ui": {
@@ -97,10 +97,10 @@
       "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
-      "background": "secondaryBackground",
-      "underlinedTabBackground": "#292b38",
-      "underlineColor": "secondaryAccentColor",
-      "underlineHeight": 2
+      "background": "primaryBackground",
+      "underlinedTabBackground": "secondaryBackground",
+      "underlineColor": "accentColor",
+      "underlineHeight": 1
     },
     "FileColor": {
       "Blue": "#344f54",
@@ -203,7 +203,7 @@
       "endBackground": "accentColor"
     },
     "Separator": {
-      "separatorColor": "separatorColor"
+      "separatorColor": "primaryBackgroundr"
     },
     "SidePanel": {
       "background": "secondaryBackground"
@@ -240,7 +240,7 @@
         "hoverBackground": "hoverBackground"
       },
       "Header": {
-        "background": "#484c60",
+        "background": "#303341",
         "inactiveBackground": "secondaryBackground"
       },
       "HeaderTab": {
