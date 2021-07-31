@@ -54,7 +54,7 @@ tasks {
 
         val description = """
             <div>
-              <p>Dracula Theme for JetBrains IDEs</p>
+              <p>Dracula Theme for JetBrains</p>
               <br />
               <p>
                 <img
@@ -82,6 +82,12 @@ tasks {
                 be aesthetically pleasing while keeping you focused.
               </p>
               <p><a href="https://gumroad.com/a/477820019">Get it now</a></p>
+              <h2>Licence</h2>
+              <p>
+                <a href="https://raw.githubusercontent.com/dracula/jetbrains/master/LICENSE"
+                  >MIT Licence</a
+                >
+              </p>
             </div>
         """.trimIndent()
 

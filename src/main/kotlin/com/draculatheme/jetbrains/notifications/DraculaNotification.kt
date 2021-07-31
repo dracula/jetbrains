@@ -8,40 +8,38 @@ import com.intellij.openapi.project.Project
 import com.intellij.openapi.util.IconLoader
 import org.intellij.lang.annotations.Language
 
-object DraculaNotifications {
+object DraculaNotification {
 
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Support IntelliJ 2021.2 EAP</li>
+            <li>Fixed API compatibility</li>
         </ul>
     """.trimIndent()
 
     @Language("HTML")
     private val linkMessage = """
+        <p>Thank you for choosing Dracula.</p>
+        <br>
         <p>
             <a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> | 
             <a href="https://gumroad.com/a/477820019">Dracula PRO</a> | 
-            <a href="https://github.com/dracula/jetbrains">Star Repository</a>
+            <a href="https://github.com/dracula/jetbrains">Repository</a>
         </p>
     """.trimIndent()
 
     @Language("HTML")
     private val releaseNote = """
         <div>
-            <h3>What's New</h3>
-            $whatsNew
-            <p>Thank you for choosing Dracula.</p>
-            <br>
-            $linkMessage
+            <h3>What's New?</h3>
+            <div>$whatsNew</div>
+            <div>$linkMessage</div>
         </div>
     """.trimIndent()
 
     @Language("HTML")
     private val welcomeMessage = """
         <div>
-            <p>Thank you for choosing Dracula.</p>
-            <br>
             $linkMessage
         </div>
     """.trimIndent()
@@ -65,7 +63,7 @@ object DraculaNotifications {
     }
 
     fun notifyFirstlyDownloaded(project: Project) {
-        val title = "Dracula Theme v${DraculaMeta.currentVersion} installed"
+        val title = "Dracula Theme is installed"
         val notification =
             NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId).createNotification(
                 title,

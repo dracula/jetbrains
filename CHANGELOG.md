@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.0
+
+- Fixed API compatibility
+
 ## 1.11.5
 
 - Support IntelliJ 2021.2 EAP

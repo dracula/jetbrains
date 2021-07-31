@@ -1,7 +1,7 @@
 package com.draculatheme.jetbrains.activities
 
 import com.draculatheme.jetbrains.DraculaMeta
-import com.draculatheme.jetbrains.notifications.DraculaNotifications
+import com.draculatheme.jetbrains.notifications.DraculaNotification
 import com.draculatheme.jetbrains.settings.DraculaSettings
 import com.intellij.openapi.project.DumbAware
 import com.intellij.openapi.project.Project
@@ -12,12 +12,12 @@ class DraculaStartupActivity : StartupActivity, DumbAware {
         val settings = DraculaSettings.instance
         if (settings.version.isEmpty()) {
             settings.version = DraculaMeta.currentVersion
-            DraculaNotifications.notifyFirstlyDownloaded(project)
+            DraculaNotification.notifyFirstlyDownloaded(project)
             return
         }
         if (DraculaMeta.currentVersion != settings.version) {
             settings.version = DraculaMeta.currentVersion
-            DraculaNotifications.notifyReleaseNote(project)
+            DraculaNotification.notifyReleaseNote(project)
         }
     }
 }
