@@ -1,8 +1,8 @@
-package com.draculatheme.jetbrains.activities
+package com.qngsontheme.jetbrains.activities
 
-import com.draculatheme.jetbrains.DraculaMeta
-import com.draculatheme.jetbrains.notifications.DraculaNotifications
-import com.draculatheme.jetbrains.settings.DraculaSettings
+import com.qngsontheme.jetbrains.DraculaMeta
+import com.qngsontheme.jetbrains.notifications.DraculaNotifications
+import com.qngsontheme.jetbrains.settings.DraculaSettings
 import com.intellij.openapi.project.DumbAware
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.StartupActivity

@@ -1,4 +1,4 @@
-package com.draculatheme.jetbrains
+package com.qngsontheme.jetbrains
 
 import com.intellij.ide.plugins.PluginManagerCore
 import com.intellij.openapi.extensions.PluginId

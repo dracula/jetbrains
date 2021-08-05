@@ -1,6 +1,6 @@
-package com.draculatheme.jetbrains.notifications
+package com.qngsontheme.jetbrains.notifications
 
-import com.draculatheme.jetbrains.DraculaMeta
+import com.qngsontheme.jetbrains.DraculaMeta
 import com.intellij.notification.NotificationGroupManager
 import com.intellij.notification.NotificationListener
 import com.intellij.notification.NotificationType

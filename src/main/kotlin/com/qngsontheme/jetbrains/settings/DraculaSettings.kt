@@ -1,4 +1,4 @@
-package com.draculatheme.jetbrains.settings
+package com.qngsontheme.jetbrains.settings
 
 import com.intellij.openapi.components.PersistentStateComponent
 import com.intellij.openapi.components.State
