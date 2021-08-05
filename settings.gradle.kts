@@ -1,1 +1,1 @@
-rootProject.name = "dracula-theme"
+rootProject.name = "qngson-theme"
