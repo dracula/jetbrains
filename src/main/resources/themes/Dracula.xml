@@ -1,9 +1,11 @@
 <scheme name="Dracula" version="142" parent_scheme="Darcula">
   <colors>
+    <option name="ADDED_LINES_COLOR" value="48b764" />
     <option name="ANNOTATIONS_COLOR" value="282a35" />
     <option name="CARET_COLOR" value="cccccc" />
     <option name="CARET_ROW_COLOR" value="44475a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282a36" />
+    <option name="DELETED_LINES_COLOR" value="cd4644" />
     <option name="DOCUMENTATION_COLOR" value="3a3d4c" />
     <option name="DOC_COMMENT_LINK" value="ff79c6" />
     <option name="FILESTATUS_ADDED" value="50fa7b" />
@@ -32,6 +34,7 @@
     <option name="INFORMATION_HINT" value="3a3d4c" />
     <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff79c6" />
+    <option name="MODIFIED_LINES_COLOR" value="74b4c1" />
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
     <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
     <option name="SELECTED_TEARLINE_COLOR" value="a8b0e2" />
@@ -47,10 +50,8 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="50fa7b" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
-    <option name="ADDED_LINES_COLOR" value="48b764" />
-    <option name="DELETED_LINES_COLOR" value="cd4644" />
-    <option name="MODIFIED_LINES_COLOR" value="74b4c1" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c89f73" />
+    <option name="LOOKUP_COLOR" value="3a3d4c" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
