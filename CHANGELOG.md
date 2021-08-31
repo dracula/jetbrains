@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.1
+
+- Fixed Completion Popup background
+
 ## 1.12.0
 
 - Fixed API compatibility

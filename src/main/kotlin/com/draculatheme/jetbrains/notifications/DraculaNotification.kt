@@ -13,12 +13,12 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fixed API compatibility</li>
+            <li>Fixed Completion Popup background</li>
         </ul>
     """.trimIndent()
 
     @Language("HTML")
-    private val linkMessage = """
+    private val footerMessage = """
         <p>Thank you for choosing Dracula.</p>
         <br>
         <p>
@@ -33,14 +33,14 @@ object DraculaNotification {
         <div>
             <h3>What's New?</h3>
             <div>$whatsNew</div>
-            <div>$linkMessage</div>
+            <div>$footerMessage</div>
         </div>
     """.trimIndent()
 
     @Language("HTML")
     private val welcomeMessage = """
         <div>
-            $linkMessage
+            $footerMessage
         </div>
     """.trimIndent()
 
