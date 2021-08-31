@@ -75,7 +75,7 @@
       "nonEditableBackground": "secondaryBackground"
     },
     "CompletionPopup": {
-      "selectionBackground": "selectionBackground",
+      "selectionBackground": "selectionInactiveBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "matchForeground": "accentColor"
     },
