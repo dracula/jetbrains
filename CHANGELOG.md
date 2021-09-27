@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.2
+
+- Support JetBrains 2021.3 series
+
 ## 1.12.1
 
 - Fixed Completion Popup background

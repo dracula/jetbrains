@@ -13,7 +13,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fixed Completion Popup background</li>
+            <li>Support JetBrains 2021.3 series</li>
         </ul>
     """.trimIndent()
 
