@@ -38,6 +38,9 @@
       "pressedBackground": "hoverBackground",
       "pressedBorderColor": "hoverBackground"
     },
+    "BookmarkIcon": {
+      "background": "accentColor"
+    },
     "Button": {
       "foreground": "primaryForeground",
       "startBorderColor": "selectionBackground",
