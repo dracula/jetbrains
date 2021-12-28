@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.3
+
+- Fixed Bookmark Icon Background [#66](https://github.com/dracula/jetbrains/issues/66)
+
 ## 1.12.2
 
 - Support JetBrains 2021.3 series
