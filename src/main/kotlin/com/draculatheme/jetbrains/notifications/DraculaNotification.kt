@@ -13,7 +13,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fixed Bookmark Icon Background</li>
+            <li>Support Color of Mnemonic Bookmark</li>
         </ul>
     """.trimIndent()
 
@@ -24,7 +24,7 @@ object DraculaNotification {
         <p>
             <a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> | 
             <a href="https://gumroad.com/a/477820019">Dracula PRO</a> | 
-            <a href="https://github.com/dracula/jetbrains">Repository</a>
+            <a href="https://github.com/dracula/jetbrains">GitHub</a>
         </p>
     """.trimIndent()
 

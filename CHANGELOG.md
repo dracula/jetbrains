@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.12.4
+
+- Support Color of Mnemonic Bookmark [#57](https://github.com/dracula/jetbrains/issues/57)
+
 ## 1.12.3
 
 - Fixed Bookmark Icon Background [#66](https://github.com/dracula/jetbrains/issues/66)
