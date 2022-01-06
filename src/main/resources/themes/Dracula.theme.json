@@ -38,8 +38,25 @@
       "pressedBackground": "hoverBackground",
       "pressedBorderColor": "hoverBackground"
     },
-    "BookmarkIcon": {
-      "background": "accentColor"
+    "Bookmark": {
+      "iconBackground": "accentColor",
+      "Mnemonic": {
+        "iconForeground": "primaryForeground",
+        "iconBackground": "#8d6b81",
+        "iconBorderColor": "accentColor"
+      }
+    },
+    "BookmarkMnemonicAssigned": {
+      "foreground": "primaryForeground",
+      "background": "#786299",
+      "borderColor": "secondaryAccentColor"
+    },
+    "BookmarkMnemonicAvailable": {
+    },
+    "BookmarkMnemonicCurrent": {
+      "foreground": "primaryForeground",
+      "background": "#8d6b81",
+      "borderColor": "accentColor"
     },
     "Button": {
       "foreground": "primaryForeground",
