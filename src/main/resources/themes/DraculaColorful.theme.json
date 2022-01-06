@@ -110,7 +110,7 @@
       "inactiveWarningFocusColor": "#f1fa8c"
     },
     "DragAndDrop": {
-      "areaBorderColor": "selectionBackground"
+      "borderColor": "selectionBackground"
     },
     "Editor": {
       "background": "secondaryBackground",
