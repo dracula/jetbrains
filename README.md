@@ -31,9 +31,9 @@ If you'd like to contribute to this theme, please read the [Contributing Guide](
 This theme is maintained by the following person(s) and a bunch
 of [awesome contributors](https://github.com/dracula/jetbrains/graphs/contributors).
 
-|[![Zihan Ma](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth)
-|---
-|[Zihan Ma](https://github.com/WhiteVermouth)
+| [![Zihan Ma](https://avatars.githubusercontent.com/u/13076049?v=3&s=70)](https://github.com/WhiteVermouth) |
+|------------------------------------------------------------------------------------------------------------|
+| [Zihan Ma](https://github.com/WhiteVermouth)                                                               |
 
 ## License
 
