@@ -13,7 +13,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Support Color of Mnemonic Bookmark</li>
+            <li>Support JetBrains 2022 EAP</li>
         </ul>
     """.trimIndent()
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.0
+
+- Support JetBrains 2022 EAP
+
 ## 1.12.4
 
 - Support Color of Mnemonic Bookmark [#57](https://github.com/dracula/jetbrains/issues/57)
