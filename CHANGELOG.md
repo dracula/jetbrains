@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.1
+
+- Fix compatibility issue
+
 ## 1.13.0
 
 - Support JetBrains 2022 EAP
