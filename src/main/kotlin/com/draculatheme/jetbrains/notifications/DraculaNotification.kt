@@ -13,7 +13,8 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fix compatibility issue</li>
+            <li>Pick less disruptive indent-guide color</li>
+            <li>Fix identifier-under-caret error-stripe-mark color</li>
         </ul>
     """.trimIndent()
 

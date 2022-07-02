@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13.2
+
+- Pick less disruptive indent-guide color
+- Fix identifier-under-caret error-stripe-mark color
+
 ## 1.13.1
 
 - Fix compatibility issue
