@@ -30,7 +30,6 @@
     <option name="FILESTATUS_changelistConflict" value="ff5555" />
     <option name="FILESTATUS_modifiedOutside" value="8be9fd" />
     <option name="GUTTER_BACKGROUND" value="3f4152" />
-    <option name="INDENT_GUIDE" value="6b7090" />
     <option name="INFORMATION_HINT" value="3a3d4c" />
     <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff79c6" />
@@ -52,6 +51,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c89f73" />
+    <option name="INDENT_GUIDE" value="3e404b" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
