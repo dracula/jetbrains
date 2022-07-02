@@ -34,6 +34,7 @@
     <option name="INFORMATION_HINT" value="3a3d4c" />
     <option name="LINE_NUMBERS_COLOR" value="a3a5ba" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff79c6" />
+    <option name="LOOKUP_COLOR" value="3a3d4c" />
     <option name="MODIFIED_LINES_COLOR" value="74b4c1" />
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
     <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
@@ -51,7 +52,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c89f73" />
-    <option name="LOOKUP_COLOR" value="3a3d4c" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -671,7 +671,6 @@
     <option name="GO_DOT">
       <value />
     </option>
-    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_EXPORTED_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
@@ -715,8 +714,6 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
-    <option name="GO_LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_LOCAL_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
@@ -911,7 +908,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="847e76" />
+        <option name="BACKGROUND" value="666b87" />
+        <option name="ERROR_STRIPE_COLOR" value="50fa7b" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
