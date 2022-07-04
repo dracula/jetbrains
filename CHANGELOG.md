@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.3
+
+- Fix variable occurrences background color
+
 ## 1.13.2
 
 - Pick less disruptive indent-guide color
