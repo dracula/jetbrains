@@ -47,15 +47,15 @@
       }
     },
     "BookmarkMnemonicAssigned": {
-      "foreground": "primaryForeground",
-      "background": "#786299",
+      "buttonForeground": "primaryForeground",
+      "buttonBackground": "#786299",
       "borderColor": "secondaryAccentColor"
     },
     "BookmarkMnemonicAvailable": {
     },
     "BookmarkMnemonicCurrent": {
-      "foreground": "primaryForeground",
-      "background": "#8d6b81",
+      "buttonForeground": "primaryForeground",
+      "buttonBackground": "#8d6b81",
       "borderColor": "accentColor"
     },
     "Button": {
@@ -227,9 +227,6 @@
     },
     "SidePanel": {
       "background": "secondaryBackground"
-    },
-    "StatusBar": {
-      "hoverBackground": "hoverBackground"
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
