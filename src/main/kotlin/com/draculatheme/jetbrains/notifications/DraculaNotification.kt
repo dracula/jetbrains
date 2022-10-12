@@ -12,7 +12,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fix variable occurrences background color</li>
+            <li>Fix welcome window project color</li>
         </ul>
     """.trimIndent()
 

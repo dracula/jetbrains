@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.0
+
+- Fix welcome window project color
+
 ## 1.13.3
 
 - Fix variable occurrences background color
