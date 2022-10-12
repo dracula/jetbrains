@@ -2,7 +2,6 @@ package com.draculatheme.jetbrains.notifications
 
 import com.draculatheme.jetbrains.DraculaMeta
 import com.intellij.notification.NotificationGroupManager
-import com.intellij.notification.NotificationListener
 import com.intellij.notification.NotificationType
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.util.IconLoader
@@ -51,26 +50,16 @@ object DraculaNotification {
 
     fun notifyReleaseNote(project: Project) {
         val title = "Dracula Theme updated to v${DraculaMeta.currentVersion}"
-        val notification =
-            NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId).createNotification(
-                title,
-                releaseNote,
-                NotificationType.INFORMATION,
-                NotificationListener.URL_OPENING_LISTENER
-            )
+        val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
+            .createNotification(title, releaseNote, NotificationType.INFORMATION)
         notification.icon = notificationIcon
         notification.notify(project)
     }
 
     fun notifyFirstlyDownloaded(project: Project) {
         val title = "Dracula Theme is installed"
-        val notification =
-            NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId).createNotification(
-                title,
-                welcomeMessage,
-                NotificationType.INFORMATION,
-                NotificationListener.URL_OPENING_LISTENER
-            )
+        val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
+            .createNotification(title, welcomeMessage, NotificationType.INFORMATION)
         notification.icon = notificationIcon
         notification.notify(project)
     }
