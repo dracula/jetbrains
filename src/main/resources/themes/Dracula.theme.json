@@ -237,7 +237,8 @@
     },
     "Table": {
       "gridColor": "#5d617a",
-      "hoverBackground": "selectionBackground"
+      "hoverBackground": "selectionBackground",
+      "lightSelectionBackground": "secondaryBackground"
     },
     "TableHeader": {
       "bottomSeparatorColor": "separatorColor"
@@ -311,6 +312,9 @@
         "actions": {
           "background": "hoverBackground"
         }
+      },
+      "Details": {
+        "background": "hoverBackground"
       }
     }
   },
