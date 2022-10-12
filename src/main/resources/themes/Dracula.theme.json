@@ -167,7 +167,7 @@
         "foreground": "primaryForeground"
       },
       "hoverBackground": "hoverBackground",
-      "lightSelectionBackground": "hoverBackground",
+      "lightSelectionBackground": "secondaryBackground",
       "Button": {
         "installBorderColor": "secondaryAccentColor",
         "installForeground": "secondaryAccentColor",
