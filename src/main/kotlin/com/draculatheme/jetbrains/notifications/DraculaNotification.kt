@@ -20,23 +20,14 @@ object DraculaNotification {
     """.trimIndent()
 
     @Language("HTML")
-    private val footerMessage = """
-        <p>Thank you for choosing Dracula.</p>
-    """.trimIndent()
-
-    @Language("HTML")
     private val releaseNote = """
-        <div>
-            <h3>What's New?</h3>
-            <div>$whatsNew</div>
-        </div>
+        <p>What's New?</p>
+        $whatsNew
     """.trimIndent()
 
     @Language("HTML")
     private val welcomeMessage = """
-        <div>
-            $footerMessage
-        </div>
+        <p>Thank you for choosing Dracula.</p>
     """.trimIndent()
 
     private const val notificationGroupId = "Dracula Theme"
