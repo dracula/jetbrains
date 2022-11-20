@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.1
+
+- Fix welcome window action button background color
+
 ## 1.14.0
 
 - Fix welcome window project color
