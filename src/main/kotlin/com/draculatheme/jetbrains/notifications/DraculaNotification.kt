@@ -1,6 +1,9 @@
 package com.draculatheme.jetbrains.notifications
 
 import com.draculatheme.jetbrains.DraculaMeta
+import com.intellij.ide.BrowserUtil
+import com.intellij.notification.Notification
+import com.intellij.notification.NotificationAction
 import com.intellij.notification.NotificationGroupManager
 import com.intellij.notification.NotificationType
 import com.intellij.openapi.project.Project
@@ -19,12 +22,6 @@ object DraculaNotification {
     @Language("HTML")
     private val footerMessage = """
         <p>Thank you for choosing Dracula.</p>
-        <br>
-        <p>
-            <a href="https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md">Changelog</a> | 
-            <a href="https://gumroad.com/a/477820019">Dracula PRO</a> | 
-            <a href="https://github.com/dracula/jetbrains">GitHub</a>
-        </p>
     """.trimIndent()
 
     @Language("HTML")
@@ -32,7 +29,6 @@ object DraculaNotification {
         <div>
             <h3>What's New?</h3>
             <div>$whatsNew</div>
-            <div>$footerMessage</div>
         </div>
     """.trimIndent()
 
@@ -48,10 +44,15 @@ object DraculaNotification {
     @JvmField
     val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
+    private const val changelogLink = "https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md"
+    private const val draculaProLink = "https://gumroad.com/a/477820019"
+    private const val githubRepoLink = "https://github.com/dracula/jetbrains"
+
     fun notifyReleaseNote(project: Project) {
         val title = "Dracula Theme updated to v${DraculaMeta.currentVersion}"
         val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
             .createNotification(title, releaseNote, NotificationType.INFORMATION)
+        addNotificationActions(notification)
         notification.icon = notificationIcon
         notification.notify(project)
     }
@@ -60,8 +61,24 @@ object DraculaNotification {
         val title = "Dracula Theme is installed"
         val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
             .createNotification(title, welcomeMessage, NotificationType.INFORMATION)
+        addNotificationActions(notification)
         notification.icon = notificationIcon
         notification.notify(project)
+    }
+
+    private fun addNotificationActions(notification: Notification) {
+        val actionChangelog = NotificationAction.createSimple("Changelog") {
+            BrowserUtil.browse(changelogLink)
+        }
+        val actionDraculaPro = NotificationAction.createSimple("Dracula Pro") {
+            BrowserUtil.browse(draculaProLink)
+        }
+        val actionGithubRepo = NotificationAction.createSimple("Github") {
+            BrowserUtil.browse(githubRepoLink)
+        }
+        notification.addAction(actionChangelog)
+        notification.addAction(actionDraculaPro)
+        notification.addAction(actionGithubRepo)
     }
 
 }
