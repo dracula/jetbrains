@@ -64,7 +64,7 @@ object DraculaNotification {
         val actionDraculaPro = NotificationAction.createSimple("Dracula Pro") {
             BrowserUtil.browse(draculaProLink)
         }
-        val actionGithubRepo = NotificationAction.createSimple("Github") {
+        val actionGithubRepo = NotificationAction.createSimple("GitHub") {
             BrowserUtil.browse(githubRepoLink)
         }
         notification.addAction(actionChangelog)
