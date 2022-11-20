@@ -310,7 +310,7 @@
         "selectionBackground": "secondaryBackground",
         "selectionInactiveBackground": "secondaryBackground",
         "actions": {
-          "background": "hoverBackground"
+          "background": "secondaryBackground"
         }
       },
       "Details": {
