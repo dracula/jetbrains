@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.2
+
+- Fix notification message layout & typo
+
 ## 1.14.1
 
 - Fix welcome window action button background color
