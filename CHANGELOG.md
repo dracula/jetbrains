@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.3
+
+- Fix hash color in Tree View
+
 ## 1.14.2
 
 - Fix notification message layout & typo

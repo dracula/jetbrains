@@ -15,7 +15,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fix notification message layout & typo</li>
+            <li>Fix hash color in Tree View</li>
         </ul>
     """.trimIndent()
 
