@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.15.0
+
+- Fix new notification window colors
+- Fix tool window button selected background color
+
 ## 1.14.3
 
 - Fix hash color in Tree View

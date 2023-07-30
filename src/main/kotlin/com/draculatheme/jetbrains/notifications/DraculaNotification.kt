@@ -15,7 +15,8 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fix hash color in Tree View</li>
+            <li>Fix new notification window colors</li>
+            <li>Fix tool window button selected background color</li>
         </ul>
     """.trimIndent()
 
