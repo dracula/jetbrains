@@ -30,18 +30,18 @@ object DraculaNotification {
         <p>Thank you for choosing Dracula.</p>
     """.trimIndent()
 
-    private const val notificationGroupId = "Dracula Theme"
+    private const val NOTIFICATION_GROUP_ID = "Dracula Theme"
 
     @JvmField
     val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
-    private const val changelogLink = "https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md"
-    private const val draculaProLink = "https://gumroad.com/a/477820019"
-    private const val githubRepoLink = "https://github.com/dracula/jetbrains"
+    private const val CHANGELOG_LINK = "https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md"
+    private const val DRACULA_PRO_LINK = "https://gumroad.com/a/477820019"
+    private const val GITHUB_REPO_LINK = "https://github.com/dracula/jetbrains"
 
     fun notifyReleaseNote(project: Project) {
         val title = "Dracula Theme updated to v${DraculaMeta.currentVersion}"
-        val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
+        val notification = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID)
             .createNotification(title, releaseNote, NotificationType.INFORMATION)
         addNotificationActions(notification)
         notification.icon = notificationIcon
@@ -50,7 +50,7 @@ object DraculaNotification {
 
     fun notifyFirstlyDownloaded(project: Project) {
         val title = "Dracula Theme is installed"
-        val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
+        val notification = NotificationGroupManager.getInstance().getNotificationGroup(NOTIFICATION_GROUP_ID)
             .createNotification(title, welcomeMessage, NotificationType.INFORMATION)
         addNotificationActions(notification)
         notification.icon = notificationIcon
@@ -59,13 +59,13 @@ object DraculaNotification {
 
     private fun addNotificationActions(notification: Notification) {
         val actionChangelog = NotificationAction.createSimple("Changelog") {
-            BrowserUtil.browse(changelogLink)
+            BrowserUtil.browse(CHANGELOG_LINK)
         }
         val actionDraculaPro = NotificationAction.createSimple("Dracula Pro") {
-            BrowserUtil.browse(draculaProLink)
+            BrowserUtil.browse(DRACULA_PRO_LINK)
         }
         val actionGithubRepo = NotificationAction.createSimple("GitHub") {
-            BrowserUtil.browse(githubRepoLink)
+            BrowserUtil.browse(GITHUB_REPO_LINK)
         }
         notification.addAction(actionChangelog)
         notification.addAction(actionDraculaPro)
