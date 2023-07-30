@@ -258,6 +258,7 @@
     },
     "ToolWindow": {
       "Button": {
+        "selectedBackground": "secondaryAccentColor",
         "hoverBackground": "hoverBackground"
       },
       "Header": {
