@@ -150,6 +150,15 @@
         "informativeBorderColor": "#50fa7b"
       }
     },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "hoverBackground": "secondaryBackground",
+        "background": "secondaryBackground"
+      },
+      "Notification": {
+        "hoverBackground": "secondaryBackground"
+      }
+    },
     "PasswordField": {
       "background": "secondaryBackground"
     },
