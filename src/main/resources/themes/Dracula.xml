@@ -1,7 +1,7 @@
 <scheme name="Dracula" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="48b764" />
-    <option name="ANNOTATIONS_COLOR" value="282a35" />
+    <option name="ANNOTATIONS_COLOR" value="f8f8f2" />
     <option name="CARET_COLOR" value="cccccc" />
     <option name="CARET_ROW_COLOR" value="44475a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282a36" />
@@ -44,11 +44,11 @@
     <option name="ScrollBar.Mac.hoverThumbColor" value="bd93f9" />
     <option name="ScrollBar.Mac.thumbColor" value="bd93f983" />
     <option name="TEARLINE_COLOR" value="6b7090" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="bd93f9" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="ff79c6" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="ffb86c" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="50fa7b" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="8be9fd" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="8d64b0" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="c6538d" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="c77e46" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="367a56" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="6199b8" />
     <option name="VISUAL_INDENT_GUIDE" value="6b7090" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c89f73" />
     <option name="SELECTION_BACKGROUND" value="666b87" />
