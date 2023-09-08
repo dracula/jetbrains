@@ -17,6 +17,11 @@ All instructions can be found at [draculatheme.com/jetbrains](https://draculathe
 
 [![Dracula PRO](./docs/screenshots/dracula-pro.png)](https://gumroad.com/a/477820019)
 
+Dracula PRO is a color scheme and UI theme tailored for programming. Made for terminal emulators, code editors, and
+syntax highlighters. Designed to be aesthetically pleasing while keeping you focused.
+
+[Get It Now](https://gumroad.com/a/477820019)
+
 ## Contribution
 
 If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md).

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.15.1
+
+- Workaround for VCS annotation background color lost
+- Revert Tool Window selected background
+
 ## 1.15.0
 
 - Fix new notification window colors

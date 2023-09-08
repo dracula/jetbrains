@@ -15,8 +15,8 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fix new notification window colors</li>
-            <li>Fix tool window button selected background color</li>
+            <li>Workaround for VCS annotation background color lost</li>
+            <li>Revert Tool Window selected background</li>
         </ul>
     """.trimIndent()
 
@@ -36,9 +36,8 @@ object DraculaNotification {
     @JvmField
     val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
-    private const val CHANGELOG_LINK = "https://github.com/dracula/jetbrains/blob/master/CHANGELOG.md"
     private const val DRACULA_PRO_LINK = "https://gumroad.com/a/477820019"
-    private const val GITHUB_REPO_LINK = "https://github.com/dracula/jetbrains"
+    private const val DONATE_LINK = "https://www.buymeacoffee.com/nszihan"
 
     fun notifyReleaseNote(project: Project) {
         val title = "Dracula Theme updated to v${DraculaMeta.currentVersion}"
@@ -59,18 +58,14 @@ object DraculaNotification {
     }
 
     private fun addNotificationActions(notification: Notification) {
-        val actionChangelog = NotificationAction.createSimple("Changelog") {
-            BrowserUtil.browse(CHANGELOG_LINK)
-        }
-        val actionDraculaPro = NotificationAction.createSimple("Dracula Pro") {
+        val actionDraculaPro = NotificationAction.createSimple("Dracula PRO") {
             BrowserUtil.browse(DRACULA_PRO_LINK)
         }
-        val actionGithubRepo = NotificationAction.createSimple("GitHub") {
-            BrowserUtil.browse(GITHUB_REPO_LINK)
+        val actionDonate = NotificationAction.createSimple("Donate") {
+            BrowserUtil.browse(DONATE_LINK)
         }
-        notification.addAction(actionChangelog)
         notification.addAction(actionDraculaPro)
-        notification.addAction(actionGithubRepo)
+        notification.addAction(actionDonate)
     }
 
 }
