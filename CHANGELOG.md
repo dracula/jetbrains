@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.15.2
+
+- Force switch to correspond editor color when toggle UI to Dracula 
+
 ## 1.15.1
 
 - Workaround for VCS annotation background color lost

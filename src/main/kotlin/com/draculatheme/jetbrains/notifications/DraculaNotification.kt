@@ -15,8 +15,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Workaround for VCS annotation background color lost</li>
-            <li>Revert Tool Window selected background</li>
+            <li>Force switch to correspond editor color when toggle UI to Dracula</li>
         </ul>
     """.trimIndent()
 
@@ -37,6 +36,7 @@ object DraculaNotification {
     val notificationIcon = IconLoader.getIcon("/icons/dracula-logo.svg", javaClass)
 
     private const val DRACULA_PRO_LINK = "https://gumroad.com/a/477820019"
+    private const val GITHUB_LING = "https://github.com/dracula/jetbrains"
     private const val DONATE_LINK = "https://www.buymeacoffee.com/nszihan"
 
     fun notifyReleaseNote(project: Project) {
@@ -61,10 +61,14 @@ object DraculaNotification {
         val actionDraculaPro = NotificationAction.createSimple("Dracula PRO") {
             BrowserUtil.browse(DRACULA_PRO_LINK)
         }
+        val github = NotificationAction.createSimple("GitHub") {
+            BrowserUtil.browse(GITHUB_LING)
+        }
         val actionDonate = NotificationAction.createSimple("Donate") {
             BrowserUtil.browse(DONATE_LINK)
         }
         notification.addAction(actionDraculaPro)
+        notification.addAction(github)
         notification.addAction(actionDonate)
     }
 
