@@ -48,7 +48,7 @@ steps:
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
       gradleWrapperFile: 'gradlew'
-      jdkVersionOption: '11'
+      jdkVersionOption: '17'
       options: '-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)'
       tasks: 'publishPlugin'
     displayName: 'Publish to JetBrains Plugin Repository'
