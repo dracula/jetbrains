@@ -28,7 +28,7 @@ steps:
   - task: Gradle@2
     inputs:
       gradleWrapperFile: 'gradlew'
-      jdkVersionOption: '11'
+      jdkVersionOption: '17'
       tasks: 'buildPlugin'
     displayName: 'Build plugin'
 
