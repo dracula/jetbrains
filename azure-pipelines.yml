@@ -32,13 +32,6 @@ steps:
       tasks: 'buildPlugin'
     displayName: 'Build plugin'
 
-#  - task: Gradle@2
-#    inputs:
-#      gradleWrapperFile: 'gradlew'
-#      jdkVersionOption: '11'
-#      tasks: 'runPluginVerifier'
-#    displayName: 'Verify plugin'
-
   - task: GitHubRelease@0
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
