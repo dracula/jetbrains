@@ -52,14 +52,6 @@ tasks {
         val description = """
             <div>
               <p>Dracula Theme for JetBrains</p>
-              <br />
-              <p>
-                <img
-                  alt="Screenshot"
-                  src="https://raw.githubusercontent.com/dracula/jetbrains/master/screenshot.png"
-                  width="600"
-                />
-              </p>
               <h2>Install</h2>
               <p>
                 All instructions can be found at
@@ -85,6 +77,8 @@ tasks {
                   >MIT Licence</a
                 >
               </p>
+              <h2>Donation</h2>
+              <p>If you like this plugin, you can <a href="https://www.buymeacoffee.com/nszihan">buy me a cup of coffee</a>. Thank you!</p>
             </div>
         """.trimIndent()
 
