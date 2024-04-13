@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.16.0
+
+- Fix compatibility issue
+
 ## 1.15.2
 
 - Force switch to correspond editor color when toggle UI to Dracula 

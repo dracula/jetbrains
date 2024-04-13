@@ -15,13 +15,12 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Force switch to correspond editor color when toggle UI to Dracula</li>
+            <li>Fix compatibility issue</li>
         </ul>
     """.trimIndent()
 
     @Language("HTML")
     private val releaseNote = """
-        <p>What's New?</p>
         $whatsNew
     """.trimIndent()
 
