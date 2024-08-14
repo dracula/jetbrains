@@ -26,14 +26,14 @@ steps:
       path: $(GRADLE_USER_HOME)
     displayName: Gradle build cache
 
-  - task: Gradle@2
+  - task: Gradle@3
     inputs:
       gradleWrapperFile: 'gradlew'
-      jdkVersionOption: '17'
+      jdkVersionOption: '1.17'
       tasks: 'buildPlugin'
     displayName: 'Build plugin'
 
-  - task: GitHubRelease@0
+  - task: GitHubRelease@1
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
       gitHubConnection: 'GitHub Release'
@@ -45,11 +45,11 @@ steps:
       target: '$(Build.SourceVersion)'
     displayName: 'Publish to GitHub Release'
 
-  - task: Gradle@2
+  - task: Gradle@3
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
       gradleWrapperFile: 'gradlew'
-      jdkVersionOption: '17'
+      jdkVersionOption: '1.17'
       options: '-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)'
       tasks: 'publishPlugin'
     displayName: 'Publish to JetBrains Plugin Repository'
