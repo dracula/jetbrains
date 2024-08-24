@@ -15,12 +15,6 @@ plugins {
 group = properties("pluginGroup")
 version = properties("pluginVersion")
 
-kotlin {
-    jvmToolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
-    }
-}
-
 repositories {
     mavenCentral()
     intellijPlatform {
@@ -102,7 +96,7 @@ intellijPlatform {
             select {
                 types = listOf(IntelliJPlatformType.IntellijIdeaCommunity, IntelliJPlatformType.IntellijIdeaUltimate)
                 channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = "233"
+                sinceBuild = "241"
                 untilBuild = "242.*"
             }
         }

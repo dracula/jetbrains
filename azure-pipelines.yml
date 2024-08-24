@@ -41,7 +41,7 @@ steps:
       action: 'create'
       assets: 'build/distributions/*.zip'
       assetUploadMode: 'delete'
-      tagSource: 'auto'
+      tagSource: 'gitTag'
       target: '$(Build.SourceVersion)'
     displayName: 'Publish to GitHub Release'
 
