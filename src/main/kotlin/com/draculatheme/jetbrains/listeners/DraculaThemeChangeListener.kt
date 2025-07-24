@@ -14,7 +14,7 @@ class DraculaThemeChangeListener : LafManagerListener {
     override fun lookAndFeelChanged(lafManager: LafManager) {
         val currentUI = lafManager.currentUIThemeLookAndFeel.name
         if (previousUI != currentUI) {
-            if (currentUI == DraculaVariant.Dracula.label || currentUI == DraculaVariant.DraculaColorful.label) {
+            if (currentUI == DraculaVariant.Dracula.label || currentUI == DraculaVariant.DraculaColorful.label || currentUI == DraculaVariant.DraculaAlucard.label) {
                 editorColorsManager.setGlobalScheme(editorColorsManager.getScheme("_@user_$currentUI"))
             }
         }
