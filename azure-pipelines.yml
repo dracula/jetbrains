@@ -13,7 +13,7 @@ trigger:
       - v1.*
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: "ubuntu-latest"
 
 variables:
   GRADLE_USER_HOME: $(Pipeline.Workspace)/.gradle
@@ -28,28 +28,28 @@ steps:
 
   - task: Gradle@3
     inputs:
-      gradleWrapperFile: 'gradlew'
-      jdkVersionOption: '1.17'
-      tasks: 'buildPlugin'
-    displayName: 'Build plugin'
+      gradleWrapperFile: "gradlew"
+      jdkVersionOption: "1.17"
+      tasks: "buildPlugin"
+    displayName: "Build plugin"
 
   - task: GitHubRelease@1
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
-      gitHubConnection: 'GitHub Release'
-      repositoryName: '$(Build.Repository.Name)'
-      action: 'create'
-      assets: 'build/distributions/*.zip'
-      assetUploadMode: 'delete'
-      tagSource: 'gitTag'
-      target: '$(Build.SourceVersion)'
-    displayName: 'Publish to GitHub Release'
+      gitHubConnection: "dracula"
+      repositoryName: "$(Build.Repository.Name)"
+      action: "create"
+      assets: "build/distributions/*.zip"
+      assetUploadMode: "delete"
+      tagSource: "gitTag"
+      target: "$(Build.SourceVersion)"
+    displayName: "Publish to GitHub Release"
 
   - task: Gradle@3
     condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
     inputs:
-      gradleWrapperFile: 'gradlew'
-      jdkVersionOption: '1.17'
-      options: '-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)'
-      tasks: 'publishPlugin'
-    displayName: 'Publish to JetBrains Plugin Repository'
+      gradleWrapperFile: "gradlew"
+      jdkVersionOption: "1.17"
+      options: "-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)"
+      tasks: "publishPlugin"
+    displayName: "Publish to JetBrains Plugin Repository"
