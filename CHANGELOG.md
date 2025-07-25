@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.17.0
+
+- Add a new Light Theme: Alucard. Thanks [@epszaw](https://github.com/epszaw)
+
 ## 1.16.0
 
 - Fix compatibility issue

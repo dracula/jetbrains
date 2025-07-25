@@ -15,7 +15,7 @@ object DraculaNotification {
     @Language("HTML")
     private val whatsNew = """
         <ul>
-            <li>Fix compatibility issue</li>
+            <li>Add a new Light Theme: Alucard. Thanks @epszaw</li>
         </ul>
     """.trimIndent()
 
