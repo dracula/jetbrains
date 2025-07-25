@@ -50,6 +50,6 @@ steps:
     inputs:
       gradleWrapperFile: "gradlew"
       jdkVersionOption: "1.17"
-      options: "-Djetbrains.username=$(jetbrains.username) -Djetbrains.token=$(jetbrains.token)"
+      options: "-Djetbrains.token=$(jetbrains.token)"
       tasks: "publishPlugin"
     displayName: "Publish to JetBrains Plugin Repository"
