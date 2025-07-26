@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.17.2
+
+- Fix caret row color for better reading with selection background color
+
 ## 1.17.1
 
 - Pick a better color for editor selection background [#82](https://github.com/dracula/jetbrains/issues/82)
@@ -14,7 +18,7 @@
 
 ## 1.15.2
 
-- Force switch to correspond editor color when toggle UI to Dracula 
+- Force switch to correspond editor color when toggle UI to Dracula
 
 ## 1.15.1
 
@@ -140,19 +144,19 @@
 ## 1.10.1
 
 - Enhanced a bunch of UI components:
-    - Button
-    - ToolWindow Bar
-    - Editor Bar
-    - SidePanel
-    - Checkbox
-    - ComboBox
-    - Separator
+  - Button
+  - ToolWindow Bar
+  - Editor Bar
+  - SidePanel
+  - Checkbox
+  - ComboBox
+  - Separator
 
 ## 1.10.0
 
 - Enhanced UI details of:
-    - SidePanel
-    - Welcome window
+  - SidePanel
+  - Welcome window
 
 ## 1.9.6
 
@@ -192,12 +196,12 @@
 
 - Fix 2020.3 compatibility issue
 - Dracula
-    - Use raw comment color
+  - Use raw comment color
 
 ## 1.8.2
 
 - Dracula Colorful
-    - Enhanced file status colors
+  - Enhanced file status colors
 
 ## 1.8.1
 
