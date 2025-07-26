@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.17.1
+
+- Pick a better color for editor selection background [#82](https://github.com/dracula/jetbrains/issues/82)
+
 ## 1.17.0
 
 - Add a new Light Theme: Alucard. Thanks [@epszaw](https://github.com/epszaw)
@@ -14,7 +18,7 @@
 
 ## 1.15.1
 
-- Workaround for VCS annotation background color lost
+- Workaround for VCS annotation background color lost[DraculaNotification.kt](src/main/kotlin/com/draculatheme/jetbrains/notifications/DraculaNotification.kt)
 - Revert Tool Window selected background
 
 ## 1.15.0
@@ -28,7 +32,7 @@
 
 ## 1.14.2
 
-- Fix notification message layout & typo
+- Fix notification message layout & typo[CHANGELOG.md](CHANGELOG.md)
 
 ## 1.14.1
 
