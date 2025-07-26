@@ -22,7 +22,7 @@
 
 ## 1.15.1
 
-- Workaround for VCS annotation background color lost[DraculaNotification.kt](src/main/kotlin/com/draculatheme/jetbrains/notifications/DraculaNotification.kt)
+- Workaround for VCS annotation background color lost
 - Revert Tool Window selected background
 
 ## 1.15.0
@@ -36,7 +36,7 @@
 
 ## 1.14.2
 
-- Fix notification message layout & typo[CHANGELOG.md](CHANGELOG.md)
+- Fix notification message layout & typo
 
 ## 1.14.1
 
