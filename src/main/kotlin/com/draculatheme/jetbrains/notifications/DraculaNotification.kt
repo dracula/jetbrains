@@ -39,7 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">👁️ Fixed caret row color for better reading with selection background</li>
+                <li style="$Styles.LIST_ITEM">🎨 Improved text selection contrast to make selected text more distinguishable</li>
             </ul>
         </div>
     """.trimIndent()

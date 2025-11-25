@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.17.3
+
+- Improve text selection contrast to make selected text more distinguishable [#101](https://github.com/dracula/jetbrains/issues/101)
+
 ## 1.17.2
 
 - Fix caret row color for better reading with selection background color
