@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.18.0
+
+- Add Islands Dracula, Islands Dracula Colorful, and Islands Dracula Alucard themes
+- Update minimum IntelliJ version to 2025.3
+
 ## 1.17.5
 
 - Improve breakpoint line readability in Dracula Alucard theme [#103](https://github.com/dracula/jetbrains/issues/103)

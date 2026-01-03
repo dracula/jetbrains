@@ -39,7 +39,8 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🐛 Improved breakpoint line readability in Dracula Alucard theme</li>
+                <li style="$Styles.LIST_ITEM">🏝️ New Islands series themes: Islands Dracula, Islands Dracula Colorful, and Islands Dracula Alucard</li>
+                <li style="$Styles.LIST_ITEM">⬆️ Updated minimum IntelliJ version to 2025.3</li>
             </ul>
         </div>
     """.trimIndent()
