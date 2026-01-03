@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.17.4
+
+- Improve identifier under caret background color for better visibility
+- Update selection background to neutral gray for better contrast with identifier highlighting
+
 ## 1.17.3
 
 - Improve text selection contrast to make selected text more distinguishable [#101](https://github.com/dracula/jetbrains/issues/101)
