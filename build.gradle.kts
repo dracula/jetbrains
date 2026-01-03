@@ -8,7 +8,7 @@ fun properties(key: String) = project.findProperty(key).toString()
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "2.1.0"
-    id("org.jetbrains.intellij.platform") version "2.2.1"
+    id("org.jetbrains.intellij.platform") version "2.10.5"
     id("org.jetbrains.changelog") version "2.2.1"
 }
 
@@ -25,6 +25,7 @@ repositories {
 dependencies {
     intellijPlatform {
         create(properties("platformType"), properties("platformVersion"))
+        // Plugin verifier for compatibility checks
         pluginVerifier()
     }
 }
@@ -93,10 +94,10 @@ intellijPlatform {
         ides {
             recommended()
             select {
-                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity)
+                types = listOf(IntelliJPlatformType.IntellijIdeaUltimate)
                 channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = "241"
-                untilBuild = "252.*"
+                sinceBuild = "253"
+                untilBuild = "253.*"
             }
         }
         failureLevel = listOf(
