@@ -13,6 +13,7 @@
         <themeProvider id="f8c76d9a-2c8d-4e4f-a327-d7b5c1ce6d3e" path="/themes/DraculaAlucard.theme.json"/>
         <themeProvider id="9a1b2c3d-4e5f-6789-abcd-ef0123456789" path="/themes/IslandsDracula.theme.json"/>
         <themeProvider id="8b2c3d4e-5f67-89ab-cdef-012345678901" path="/themes/IslandsDraculaColorful.theme.json"/>
+        <themeProvider id="7c3d4e5f-6789-abcd-ef01-234567890abc" path="/themes/IslandsDraculaAlucard.theme.json"/>
     </extensions>
     <applicationListeners>
         <listener class="com.draculatheme.jetbrains.listeners.DraculaThemeChangeListener"
