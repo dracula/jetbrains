@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.17.5
+
+- Improve breakpoint line readability in Dracula Alucard theme [#103](https://github.com/dracula/jetbrains/issues/103)
+
 ## 1.17.4
 
 - Improve identifier under caret background color for better visibility

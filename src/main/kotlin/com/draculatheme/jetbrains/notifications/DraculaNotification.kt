@@ -39,8 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🎨 Improved identifier under caret background color for better visibility</li>
-                <li style="$Styles.LIST_ITEM">✨ Updated selection background to neutral gray for better contrast</li>
+                <li style="$Styles.LIST_ITEM">🐛 Improved breakpoint line readability in Dracula Alucard theme</li>
             </ul>
         </div>
     """.trimIndent()
