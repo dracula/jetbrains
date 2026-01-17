@@ -133,6 +133,10 @@
       "visitedForeground": "secondaryAccentColor",
       "pressedForeground": "secondaryAccentColor"
     },
+    "MemoryIndicator": {
+      "usedBackground": "#6b5ca5",
+      "allocatedBackground": "#515872"
+    },
     "Notification": {
       "borderColor": "selectionBackground",
       "errorBorderColor": "#ff5554",

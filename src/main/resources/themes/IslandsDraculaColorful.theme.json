@@ -146,6 +146,10 @@
     "MainWindow": {
       "background": "#484c60"
     },
+    "MemoryIndicator": {
+      "usedBackground": "#6b5ca5",
+      "allocatedBackground": "#515872"
+    },
     "Notification": {
       "borderColor": "selectionBackground",
       "errorBorderColor": "#ff5554",
@@ -367,6 +371,7 @@
       "Checkbox.Border.Default.Dark": "#bd93f9",
       "Checkbox.Border.Selected.Dark": "#bd93f9",
       "Checkbox.Border.Disabled.Dark": "#6272a4",
+      "Checkbox.Background.Selected": "#6272a4",
       "Checkbox.Background.Default.Dark": "#6272a4",
       "Checkbox.Background.Disabled.Dark": "#414450",
       "Checkbox.Focus.Wide.Dark": "#bd93f9",
