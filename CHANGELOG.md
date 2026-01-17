@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.18.1
+
+- Correct selected-state background styling for checkboxes and radio items
+- Refine the MemoryIndicator visuals for clearer status feedback
+
 ## 1.18.0
 
 - Add Islands Dracula, Islands Dracula Colorful, and Islands Dracula Alucard themes
