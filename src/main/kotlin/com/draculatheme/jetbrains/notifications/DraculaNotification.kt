@@ -39,8 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">✅ Correct selected-state background styling for checkboxes and radio items</li>
-                <li style="$Styles.LIST_ITEM">🧠 Refine the MemoryIndicator visuals for clearer status feedback</li>
+                <li style="$Styles.LIST_ITEM">🔔 Improve notification card background contrast in Islands themes for better visibility</li>
             </ul>
         </div>
     """.trimIndent()

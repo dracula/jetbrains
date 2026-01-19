@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.2
+
+- Improve notification card background contrast in Islands themes for better visibility
+
 ## 1.18.1
 
 - Correct selected-state background styling for checkboxes and radio items
