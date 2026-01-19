@@ -169,11 +169,11 @@
     },
     "NotificationsToolwindow": {
       "newNotification": {
-        "hoverBackground": "secondaryBackground",
-        "background": "secondaryBackground"
+        "hoverBackground": "hoverBackground",
+        "background": "primaryBackground"
       },
       "Notification": {
-        "hoverBackground": "secondaryBackground"
+        "hoverBackground": "hoverBackground"
       }
     },
     "PasswordField": {
