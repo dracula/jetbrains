@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.3
+
+- Fix inconsistent background color for local variable write occurrences in Dracula and Dracula Colorful themes
+
 ## 1.18.2
 
 - Improve notification card background contrast in Islands themes for better visibility
