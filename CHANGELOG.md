@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.4
+
+- Fix main window background color inconsistency in Islands Dracula variants [#106](https://github.com/dracula/jetbrains/issues/106)
+
 ## 1.18.3
 
 - Fix inconsistent background color for local variable write occurrences in Dracula and Dracula Colorful themes
