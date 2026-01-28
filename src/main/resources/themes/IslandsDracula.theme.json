@@ -144,7 +144,7 @@
       "borderColor": "#3a3d4c00"
     },
     "MainWindow": {
-      "background": "#484c60"
+      "background": "primaryBackground"
     },
     "MemoryIndicator": {
       "usedBackground": "#6b5ca5",

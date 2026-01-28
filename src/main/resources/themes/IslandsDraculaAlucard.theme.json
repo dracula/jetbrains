@@ -144,7 +144,7 @@
       "borderColor": "#dedccf00"
     },
     "MainWindow": {
-      "background": "#d8d6c9"
+      "background": "primaryBackground"
     },
     "Notification": {
       "borderColor": "selectionBackground",
