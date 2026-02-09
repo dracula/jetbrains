@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.5
+
+- Add Rust syntax highlighting support for RustRover 2025.2 compatibility [#100](https://github.com/dracula/jetbrains/issues/100)
+
 ## 1.18.4
 
 - Fix main window background color inconsistency in Islands Dracula variants [#106](https://github.com/dracula/jetbrains/issues/106)

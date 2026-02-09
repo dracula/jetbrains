@@ -39,7 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🎨 Fix main window background color inconsistency in Islands Dracula variants</li>
+                <li style="$Styles.LIST_ITEM">🦀 Add Rust syntax highlighting support for RustRover 2025.2 compatibility</li>
             </ul>
         </div>
     """.trimIndent()
