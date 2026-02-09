@@ -1961,6 +1961,109 @@
     <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.ASSOC_FUNCTION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="org.rust.ASSOC_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="org.rust.ATTRIBUTE" baseAttributes="DEFAULT_METADATA" />
+    <option name="org.rust.BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="org.rust.BRACES" baseAttributes="DEFAULT_BRACES" />
+    <option name="org.rust.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="org.rust.CFG_DISABLED_CODE">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+      </value>
+    </option>
+    <option name="org.rust.CHAR" baseAttributes="DEFAULT_STRING" />
+    <option name="org.rust.COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="org.rust.CONST_PARAMETER" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.rust.CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="org.rust.CRATE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.DOC_CODE" baseAttributes="DEFAULT_DOC_MARKUP" />
+    <option name="org.rust.DOC_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="org.rust.DOC_EMPHASIS">
+      <value>
+        <option name="FOREGROUND" value="98afff" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_HEADING" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="org.rust.DOC_LINK" baseAttributes="DEFAULT_DOC_COMMENT_TAG_VALUE" />
+    <option name="org.rust.DOC_STRONG">
+      <value>
+        <option name="FOREGROUND" value="98afff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.DOT" baseAttributes="DEFAULT_DOT" />
+    <option name="org.rust.ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.ENUM_VARIANT" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="org.rust.EOL_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="org.rust.FIELD" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="org.rust.FORMAT_PARAMETER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="org.rust.FORMAT_SPECIFIER">
+      <value>
+        <option name="FOREGROUND" value="ffb86c" />
+      </value>
+    </option>
+    <option name="org.rust.FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.GENERATED_ITEM">
+      <value>
+        <option name="FOREGROUND" value="6272a4" />
+      </value>
+    </option>
+    <option name="org.rust.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+    <option name="org.rust.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="org.rust.KEYWORD_UNSAFE">
+      <value>
+        <option name="FOREGROUND" value="ff79c6" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.LIFETIME">
+      <value>
+        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="50fa7b" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.METHOD" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="org.rust.MODULE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.MUT_BINDING" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.MUT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.MUT_STATIC" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="org.rust.OPERATORS" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="org.rust.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.PARENTHESES" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="org.rust.PRIMITIVE_TYPE" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="org.rust.Q_OPERATOR" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="org.rust.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="bd93f9" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="org.rust.STATIC" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="org.rust.STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.TRAIT" baseAttributes="DEFAULT_INTERFACE_NAME" />
+    <option name="org.rust.TYPE_ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="org.rust.UNION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.UNSAFE_CODE">
+      <value>
+        <option name="BACKGROUND" value="3b2d38" />
+      </value>
+    </option>
+    <option name="org.rust.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="org.rust.VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="org.toml.DATE">
       <value>
         <option name="FOREGROUND" value="ffb86c" />
