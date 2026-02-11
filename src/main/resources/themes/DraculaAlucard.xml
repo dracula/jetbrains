@@ -39,7 +39,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="6c664b" />
     <option name="SELECTED_INDENT_GUIDE" value="6c664b" />
     <option name="SELECTED_TEARLINE_COLOR" value="6c664b" />
-    <option name="SELECTION_BACKGROUND" value="d8d6c9" />
+    <option name="SELECTION_BACKGROUND" value="cfcfde" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SEPARATOR_ABOVE_COLOR" value="bcbab3" />
     <option name="SEPARATOR_BELOW_COLOR" value="bcbab3" />
@@ -212,7 +212,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="2c2b31" />
+        <option name="FOREGROUND" value="1f1f1f" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -690,6 +690,7 @@
     <option name="KOTLIN_TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="a34d14" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
@@ -803,6 +804,7 @@
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="a34d14" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TYPO">
