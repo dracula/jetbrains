@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.18.6
+
+- Fix invisible UI accents in Alucard themes by correcting `secondaryAccentColor` from background color to Alucard Purple
+- Adopt spec Functional Colors for UI state indicators (error, warning, success, info) across both Alucard theme variants
+- Fix editor selection background and ANSI console white output to match Alucard spec
+- Add italic styling to type parameters per spec Generic Templates rule
+- Add proper non-Dark checkbox icon variants for light theme rendering
+- Soften search match highlight and fix bookmark mnemonic foreground visibility
+
 ## 1.18.5
 
 - Add Rust syntax highlighting support for RustRover 2025.2 compatibility [#100](https://github.com/dracula/jetbrains/issues/100)
