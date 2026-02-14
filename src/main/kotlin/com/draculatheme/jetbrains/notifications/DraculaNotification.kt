@@ -39,7 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🎨 Fix Alucard light theme UI accent visibility, adopt spec Functional Colors, and add proper checkbox icon theming</li>
+                <li style="$Styles.LIST_ITEM">🐛 Fix theme change listener for Islands variants</li>
             </ul>
         </div>
     """.trimIndent()

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.7
+
+- Fix theme change listener for Islands variants
+
 ## 1.18.6
 
 - Fix invisible UI accents in Alucard themes by correcting `secondaryAccentColor` from background color to Alucard Purple
