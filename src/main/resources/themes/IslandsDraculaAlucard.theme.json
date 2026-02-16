@@ -114,9 +114,6 @@
     "EditorTabs": {
       "background": "secondaryBackground",
       "underlinedTabBackground": "#fffbeb",
-      "inactiveUnderlinedTabBackground": "#f5f3e8",
-      "underlinedBorderColor": "secondaryAccentColor",
-      "inactiveUnderlinedTabBorderColor": "#c9c7ba",
       "underlineColor": "secondaryAccentColor",
       "underlineHeight": 2
     },
@@ -128,9 +125,6 @@
       "Rose": "#e8d4dd",
       "Violet": "#dbd4e6"
     },
-    "Island": {
-      "borderColor": "secondaryBackground"
-    },
     "Label": {
       "errorForeground": "#de5735"
     },
@@ -139,12 +133,6 @@
       "hoverForeground": "accentColor",
       "visitedForeground": "secondaryAccentColor",
       "pressedForeground": "secondaryAccentColor"
-    },
-    "MainToolbar": {
-      "borderColor": "#dedccf00"
-    },
-    "MainWindow": {
-      "background": "primaryBackground"
     },
     "Notification": {
       "borderColor": "selectionBackground",
@@ -289,7 +277,6 @@
         "underlinedTabInactiveBackground": "#f5f3e8"
       },
       "Stripe": {
-        "borderColor": "#dedccf00"
       }
     },
     "Tree": {
