@@ -35,9 +35,9 @@
     },
     "ActionButton": {
       "hoverBackground": "hoverBackground",
-      "hoverBorderColor": "hoverBackground",
+      "hoverBorderColor": "separatorColor",
       "pressedBackground": "hoverBackground",
-      "pressedBorderColor": "hoverBackground"
+      "pressedBorderColor": "selectionBackground"
     },
     "Bookmark": {
       "iconBackground": "accentColor",
@@ -55,12 +55,12 @@
     },
     "Button": {
       "foreground": "primaryForeground",
-      "startBorderColor": "selectionBackground",
-      "endBorderColor": "selectionBackground",
+      "startBorderColor": "separatorColor",
+      "endBorderColor": "separatorColor",
       "startBackground": "#efeddc",
       "endBackground": "#efeddc",
       "focusedBorderColor": "secondaryAccentColor",
-      "disabledBorderColor": "#efeddc",
+      "disabledBorderColor": "separatorColor",
       "default": {
         "foreground": "primaryForeground",
         "startBackground": "selectionBackground",
@@ -97,7 +97,7 @@
     "Component": {
       "focusColor": "secondaryAccentColor",
       "borderColor": "selectionBackground",
-      "focusedBorderColor": "selectionBackground",
+      "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "selectionBackground",
       "errorFocusColor": "#de5735",
       "inactiveErrorFocusColor": "#de5735",
@@ -233,7 +233,7 @@
       "background": "secondaryBackground"
     },
     "StatusBar": {
-      "borderColor": "#dedccf00"
+      "borderColor": "separatorColor"
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
