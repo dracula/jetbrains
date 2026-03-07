@@ -115,7 +115,7 @@
     "EditorTabs": {
       "background": "secondaryBackground",
       "underlinedTabBackground": "#292b38",
-      "underlineColor": "secondaryAccentColor",
+      "underlinedBorderColor": "secondaryAccentColor",
       "underlineHeight": 2
     },
     "FileColor": {
