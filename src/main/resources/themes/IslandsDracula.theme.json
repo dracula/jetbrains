@@ -14,7 +14,8 @@
     "selectionBackground": "#6272a4",
     "selectionInactiveBackground": "#4e5a82",
     "borderColor": "#282a36",
-    "separatorColor": "#5d5e66"
+    "separatorColor": "#5d5e66",
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -114,7 +115,7 @@
     "EditorTabs": {
       "background": "secondaryBackground",
       "underlinedTabBackground": "#292b38",
-      "underlineColor": "secondaryAccentColor",
+      "underlinedBorderColor": "secondaryAccentColor",
       "underlineHeight": 2
     },
     "FileColor": {
@@ -237,7 +238,7 @@
       "background": "secondaryBackground"
     },
     "StatusBar": {
-      "borderColor": "separatorColor"
+      "borderColor": "transparent"
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
@@ -281,6 +282,7 @@
         "underlinedTabInactiveBackground": "#313341"
       },
       "Stripe": {
+        "borderColor": "transparent"
       }
     },
     "Tree": {
@@ -332,6 +334,9 @@
       "Details": {
         "background": "hoverBackground"
       }
+    },
+    "MainToolbar": {
+      "borderColor": "transparent"
     }
   },
   "icons": {
