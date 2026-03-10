@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.18.9
+
+- Fix editor tab border color
+- Fix toolbar border issues
+
 ## 1.18.8
 
 - Refine Islands theme border styles: distinct focus ring, visible ActionButton borders, StatusBar separator, and neutral Button borders
