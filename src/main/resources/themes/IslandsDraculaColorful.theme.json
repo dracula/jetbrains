@@ -265,6 +265,10 @@
       "offForeground": "hoverBackground",
       "buttonColor": "primaryForeground"
     },
+    "Island": {
+      "borderColor": "borderColor",
+      "arc": "20"
+    },
     "ToolWindow": {
       "background": "secondaryBackground",
       "Button": {
