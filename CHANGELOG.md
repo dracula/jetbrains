@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.10
+
+- Fix Islands theme border rendering in non-compact mode
+
 ## 1.18.9
 
 - Fix editor tab border color

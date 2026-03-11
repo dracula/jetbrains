@@ -39,8 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🐛 Fix editor tab border color</li>
-                <li style="$Styles.LIST_ITEM">🐛 Fix toolbar border issues</li>
+                <li style="$Styles.LIST_ITEM">🐛 Fix Islands theme border rendering in non-compact mode</li>
             </ul>
         </div>
     """.trimIndent()
