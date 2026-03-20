@@ -129,6 +129,12 @@
     "Label": {
       "errorForeground": "#de5735"
     },
+    "List": {
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "hoverInactiveBackground": "selectionInactiveBackground"
+    },
     "Link": {
       "activeForeground": "accentColor",
       "hoverForeground": "accentColor",
@@ -289,6 +295,8 @@
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "hoverInactiveBackground": "selectionInactiveBackground",
       "hash": "hoverBackground"
     },
     "ValidationTooltip": {
@@ -337,6 +345,14 @@
     },
     "MainToolbar": {
       "borderColor": "transparent"
+    },
+    "MainWindow.Tab": {
+      "selectedBackground": "#dedccf",
+      "selectedForeground": "primaryForeground",
+      "selectedInactiveBackground": "secondaryBackground",
+      "hoverBackground": "secondaryBackground",
+      "hoverForeground": "primaryForeground",
+      "separatorColor": "separatorColor"
     }
   },
   "icons": {

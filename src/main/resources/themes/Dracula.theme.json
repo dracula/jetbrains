@@ -127,6 +127,12 @@
     "Label": {
       "errorForeground": "#ff5554"
     },
+    "List": {
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "hoverInactiveBackground": "selectionInactiveBackground"
+    },
     "Link": {
       "activeForeground": "accentColor",
       "hoverForeground": "accentColor",
@@ -261,6 +267,7 @@
       "buttonColor": "primaryForeground"
     },
     "ToolWindow": {
+      "background": "secondaryBackground",
       "Button": {
         "selectedBackground": "hoverBackground",
         "hoverBackground": "hoverBackground"
@@ -280,6 +287,8 @@
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "hoverInactiveBackground": "selectionInactiveBackground",
       "hash": "hoverBackground"
     },
     "ValidationTooltip": {
@@ -308,6 +317,14 @@
       "RefLabel": {
         "foreground": "primaryForeground"
       }
+    },
+    "MainWindow.Tab": {
+      "selectedBackground": "#484c60",
+      "selectedForeground": "primaryForeground",
+      "selectedInactiveBackground": "secondaryBackground",
+      "hoverBackground": "secondaryBackground",
+      "hoverForeground": "primaryForeground",
+      "separatorColor": "separatorColor"
     },
     "WelcomeScreen": {
       "SidePanel": {

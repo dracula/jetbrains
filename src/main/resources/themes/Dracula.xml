@@ -1270,6 +1270,16 @@
         <option name="FOREGROUND" value="8be9fd" />
       </value>
     </option>
+    <option name="PHP_SCRIPTING_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="242632" />
+      </value>
+    </option>
+    <option name="PHP_TAG">
+      <value>
+        <option name="FOREGROUND" value="ff79c6" />
+      </value>
+    </option>
     <option name="PHP_CONSTANT">
       <value>
         <option name="FOREGROUND" value="bd93f9" />
