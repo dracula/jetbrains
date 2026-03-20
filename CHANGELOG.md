@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.19.0
+
+- Improve UI theming: add List and Tree hover/selection states, ToolWindow background
+- Fix multi-project tab highlighting with correct MainWindow.Tab keys
+- Add PHP syntax highlighting support (PHP_SCRIPTING_BACKGROUND, PHP_TAG) for PHP-in-HTML
+- Add PHP and HTML attributes to Alucard editor scheme
+
 ## 1.18.10
 
 - Fix Islands theme border rendering in non-compact mode

@@ -39,7 +39,9 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🐛 Fix Islands theme border rendering in non-compact mode</li>
+                <li style="$Styles.LIST_ITEM">🎨 Improve UI theming: List/Tree hover states, ToolWindow background</li>
+                <li style="$Styles.LIST_ITEM">🐛 Fix multi-project tab highlighting</li>
+                <li style="$Styles.LIST_ITEM">✨ Add PHP syntax highlighting for PHP-in-HTML</li>
             </ul>
         </div>
     """.trimIndent()
