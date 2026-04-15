@@ -10,9 +10,9 @@
     <option name="DOC_COMMENT_LINK" value="ff79c6" />
     <option name="FILESTATUS_ADDED" value="50fa7b" />
     <option name="FILESTATUS_COPIED" value="50fa7b" />
-    <option name="FILESTATUS_DELETED" value="6272a4" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6272a4" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="6272a4" />
+    <option name="FILESTATUS_DELETED" value="ff6e6e" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ff6e6e" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="a4b0d4" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff5555" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff5555" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff5555" />
@@ -25,7 +25,7 @@
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="8be9fd" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="8be9fd" />
     <option name="FILESTATUS_RENAMED" value="ff79c6" />
-    <option name="FILESTATUS_UNKNOWN" value="ff5555" />
+    <option name="FILESTATUS_UNKNOWN" value="ffb86c" />
     <option name="FILESTATUS_addedOutside" value="50fa7b" />
     <option name="FILESTATUS_changelistConflict" value="ff5555" />
     <option name="FILESTATUS_modifiedOutside" value="8be9fd" />
