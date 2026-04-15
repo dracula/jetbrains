@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.19.1
+
+- Fix VCS file status colors: deleted files are now readable on the selection background, and deleted vs. unversioned vs. conflict are visually distinct (#110)
+
 ## 1.19.0
 
 - Improve UI theming: add List and Tree hover/selection states, ToolWindow background
