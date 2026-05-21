@@ -274,6 +274,7 @@
     "ToolWindow": {
       "background": "secondaryBackground",
       "Button": {
+        "selectedForeground": "primaryForeground",
         "selectedBackground": "hoverBackground",
         "hoverBackground": "hoverBackground"
       },
