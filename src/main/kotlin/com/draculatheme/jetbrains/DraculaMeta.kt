@@ -5,5 +5,5 @@ import com.intellij.openapi.extensions.PluginId
 
 object DraculaMeta {
     val currentVersion: String
-        get() = PluginManagerCore.getPlugin(PluginId.getId("com.vermouthx.idea"))?.version ?: ""
+        get() = PluginManagerCore.findPlugin(PluginId.getId("com.vermouthx.idea"))?.version ?: ""
 }
