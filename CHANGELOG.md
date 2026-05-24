@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.0.0
+
+- Realign UI palette to canonical Dracula colors (`#282a36` primary background, `#44475a` current line) for a more authentic look across all dark variants
+- Refine button styles: restore default button emphasis, separate pressed from hover state, and make ToggleButton off-state read as inert
+- Pin Table text foreground and distinguish hovered rows from selected rows
+- Use primary background for tool windows, side panel, and tree surfaces for a unified flat surface
+- Upgrade to IntelliJ Platform plugin 2.16.0 and Gradle 9.5.1
+- Fix invisible selected tool window icon in Alucard themes
+
 ## 1.19.1
 
 - Fix VCS file status colors: deleted files are now readable on the selection background, and deleted vs. unversioned vs. conflict are visually distinct (#110)

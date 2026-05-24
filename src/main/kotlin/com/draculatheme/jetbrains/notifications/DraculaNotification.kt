@@ -39,7 +39,9 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🐛 Fix VCS file status colors: readable deleted files, distinct deleted/unversioned/conflict states</li>
+                <li style="$Styles.LIST_ITEM">🎨 Realign UI palette to canonical Dracula colors for a more authentic look</li>
+                <li style="$Styles.LIST_ITEM">✨ Refine button, table, and tool window styling for clearer state hierarchy</li>
+                <li style="$Styles.LIST_ITEM">⬆️ Upgrade to IntelliJ Platform plugin 2.16.0 and Gradle 9.5.1</li>
             </ul>
         </div>
     """.trimIndent()
