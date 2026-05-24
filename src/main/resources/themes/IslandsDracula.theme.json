@@ -37,8 +37,8 @@
     "ActionButton": {
       "hoverBackground": "hoverBackground",
       "hoverBorderColor": "separatorColor",
-      "pressedBackground": "hoverBackground",
-      "pressedBorderColor": "selectionBackground"
+      "pressedBackground": "secondaryBackground",
+      "pressedBorderColor": "separatorColor"
     },
     "Bookmark": {
       "iconBackground": "accentColor",
@@ -58,14 +58,14 @@
       "foreground": "primaryForeground",
       "startBorderColor": "separatorColor",
       "endBorderColor": "separatorColor",
-      "startBackground": "#4f566d",
-      "endBackground": "#4f566d",
+      "startBackground": "#565b75",
+      "endBackground": "#565b75",
       "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "separatorColor",
       "default": {
         "foreground": "primaryForeground",
-        "startBackground": "selectionBackground",
-        "endBackground": "selectionBackground",
+        "startBackground": "#6272a4",
+        "endBackground": "#6272a4",
         "startBorderColor": "secondaryAccentColor",
         "endBorderColor": "secondaryAccentColor",
         "focusColor": "secondaryAccentColor",
@@ -267,8 +267,8 @@
     "ToggleButton": {
       "onBackground": "#50fa7b",
       "onForeground": "primaryBackground",
-      "offBackground": "selectionBackground",
-      "offForeground": "primaryBackground",
+      "offBackground": "secondaryBackground",
+      "offForeground": "primaryForeground",
       "buttonColor": "primaryForeground"
     },
     "Island": {
@@ -278,7 +278,7 @@
     "ToolWindow": {
       "background": "primaryBackground",
       "Button": {
-        "selectedBackground": "hoverBackground",
+        "selectedBackground": "selectionBackground",
         "hoverBackground": "hoverBackground"
       },
       "Header": {
