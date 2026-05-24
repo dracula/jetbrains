@@ -249,8 +249,9 @@
       "contentAreaColor": "hoverBackground"
     },
     "Table": {
+      "foreground": "primaryForeground",
       "gridColor": "#5d617a",
-      "hoverBackground": "selectionBackground",
+      "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "secondaryBackground"
     },
     "TableHeader": {
