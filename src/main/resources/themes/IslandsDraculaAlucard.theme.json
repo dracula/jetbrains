@@ -237,7 +237,7 @@
       "separatorColor": "separatorColor"
     },
     "SidePanel": {
-      "background": "secondaryBackground"
+      "background": "primaryBackground"
     },
     "StatusBar": {
       "borderColor": "transparent"

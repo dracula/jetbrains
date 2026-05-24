@@ -235,7 +235,7 @@
       "separatorColor": "separatorColor"
     },
     "SidePanel": {
-      "background": "secondaryBackground"
+      "background": "primaryBackground"
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
