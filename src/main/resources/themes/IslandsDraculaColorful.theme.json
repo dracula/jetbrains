@@ -8,13 +8,13 @@
     "accentColor": "#ff79c6",
     "secondaryAccentColor": "#bd93f9",
     "primaryForeground": "#f8f8f2",
-    "primaryBackground": "#414450",
+    "primaryBackground": "#282a36",
     "secondaryBackground": "#3a3d4c",
-    "hoverBackground": "#282a36",
-    "selectionBackground": "#6272a4",
-    "selectionInactiveBackground": "#4e5a82",
-    "borderColor": "#282a36",
-    "separatorColor": "#5d5e66",
+    "hoverBackground": "#44475a",
+    "selectionBackground": "#4b506a",
+    "selectionInactiveBackground": "#424860",
+    "borderColor": "#44475a",
+    "separatorColor": "#4f526a",
     "transparent": "#00000000"
   },
   "ui": {
@@ -91,7 +91,7 @@
       "nonEditableBackground": "secondaryBackground"
     },
     "CompletionPopup": {
-      "selectionBackground": "selectionInactiveBackground",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "matchForeground": "accentColor"
     },
@@ -165,7 +165,7 @@
     "NotificationsToolwindow": {
       "newNotification": {
         "hoverBackground": "hoverBackground",
-        "background": "primaryBackground"
+        "background": "secondaryBackground"
       },
       "Notification": {
         "hoverBackground": "hoverBackground"
@@ -266,9 +266,9 @@
     },
     "ToggleButton": {
       "onBackground": "#50fa7b",
-      "onForeground": "hoverBackground",
+      "onForeground": "primaryBackground",
       "offBackground": "selectionBackground",
-      "offForeground": "hoverBackground",
+      "offForeground": "primaryBackground",
       "buttonColor": "primaryForeground"
     },
     "Island": {
@@ -276,13 +276,13 @@
       "arc": "20"
     },
     "ToolWindow": {
-      "background": "secondaryBackground",
+      "background": "primaryBackground",
       "Button": {
         "selectedBackground": "hoverBackground",
         "hoverBackground": "hoverBackground"
       },
       "Header": {
-        "background": "secondaryBackground",
+        "background": "primaryBackground",
         "inactiveBackground": "secondaryBackground"
       },
       "HeaderTab": {
@@ -296,6 +296,7 @@
       }
     },
     "Tree": {
+      "background": "primaryBackground",
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
