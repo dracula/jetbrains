@@ -6,7 +6,6 @@
 - Refine button styles: restore default button emphasis, separate pressed from hover state, and make ToggleButton off-state read as inert
 - Pin Table text foreground and distinguish hovered rows from selected rows
 - Use primary background for tool windows, side panel, and tree surfaces for a unified flat surface
-- Upgrade to IntelliJ Platform plugin 2.16.0 and Gradle 9.5.1
 - Fix invisible selected tool window icon in Alucard themes
 
 ## 1.19.1
