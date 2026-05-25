@@ -57,3 +57,5 @@ To release a new version:
 2. Add an entry to `CHANGELOG.md` (the latest section is used as marketplace change notes)
 3. Update `whatsNew` HTML in `DraculaNotification.kt`
 4. Commit, tag `v1.x.y`, and push the tag
+
+User-facing release notes (`CHANGELOG.md` entries and `whatsNew` HTML) must describe the visible change and the user benefit. Do not mention implementation details — specific UI theme keys, hex values, refactor mechanics, or which canonical recipe was followed. Users see *what improved for them*, not *how it was wired up*.

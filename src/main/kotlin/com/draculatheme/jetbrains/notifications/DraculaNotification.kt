@@ -39,8 +39,8 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🎨 Realign UI palette to canonical Dracula colors for a more authentic look</li>
-                <li style="$Styles.LIST_ITEM">✨ Refine button, table, and tool window styling for clearer state hierarchy</li>
+                <li style="$Styles.LIST_ITEM">🎨 Restore the floating-island feel in Islands variants for clearer visual layering</li>
+                <li style="$Styles.LIST_ITEM">✨ Clarify active vs. inactive tool window selections in the side stripe</li>
             </ul>
         </div>
     """.trimIndent()

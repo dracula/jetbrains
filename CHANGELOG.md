@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0
+
+- Restore the floating-island feel in Islands variants: the editor and tool windows read as distinct surfaces above the surrounding chrome
+- Clarify active vs. inactive tool window selections in the side stripe
+
 ## 2.0.0
 
 - Realign UI palette to canonical Dracula colors (`#282a36` primary background, `#44475a` current line) for a more authentic look across all dark variants
