@@ -37,7 +37,7 @@
     "ActionButton": {
       "hoverBackground": "hoverBackground",
       "hoverBorderColor": "separatorColor",
-      "pressedBackground": "secondaryBackground",
+      "pressedBackground": "#4a4d65",
       "pressedBorderColor": "separatorColor"
     },
     "Bookmark": {
@@ -109,11 +109,11 @@
       "borderColor": "selectionBackground"
     },
     "Editor": {
-      "background": "secondaryBackground",
+      "background": "primaryBackground",
       "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
-      "background": "secondaryBackground",
+      "background": "primaryBackground",
       "underlinedTabBackground": "#292b38",
       "underlinedBorderColor": "secondaryAccentColor",
       "underlineHeight": 2
@@ -244,6 +244,7 @@
       "background": "primaryBackground"
     },
     "StatusBar": {
+      "background": "secondaryBackground",
       "borderColor": "transparent"
     },
     "TabbedPane": {
@@ -273,18 +274,21 @@
       "buttonColor": "primaryForeground"
     },
     "Island": {
-      "borderColor": "borderColor",
-      "arc": "20"
+      "borderColor": "primaryBackground",
+      "arc": "20",
+      "arc.compact": "16",
+      "borderWidth": "6",
+      "borderWidth.compact": "4"
     },
     "ToolWindow": {
       "background": "primaryBackground",
       "Button": {
-        "selectedBackground": "selectionBackground",
+        "selectedBackground": "#564775",
         "hoverBackground": "hoverBackground"
       },
       "Header": {
         "background": "primaryBackground",
-        "inactiveBackground": "secondaryBackground"
+        "inactiveBackground": "primaryBackground"
       },
       "HeaderTab": {
         "underlineColor": "secondaryAccentColor",
@@ -293,6 +297,7 @@
         "underlinedTabInactiveBackground": "#313341"
       },
       "Stripe": {
+        "background": "secondaryBackground",
         "borderColor": "transparent"
       }
     },
@@ -350,7 +355,11 @@
       }
     },
     "MainToolbar": {
+      "background": "secondaryBackground",
       "borderColor": "transparent"
+    },
+    "MainWindow": {
+      "background": "secondaryBackground"
     },
     "MainWindow.Tab": {
       "selectedBackground": "#484c60",
