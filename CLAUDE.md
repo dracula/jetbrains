@@ -32,7 +32,7 @@ Three base variants and three "Islands" variants that wrap a JetBrains built-in 
 
 Each theme consists of two files in `src/main/resources/themes/`:
 
-- **`*.theme.json`** — UI theme: named color palette under `colors`, component overrides under `ui`, icon color palette under `icons`. Islands variants add `"parentTheme": "Islands Dark"`.
+- **`*.theme.json`** — UI theme: named color palette under `colors`, component overrides under `ui`, icon color palette under `icons`. Each declares its editor scheme via the `editorScheme` key. Islands variants add `"parentTheme": "Islands Dark"` and point `editorScheme` at the reused base XML (e.g. `IslandsDracula.theme.json` → `/themes/Dracula.xml`).
 - **`*.xml`** — Editor color scheme (syntax highlighting, gutter colors, etc.)
 
 Colors in `.theme.json` are first defined in the `colors` block as named tokens (e.g., `accentColor`), then referenced by name in `ui`. Hard-coded hex values are also allowed where the named palette doesn't apply.
@@ -45,8 +45,9 @@ All source lives in `src/main/kotlin/com/draculatheme/jetbrains/`:
 - **`enums/DraculaVariant.kt`** — enum of all 6 variants with their display labels; used as the authoritative list throughout the plugin
 - **`settings/DraculaSettings.kt` + `DraculaState.kt`** — persistent app-level settings (currently stores the last-seen version to detect upgrades)
 - **`activities/DraculaStartupActivity.kt`** — runs on project open; compares stored version to current, fires install or upgrade notification
-- **`listeners/DraculaThemeChangeListener.kt`** — listens to `LafManagerListener`; when an Islands variant is selected, maps it to the corresponding base editor scheme (`_@user_<SchemeName>`) because Islands variants share editor scheme XML files with their base counterparts
 - **`notifications/DraculaNotification.kt`** — renders styled HTML notifications for first install and version upgrades
+
+Islands variants share editor scheme XML with their base counterparts via the `editorScheme` key in their `.theme.json` (see [Theme file structure](#theme-file-structure)); there is no runtime listener performing the mapping.
 
 ### Release workflow
 

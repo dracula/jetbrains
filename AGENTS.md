@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 This repository is a Gradle-based JetBrains plugin project.
-- `src/main/kotlin/com/draculatheme/jetbrains/`: Kotlin plugin logic (startup activity, listeners, settings, notifications).
+- `src/main/kotlin/com/draculatheme/jetbrains/`: Kotlin plugin logic (startup activity, settings, notifications).
 - `src/main/resources/themes/`: Theme assets (`*.theme.json` UI themes, `*.xml` editor color schemes).
 - `src/main/resources/META-INF/plugin.xml`: Plugin metadata and registration.
 - `docs/screenshots/`: Documentation and marketplace images.
