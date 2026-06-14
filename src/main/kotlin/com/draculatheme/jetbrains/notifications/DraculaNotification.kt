@@ -39,8 +39,7 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🎨 Restore the floating-island feel in Islands variants for clearer visual layering</li>
-                <li style="$Styles.LIST_ITEM">✨ Clarify active vs. inactive tool window selections in the side stripe</li>
+                <li style="$Styles.LIST_ITEM">🎨 Spot the selected commit more easily in the Git history panel</li>
             </ul>
         </div>
     """.trimIndent()

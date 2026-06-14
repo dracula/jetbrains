@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.1
+
+- Make the selected commit easier to spot in the Git history panel, even when it sits on the current branch
+
 ## 2.1.0
 
 - Restore the floating-island feel in Islands variants: the editor and tool windows read as distinct surfaces above the surrounding chrome
