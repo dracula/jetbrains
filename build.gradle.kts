@@ -104,3 +104,10 @@ intellijPlatform {
         )
     }
 }
+
+// Preview the plugin on the latest released IDE without changing the build target.
+// `./gradlew runIdeLatest` launches this; `./gradlew runIde` still uses platformVersion.
+val runIdeLatest by intellijPlatformTesting.runIde.registering {
+    type = IntelliJPlatformType.IntellijIdeaUltimate
+    version = "2026.1.3"
+}
