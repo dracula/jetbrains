@@ -1,9 +1,12 @@
 package com.draculatheme.jetbrains
 
-import com.intellij.ide.plugins.PluginManagerCore
-import com.intellij.openapi.extensions.PluginId
+import com.intellij.ide.plugins.cl.PluginAwareClassLoader
 
 object DraculaMeta {
+    // The plugin's own classes are loaded by a PluginAwareClassLoader, which
+    // exposes the plugin descriptor (and its version) directly — no need for the
+    // internal PluginManager lookup API.
     val currentVersion: String
-        get() = PluginManagerCore.findPlugin(PluginId.getId("com.vermouthx.idea"))?.version ?: ""
+        get() = (DraculaMeta::class.java.classLoader as? PluginAwareClassLoader)
+            ?.pluginDescriptor?.version ?: ""
 }
