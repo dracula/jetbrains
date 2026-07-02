@@ -266,7 +266,7 @@
       "buttonColor": "primaryForeground"
     },
     "ToolWindow": {
-      "background": "secondaryBackground",
+      "background": "primaryBackground",
       "Button": {
         "selectedForeground": "primaryForeground",
         "selectedBackground": "selectionBackground",

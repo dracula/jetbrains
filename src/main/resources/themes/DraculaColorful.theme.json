@@ -271,7 +271,7 @@
       "buttonColor": "primaryForeground"
     },
     "ToolWindow": {
-      "background": "primaryBackground",
+      "background": "secondaryBackground",
       "Button": {
         "selectedBackground": "selectionBackground",
         "hoverBackground": "hoverBackground"
@@ -288,7 +288,7 @@
       }
     },
     "Tree": {
-      "background": "primaryBackground",
+      "background": "secondaryBackground",
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
