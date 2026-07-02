@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.0
+
+- Make the hover highlight on project tabs easier to see
+- Restore missing hover and pressed feedback on toolbar buttons, notifications, and tool window icons in the Alucard theme
+- Show a visible border on focused input fields
+- Give tool windows a background distinct from the editor, so panels like Project and Git History read as clearly separate from your code
+
 ## 2.1.1
 
 - Make the selected commit easier to spot in the Git history panel, even when it sits on the current branch

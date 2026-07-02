@@ -39,7 +39,10 @@ object DraculaNotification {
         <div style="$Styles.CONTAINER">
             <h4 style="$Styles.HEADING">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="$Styles.LIST_ITEM">🎨 Spot the selected commit more easily in the Git history panel</li>
+                <li style="$Styles.LIST_ITEM">🎨 Easier-to-see hover highlight on project tabs</li>
+                <li style="$Styles.LIST_ITEM">🎨 Restored hover/pressed feedback on toolbar buttons, notifications, and tool window icons in Alucard</li>
+                <li style="$Styles.LIST_ITEM">🎨 Visible border on focused input fields</li>
+                <li style="$Styles.LIST_ITEM">🎨 Tool windows now read as distinct from the editor, matching JetBrains' own themes</li>
             </ul>
         </div>
     """.trimIndent()
