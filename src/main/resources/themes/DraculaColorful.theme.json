@@ -324,7 +324,7 @@
       "selectedBackground": "#484c60",
       "selectedForeground": "primaryForeground",
       "selectedInactiveBackground": "secondaryBackground",
-      "hoverBackground": "secondaryBackground",
+      "hoverBackground": "hoverBackground",
       "hoverForeground": "primaryForeground",
       "separatorColor": "separatorColor"
     },
