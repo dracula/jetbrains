@@ -19,6 +19,9 @@
     "*": {
       "arc": "7",
       "background": "primaryBackground",
+      "foreground": "primaryForeground",
+      "textForeground": "primaryForeground",
+      "caretForeground": "primaryForeground",
       "selectionForeground": "primaryForeground",
       "selectionInactiveForeground": "primaryForeground",
       "selectionBackground": "selectionBackground",
@@ -99,9 +102,9 @@
       "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "selectionBackground",
       "errorFocusColor": "#ff5554",
-      "inactiveErrorFocusColor": "#ff5554",
+      "inactiveErrorFocusColor": "#a64a50",
       "warningFocusColor": "#f1fa8c",
-      "inactiveWarningFocusColor": "#f1fa8c"
+      "inactiveWarningFocusColor": "#9fa56f"
     },
     "DragAndDrop": {
       "borderColor": "selectionBackground"
@@ -210,7 +213,7 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "secondaryBackground",
+        "activeBackground": "hoverBackground",
         "inactiveBackground": "secondaryBackground"
       }
     },
@@ -243,7 +246,7 @@
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
-      "focusColor": "hoverBackground",
+      "focusColor": "secondaryAccentColor",
       "hoverColor": "hoverBackground",
       "underlineColor": "secondaryAccentColor",
       "contentAreaColor": "hoverBackground"
@@ -321,6 +324,8 @@
       }
     },
     "MainWindow.Tab": {
+      "background": "primaryBackground",
+      "foreground": "primaryForeground",
       "selectedBackground": "#484c60",
       "selectedForeground": "primaryForeground",
       "selectedInactiveBackground": "secondaryBackground",

@@ -19,6 +19,9 @@
     "*": {
       "arc": "7",
       "background": "primaryBackground",
+      "foreground": "primaryForeground",
+      "textForeground": "primaryForeground",
+      "caretForeground": "primaryForeground",
       "selectionForeground": "primaryForeground",
       "selectionInactiveForeground": "primaryForeground",
       "selectionBackground": "selectionBackground",
@@ -99,9 +102,9 @@
       "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "selectionBackground",
       "errorFocusColor": "#de5735",
-      "inactiveErrorFocusColor": "#de5735",
+      "inactiveErrorFocusColor": "#de937a",
       "warningFocusColor": "#a39514",
-      "inactiveWarningFocusColor": "#a39514"
+      "inactiveWarningFocusColor": "#beb568"
     },
     "DragAndDrop": {
       "borderColor": "selectionBackground"
@@ -130,7 +133,7 @@
     "List": {
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "hoverBackground": "selectionInactiveBackground",
+      "hoverBackground": "hoverBackground",
       "hoverInactiveBackground": "selectionInactiveBackground"
     },
     "Link": {
@@ -206,7 +209,7 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "secondaryBackground",
+        "activeBackground": "hoverBackground",
         "inactiveBackground": "secondaryBackground"
       }
     },
@@ -239,7 +242,7 @@
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
-      "focusColor": "hoverBackground",
+      "focusColor": "secondaryAccentColor",
       "hoverColor": "hoverBackground",
       "underlineColor": "secondaryAccentColor",
       "contentAreaColor": "hoverBackground"
@@ -284,7 +287,7 @@
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "hoverBackground": "selectionInactiveBackground",
+      "hoverBackground": "hoverBackground",
       "hoverInactiveBackground": "selectionInactiveBackground",
       "hash": "hoverBackground"
     },
@@ -316,6 +319,8 @@
       }
     },
     "MainWindow.Tab": {
+      "background": "primaryBackground",
+      "foreground": "primaryForeground",
       "selectedBackground": "#dedccf",
       "selectedForeground": "primaryForeground",
       "selectedInactiveBackground": "secondaryBackground",
