@@ -37,7 +37,7 @@
     "ActionButton": {
       "hoverBackground": "hoverBackground",
       "hoverBorderColor": "separatorColor",
-      "pressedBackground": "hoverBackground",
+      "pressedBackground": "secondaryBackground",
       "pressedBorderColor": "selectionBackground"
     },
     "Bookmark": {
@@ -275,7 +275,7 @@
       "background": "secondaryBackground",
       "Button": {
         "selectedForeground": "primaryForeground",
-        "selectedBackground": "hoverBackground",
+        "selectedBackground": "selectionBackground",
         "hoverBackground": "hoverBackground"
       },
       "Header": {

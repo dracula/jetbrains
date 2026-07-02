@@ -96,7 +96,7 @@
     "Component": {
       "focusColor": "secondaryAccentColor",
       "borderColor": "selectionBackground",
-      "focusedBorderColor": "selectionBackground",
+      "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "selectionBackground",
       "errorFocusColor": "#ff5554",
       "inactiveErrorFocusColor": "#ff5554",

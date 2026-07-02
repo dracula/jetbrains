@@ -35,8 +35,8 @@
     "ActionButton": {
       "hoverBackground": "hoverBackground",
       "hoverBorderColor": "hoverBackground",
-      "pressedBackground": "hoverBackground",
-      "pressedBorderColor": "hoverBackground"
+      "pressedBackground": "secondaryBackground",
+      "pressedBorderColor": "secondaryBackground"
     },
     "Bookmark": {
       "iconBackground": "accentColor",
@@ -96,7 +96,7 @@
     "Component": {
       "focusColor": "secondaryAccentColor",
       "borderColor": "selectionBackground",
-      "focusedBorderColor": "selectionBackground",
+      "focusedBorderColor": "secondaryAccentColor",
       "disabledBorderColor": "selectionBackground",
       "errorFocusColor": "#de5735",
       "inactiveErrorFocusColor": "#de5735",
@@ -158,11 +158,11 @@
     },
     "NotificationsToolwindow": {
       "newNotification": {
-        "hoverBackground": "secondaryBackground",
+        "hoverBackground": "hoverBackground",
         "background": "secondaryBackground"
       },
       "Notification": {
-        "hoverBackground": "secondaryBackground"
+        "hoverBackground": "hoverBackground"
       }
     },
     "PasswordField": {
@@ -266,7 +266,7 @@
       "background": "secondaryBackground",
       "Button": {
         "selectedForeground": "primaryForeground",
-        "selectedBackground": "hoverBackground",
+        "selectedBackground": "selectionBackground",
         "hoverBackground": "hoverBackground"
       },
       "Header": {
