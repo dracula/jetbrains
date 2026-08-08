@@ -1,7 +1,7 @@
 # Dracula for [JetBrains IDE](https://www.jetbrains.com/)
 
 [![Build Status](https://github.com/dracula/jetbrains/actions/workflows/build.yml/badge.svg)](https://github.com/dracula/jetbrains/actions/workflows/build.yml)
-![Release](https://img.shields.io/github/release/WhiteVermouth/jetbrains-dracula.svg)
+![Release](https://img.shields.io/github/release/dracula/jetbrains.svg)
 ![Plugin](https://img.shields.io/jetbrains/plugin/v/com.vermouthx.idea.svg)
 ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.vermouthx.idea.svg)
 

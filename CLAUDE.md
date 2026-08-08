@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ./gradlew buildPlugin       # Build distributable plugin zip
 ./gradlew runIde            # Launch a sandboxed IDE instance with the plugin loaded
 ./gradlew verifyPlugin      # Run plugin verifier for compatibility checks
-./gradlew publishPlugin -Djetbrains.token=<TOKEN>  # Publish to JetBrains Marketplace
+JETBRAINS_TOKEN=<TOKEN> ./gradlew publishPlugin    # Publish to JetBrains Marketplace
 ```
 
 ## Architecture
@@ -26,7 +26,9 @@ Three base variants and three "Islands" variants that wrap a JetBrains built-in 
 | Dracula Alucard | — | `DraculaAlucard.xml` |
 | Islands Dracula | Islands Dark | `Dracula.xml` (reused) |
 | Islands Dracula Colorful | Islands Dark | `DraculaColorful.xml` (reused) |
-| Islands Dracula Alucard | Islands Dark | `DraculaAlucard.xml` (reused) |
+| Islands Dracula Alucard | Islands **Light** | `DraculaAlucard.xml` (reused) |
+
+Alucard is the light variant, so its Islands counterpart parents off Islands Light, not Islands Dark.
 
 ### Theme file structure
 
@@ -41,9 +43,8 @@ Colors in `.theme.json` are first defined in the `colors` block as named tokens 
 
 All source lives in `src/main/kotlin/com/draculatheme/jetbrains/`:
 
-- **`DraculaMeta.kt`** — exposes `currentVersion` read from the plugin descriptor
-- **`enums/DraculaVariant.kt`** — enum of all 6 variants with their display labels; used as the authoritative list throughout the plugin
-- **`settings/DraculaSettings.kt` + `DraculaState.kt`** — persistent app-level settings (currently stores the last-seen version to detect upgrades)
+- **`DraculaMeta.kt`** — exposes `currentVersion` read from the plugin descriptor; empty string if the lookup fails
+- **`settings/DraculaSettings.kt` + `DraculaState.kt`** — persistent app-level settings (currently stores the last-seen version to detect upgrades). `exchangeVersion` is the only writer and is atomic, because the caller runs once per open project
 - **`activities/DraculaStartupActivity.kt`** — runs on project open; compares stored version to current, fires install or upgrade notification
 - **`notifications/DraculaNotification.kt`** — renders styled HTML notifications for first install and version upgrades
 
@@ -51,7 +52,7 @@ Islands variants share editor scheme XML with their base counterparts via the `e
 
 ### Release workflow
 
-Releases are triggered by pushing any `v*` tag. CI (`build.yml`) builds the plugin, creates a GitHub Release with the zip artifact, then publishes to the JetBrains Marketplace using the `JETBRAINS_TOKEN` secret.
+Every push and PR runs `buildPlugin` then `verifyPlugin`. Releases are triggered by pushing any `v*` tag: the release job builds once, attaches that zip to a GitHub Release, and publishes the same zip to the JetBrains Marketplace using the `JETBRAINS_TOKEN` secret.
 
 To release a new version:
 1. Update `pluginVersion` in `gradle.properties`

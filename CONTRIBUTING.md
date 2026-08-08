@@ -22,9 +22,8 @@ Thank you for your interest in contributing to the Dracula Theme! This document 
 
 ### Required Software
 
-- **JDK 17** or later
-- **Python 3.10** or later
-- **IntelliJ IDEA Ultimate** 2024.1 or later
+- **JDK 21** or later (CI builds on 21)
+- **IntelliJ IDEA Ultimate** 2025.3 or later
 
 ### Recommended Plugins
 

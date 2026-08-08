@@ -8,14 +8,14 @@ This repository is a Gradle-based JetBrains plugin project.
 - `docs/screenshots/`: Documentation and marketplace images.
 - `.github/workflows/build.yml`: CI build, release, and marketplace publish flow.
 
-There is currently no dedicated `src/test` module; validation is primarily plugin verification plus manual IDE checks.
+There is currently no dedicated `src/test` module; validation is `./gradlew verifyPlugin` (which CI runs on every push and PR) plus manual IDE checks.
 
 ## Build, Test, and Development Commands
 Use the Gradle wrapper from repo root:
 - `./gradlew runIde`: Launch a sandbox IntelliJ instance with the plugin for local testing.
 - `./gradlew buildPlugin`: Build distributable ZIP in `build/distributions/`.
 - `./gradlew verifyPlugin`: Run JetBrains plugin compatibility checks.
-- `./gradlew publishPlugin -Djetbrains.token=$JETBRAINS_TOKEN`: Publish to JetBrains Marketplace (release workflow).
+- `JETBRAINS_TOKEN=... ./gradlew publishPlugin`: Publish to JetBrains Marketplace (release workflow). Passing the token as `-Djetbrains.token` still works but puts it in the process table.
 
 CI uses JDK 21 (`.github/workflows/build.yml`); match that locally when possible.
 

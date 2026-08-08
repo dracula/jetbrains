@@ -27,5 +27,5 @@
 
 #### Requirements & Notes
 
-- **Minimum Version:** JetBrains IDE 2019.1 or later (latest release recommended)
+- **Minimum Version:** JetBrains IDE 2025.3 or later (latest release recommended)
 - **Color Scheme Reset:** If you've previously customized the Dracula Color Scheme, restore defaults after upgrading for optimal experience
