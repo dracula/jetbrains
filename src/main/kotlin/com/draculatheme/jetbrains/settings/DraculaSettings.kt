@@ -14,16 +14,31 @@ class DraculaSettings : PersistentStateComponent<DraculaState> {
 
     private var myState = DraculaState()
 
-    var version: String
-        get() = myState.version
-        set(value) {
-            myState.version = value
-        }
+    val version: String
+        @Synchronized get() = myState.version
 
+    /**
+     * Records [newVersion] and returns the version it replaced, or `null` if it was already
+     * the stored version.
+     *
+     * This is a single atomic step because the caller is a per-project startup activity: opening
+     * several projects at once would otherwise let every one of them read the old version before
+     * any of them wrote the new one, and each would post its own balloon.
+     */
+    @Synchronized
+    fun exchangeVersion(newVersion: String): String? {
+        val previous = myState.version
+        if (previous == newVersion) return null
+        myState.version = newVersion
+        return previous
+    }
+
+    @Synchronized
     override fun getState(): DraculaState {
         return myState
     }
 
+    @Synchronized
     override fun loadState(state: DraculaState) {
         myState = state
     }
