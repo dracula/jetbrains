@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.3.0
+
+- Alucard now colors Go, Python, Ruby, Objective-C, CSS, JavaScript, TypeScript, Kotlin, Markdown and regular expressions with the Alucard palette, instead of falling back to generic light-theme colors
+- Braces, brackets, parentheses, commas, semicolons and operators now take the theme's own text color in Dracula, rather than a leftover grey from the theme it builds on
+- Panels around the editor now match the editor's real background, so they no longer meet it at a visible seam
+- The OFF label on toggle switches is readable again in Alucard, and plugin Update buttons are easier to read in the dark variants
+- Alucard gains the table, tree and memory indicator colors the dark variants already had
+- Islands Alucard's toolbar, status bar and side stripe now follow the Alucard palette, and its islands match the shape of the dark Islands variants
+- Install and upgrade notifications show their intended styling and stay readable whichever theme you are on
+- The welcome notification no longer reappears every time you open a project
+
 ## 2.2.0
 
 - Make the hover highlight on project tabs easier to see

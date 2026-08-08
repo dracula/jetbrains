@@ -52,10 +52,11 @@ object DraculaNotification {
         <div style="${Styles.CONTAINER}">
             <h4 style="${Styles.HEADING}">✨ What's New</h4>
             <ul style="margin: 0; padding-left: 18px;">
-                <li style="${Styles.LIST_ITEM}">🎨 Easier-to-see hover highlight on project tabs</li>
-                <li style="${Styles.LIST_ITEM}">🎨 Restored hover/pressed feedback on toolbar buttons, notifications, and tool window icons in Alucard</li>
-                <li style="${Styles.LIST_ITEM}">🎨 Visible border on focused input fields</li>
-                <li style="${Styles.LIST_ITEM}">🎨 Tool windows now read as distinct from the editor, matching JetBrains' own themes</li>
+                <li style="${Styles.LIST_ITEM}">🎨 Alucard now colors Go, Python, Ruby, CSS, Markdown and more with its own palette</li>
+                <li style="${Styles.LIST_ITEM}">🎨 Cleaner punctuation coloring in Dracula — braces, brackets and operators finally match the theme</li>
+                <li style="${Styles.LIST_ITEM}">🎨 Readable toggle switches in Alucard and clearer plugin Update buttons</li>
+                <li style="${Styles.LIST_ITEM}">🎨 Islands Alucard now matches its dark counterparts</li>
+                <li style="${Styles.LIST_ITEM}">✨ Notifications show their intended styling on every theme</li>
             </ul>
         </div>
     """.trimIndent()
