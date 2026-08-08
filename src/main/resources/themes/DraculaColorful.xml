@@ -368,7 +368,9 @@
       </value>
     </option>
     <option name="DEFAULT_COMMA">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+      </value>
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -395,6 +397,11 @@
     <option name="DEFAULT_DOC_MARKUP">
       <value>
         <option name="FOREGROUND" value="ff79c6" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOT">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -483,6 +490,11 @@
         <option name="FOREGROUND" value="bd93f9" />
       </value>
     </option>
+    <option name="DEFAULT_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+      </value>
+    </option>
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="b9bcd1" />
@@ -514,7 +526,9 @@
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="f8f8f2" />
+      </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
@@ -531,6 +545,11 @@
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="f1fa8c" />
+      </value>
+    </option>
+    <option name="DEFAULT_TAG">
+      <value>
+        <option name="FOREGROUND" value="ff79c6" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -1110,6 +1129,11 @@
       </value>
     </option>
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="LOGCAT_ASSERT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff5555" />
+      </value>
+    </option>
     <option name="LOGCAT_DEBUG_OUTPUT">
       <value>
         <option name="FOREGROUND" value="6272a4" />
