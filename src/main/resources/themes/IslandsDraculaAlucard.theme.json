@@ -15,6 +15,7 @@
     "selectionInactiveBackground": "#bcbab3",
     "borderColor": "#fffbeb",
     "separatorColor": "#bcbab3",
+    "editorBackground": "#fffbeb",
     "transparent": "#00000000"
   },
   "ui": {
@@ -109,7 +110,7 @@
       "borderColor": "selectionBackground"
     },
     "Editor": {
-      "background": "secondaryBackground",
+      "background": "editorBackground",
       "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
@@ -140,6 +141,10 @@
       "hoverForeground": "accentColor",
       "visitedForeground": "secondaryAccentColor",
       "pressedForeground": "secondaryAccentColor"
+    },
+    "MemoryIndicator": {
+      "usedBackground": "selectionBackground",
+      "allocatedBackground": "separatorColor"
     },
     "Notification": {
       "borderColor": "selectionBackground",
@@ -240,6 +245,7 @@
       "background": "primaryBackground"
     },
     "StatusBar": {
+      "background": "secondaryBackground",
       "borderColor": "transparent"
     },
     "TabbedPane": {
@@ -250,6 +256,7 @@
       "contentAreaColor": "hoverBackground"
     },
     "Table": {
+      "foreground": "primaryForeground",
       "gridColor": "#bcbab3",
       "hoverBackground": "selectionBackground",
       "lightSelectionBackground": "secondaryBackground"
@@ -264,12 +271,15 @@
       "onBackground": "#089108",
       "onForeground": "hoverBackground",
       "offBackground": "selectionBackground",
-      "offForeground": "hoverBackground",
+      "offForeground": "primaryForeground",
       "buttonColor": "primaryForeground"
     },
     "Island": {
       "borderColor": "borderColor",
-      "arc": "20"
+      "arc": "20",
+      "arc.compact": "16",
+      "borderWidth": "6",
+      "borderWidth.compact": "4"
     },
     "ToolWindow": {
       "background": "secondaryBackground",
@@ -289,10 +299,12 @@
         "underlinedTabInactiveBackground": "#f5f3e8"
       },
       "Stripe": {
+        "background": "secondaryBackground",
         "borderColor": "transparent"
       }
     },
     "Tree": {
+      "background": "secondaryBackground",
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
@@ -345,7 +357,11 @@
       }
     },
     "MainToolbar": {
+      "background": "secondaryBackground",
       "borderColor": "transparent"
+    },
+    "MainWindow": {
+      "background": "secondaryBackground"
     },
     "MainWindow.Tab": {
       "selectedBackground": "#dedccf",

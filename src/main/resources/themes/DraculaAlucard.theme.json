@@ -13,7 +13,8 @@
     "selectionBackground": "#cfcfde",
     "selectionInactiveBackground": "#bcbab3",
     "borderColor": "#fffbeb",
-    "separatorColor": "#bcbab3"
+    "separatorColor": "#bcbab3",
+    "editorBackground": "#fffbeb"
   },
   "ui": {
     "*": {
@@ -110,7 +111,7 @@
       "borderColor": "selectionBackground"
     },
     "Editor": {
-      "background": "secondaryBackground",
+      "background": "editorBackground",
       "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
@@ -141,6 +142,10 @@
       "hoverForeground": "accentColor",
       "visitedForeground": "secondaryAccentColor",
       "pressedForeground": "secondaryAccentColor"
+    },
+    "MemoryIndicator": {
+      "usedBackground": "selectionBackground",
+      "allocatedBackground": "separatorColor"
     },
     "Notification": {
       "borderColor": "selectionBackground",
@@ -248,6 +253,7 @@
       "contentAreaColor": "hoverBackground"
     },
     "Table": {
+      "foreground": "primaryForeground",
       "gridColor": "#bcbab3",
       "hoverBackground": "selectionBackground",
       "lightSelectionBackground": "secondaryBackground"
@@ -262,7 +268,7 @@
       "onBackground": "#089108",
       "onForeground": "hoverBackground",
       "offBackground": "selectionBackground",
-      "offForeground": "hoverBackground",
+      "offForeground": "primaryForeground",
       "buttonColor": "primaryForeground"
     },
     "ToolWindow": {
@@ -284,6 +290,7 @@
       }
     },
     "Tree": {
+      "background": "primaryBackground",
       "modifiedItemForeground": "accentColor",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
