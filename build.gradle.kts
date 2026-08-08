@@ -88,7 +88,9 @@ intellijPlatform {
         }
     }
     publishing {
-        token = System.getProperty("jetbrains.token")
+        // Prefer the environment variable: a -D system property is visible to anything that can
+        // list processes on the machine. The property stays supported for local one-off publishes.
+        token = System.getenv("JETBRAINS_TOKEN") ?: System.getProperty("jetbrains.token")
     }
     pluginVerification {
         ides {
