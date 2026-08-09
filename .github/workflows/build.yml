@@ -17,16 +17,20 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up JDK 21
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '21'
           distribution: 'temurin'
 
+      # Held at v5, the last major under the MIT licence. v6 moves caching into the
+      # proprietary gradle-actions-caching component, and using it means accepting
+      # Gradle's commercial Terms of Use — a licensing call for this MIT project, not
+      # something to pick up in passing while clearing a deprecation warning.
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v5
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -40,7 +44,7 @@ jobs:
         run: ./gradlew verifyPlugin
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: plugin-artifact
           path: build/distributions/*.zip
@@ -55,16 +59,17 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up JDK 21
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '21'
           distribution: 'temurin'
 
+      # Held at v5 for the licence reason noted in the build job.
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v5
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -75,7 +80,7 @@ jobs:
         run: ./gradlew buildPlugin
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: build/distributions/*.zip
           generate_release_notes: true
