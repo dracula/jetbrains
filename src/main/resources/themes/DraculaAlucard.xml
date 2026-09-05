@@ -2,6 +2,8 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="14710a" />
     <option name="ANNOTATIONS_COLOR" value="1f1f1f" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="fffbeb" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="1f1f1f" />
     <option name="CARET_COLOR" value="1f1f1f" />
     <option name="CARET_ROW_COLOR" value="dedccf" />
     <option name="CONSOLE_BACKGROUND_KEY" value="fffbeb" />
@@ -95,6 +97,102 @@
     <option name="BASH.INTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="036a96" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLACK">
+      <value>
+        <option name="FOREGROUND" value="fffbeb" />
+        <option name="BACKGROUND" value="fffbeb" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLACK_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="6c664b" />
+        <option name="BACKGROUND" value="6c664b" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLUE">
+      <value>
+        <option name="FOREGROUND" value="644ac9" />
+        <option name="BACKGROUND" value="644ac9" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLUE_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="7862d0" />
+        <option name="BACKGROUND" value="7862d0" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CYAN">
+      <value>
+        <option name="FOREGROUND" value="036a96" />
+        <option name="BACKGROUND" value="036a96" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CYAN_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="047fb4" />
+        <option name="BACKGROUND" value="047fb4" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_GREEN">
+      <value>
+        <option name="FOREGROUND" value="14710a" />
+        <option name="BACKGROUND" value="14710a" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_GREEN_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="198d0c" />
+        <option name="BACKGROUND" value="198d0c" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_MAGENTA">
+      <value>
+        <option name="FOREGROUND" value="a3144d" />
+        <option name="BACKGROUND" value="a3144d" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="bf185a" />
+        <option name="BACKGROUND" value="bf185a" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_RED">
+      <value>
+        <option name="FOREGROUND" value="cb3a2a" />
+        <option name="BACKGROUND" value="cb3a2a" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_RED_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="d74c3d" />
+        <option name="BACKGROUND" value="d74c3d" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE">
+      <value>
+        <option name="FOREGROUND" value="6c664b" />
+        <option name="BACKGROUND" value="6c664b" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="1f1f1f" />
+        <option name="BACKGROUND" value="1f1f1f" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_YELLOW">
+      <value>
+        <option name="FOREGROUND" value="846e15" />
+        <option name="BACKGROUND" value="846e15" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_YELLOW_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="9e841a" />
+        <option name="BACKGROUND" value="9e841a" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
